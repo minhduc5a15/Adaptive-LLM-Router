@@ -1,6 +1,6 @@
 # Adaptive LLM Router
 
-Khung dự án cho đồ án Học máy cơ bản: định tuyến prompt giữa Small LLM và Large LLM bằng **Decision Tree** và **SVM**. [Báo cáo đề xuất](notes/Adaptive_LLM_Router.md) mô tả bài toán và kế hoạch thực nghiệm. Dự án hiện ở giai đoạn chuẩn bị dữ liệu; chưa có mô hình đã huấn luyện hay kết quả đánh giá.
+Khung chuẩn bị cho đồ án Học máy cơ bản: định tuyến prompt giữa Small LLM và Large LLM bằng **Decision Tree** và **SVM**. [Báo cáo đề xuất](notes/Adaptive_LLM_Router.md) mô tả bài toán và kế hoạch thực nghiệm. **Chưa có mã nguồn mô hình hoặc kết quả huấn luyện**; người thực hiện đồ án sẽ tự viết phần mã.
 
 ## Thiết lập
 
@@ -9,38 +9,29 @@ Yêu cầu Python 3.10 trở lên. Trên Linux/macOS:
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
-python -m pip install -e '.[dev]'
+python -m pip install -r requirements.txt
 ```
 
-Tải toàn bộ RouterBench (khoảng 1,47 GB):
+Ba file RouterBench (khoảng 1,47 GB) đã được tải vào `data/raw/` và xác minh SHA-256. [Ghi chú chuẩn bị dữ liệu](DATA_PREPARATION.md) lưu nguồn, phiên bản và checksum. Các file dataset không được đưa vào Git.
 
-```bash
-routerbench-download
-```
-
-Lệnh tải cố định phiên bản dataset và xác minh SHA-256 của từng file. Chạy lại lệnh sẽ bỏ qua các file đã đúng checksum và tiếp tục file tải dở. Dữ liệu nằm trong `data/raw/` và không được đưa vào Git.
-
-> RouterBench được phân phối dưới dạng Python pickle. Chỉ giải tuần tự hóa các file khi đã xác minh nguồn và checksum; pickle có thể chạy mã khi nạp. Script tải chỉ tải và kiểm tra checksum, không mở pickle.
+> RouterBench được phân phối dưới dạng Python pickle. Chỉ giải tuần tự hóa file từ nguồn đã xác minh; pickle có thể chạy mã khi nạp.
 
 ## Cấu trúc
 
 ```text
 notes/Adaptive_LLM_Router.md     Báo cáo đề xuất (file cục bộ, không theo dõi bằng Git)
+DATA_PREPARATION.md              Kết quả khảo sát dữ liệu và các quyết định cần chốt
 data/raw/                        File RouterBench gốc
 data/processed/                  Dữ liệu sau ghép cặp LLM và chia tập
-src/adaptive_llm_router/         Mã nguồn Python
-  download.py                    Tải và xác minh dataset
-  features.py                    Đặc trưng cấu trúc từ prompt
-  models.py                      Cấu hình Decision Tree và SVM
-  evaluation.py                  Chỉ số chất lượng và chi phí
+src/                            Chỗ để bạn tự viết mã nguồn Python
 models/                          Pipeline và mô hình đã huấn luyện
 reports/figures/                 Biểu đồ thực nghiệm
-tests/                           Kiểm thử cho pipeline khi triển khai
+tests/                          Chỗ để bạn tự viết kiểm thử
 ```
 
 ## Các bước triển khai tiếp theo
 
-1. Khảo sát schema của RouterBench, chọn cặp Small/Large có đủ prompt chung và điểm chất lượng/chi phí.
+1. Đọc ghi chú khảo sát dữ liệu, chọn cặp Small/Large và quy tắc xử lý điểm lẻ.
 2. Tạo nhãn `1` khi Small sai và Large đúng, còn lại `0`; chia train/validation/test theo prompt trước khi fit TF-IDF.
 3. Huấn luyện Decision Tree trên đặc trưng cấu trúc và SVM trên TF-IDF.
 4. Chọn ngưỡng định tuyến trên validation; đánh giá trên test cùng Always Small, Always Large và Random Router.
