@@ -14,6 +14,8 @@ python -m pip install -r requirements.txt
 
 Ba file RouterBench (khoảng 1,47 GB) đã được tải vào `data/raw/` và xác minh SHA-256. [Ghi chú chuẩn bị dữ liệu](DATA_PREPARATION.md) lưu nguồn, phiên bản và checksum. Các file dataset không được đưa vào Git.
 
+Thí nghiệm offline chỉ huấn luyện Router bằng Decision Tree và SVM, rồi dùng kết quả LLM đã lưu trong RouterBench để đánh giá; **không cần chạy hai LLM hoặc có VRAM lớn**. Prompt mới chỉ được định tuyến, chưa có câu trả lời nếu không kết nối dịch vụ suy luận.
+
 > RouterBench được phân phối dưới dạng Python pickle. Chỉ giải tuần tự hóa file từ nguồn đã xác minh; pickle có thể chạy mã khi nạp.
 
 ## Cấu trúc

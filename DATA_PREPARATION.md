@@ -44,6 +44,12 @@ Các số dưới đây tính trên **0-shot**, chỉ giữ dòng có điểm c�
 
 Cặp Mistral/Mixtral diễn giải rõ sự khác biệt về quy mô mô hình và có đủ hai lớp để thử nghiệm; cặp GPT-3.5/GPT-4 thể hiện rõ hơn bài toán chi phí. Đây là hai **ứng viên**, chưa phải quyết định cuối cùng. Với Mistral/Mixtral, 28.617 dòng hợp lệ chỉ có 28.605 prompt khác nhau, nên vẫn phải xử lý trùng lặp khi chia tập. Chi phí Mixtral lớn hơn Mistral ở 99,92% dòng của tập lọc; khi đánh giá cần dùng chi phí thật của từng dòng thay vì luôn giả định Large đắt hơn.
 
+## Yêu cầu phần cứng và giới hạn của bản offline
+
+**Không cần chạy Mistral 7B hoặc Mixtral 8×7B trên laptop** để làm thí nghiệm offline. RouterBench đã lưu prompt, điểm chất lượng, chi phí và phản hồi của từng LLM. Phần cần huấn luyện là Router dùng Decision Tree và SVM; chất lượng và chi phí được tính bằng cách tra kết quả LLM có sẵn trên tập test. Cách làm này không cần VRAM để suy luận hai LLM.
+
+Demo offline có thể nhập một prompt và hiển thị **LLM mà Router chọn**. Với prompt đã có trong benchmark, có thể hiển thị phản hồi đã lưu để minh họa. Với prompt mới ngoài benchmark, Router vẫn chọn được LLM, nhưng **không thể tạo câu trả lời mới** nếu không gọi API hoặc một dịch vụ suy luận bên ngoài. Chỉ bổ sung phần gọi LLM thật nếu yêu cầu của học phần đòi hỏi demo trả lời trực tiếp; khi đó cần chốt phương án tài nguyên riêng.
+
 ## Quyết định cần chốt trước khi tự viết mã
 
 1. Chọn **một phiên bản dữ liệu** để triển khai đầu tiên; 0-shot là lựa chọn đơn giản hơn vì không có dòng thiếu điểm.
