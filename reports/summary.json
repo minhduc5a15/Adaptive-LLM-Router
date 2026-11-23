@@ -1,0 +1,47 @@
+{
+  "selected_policy": {
+    "name": "Ensemble",
+    "tree_weight": 0.1,
+    "threshold": 0.21,
+    "answer_score": 0.5449398443029017,
+    "mean_cost": 7.835194621372485e-05,
+    "large_rate": 0.7653927813163482
+  },
+  "test_metrics": {
+    "n_samples": 2825,
+    "accuracy": 0.503716814159292,
+    "balanced_accuracy": 0.5969488613372074,
+    "precision": 0.40392514833409404,
+    "recall": 0.9021406727828746,
+    "f1": 0.5580075662042875,
+    "answer_score": 0.544070796460177,
+    "mean_cost": 8.110704424778208e-05,
+    "total_cost": 0.22912739999998438,
+    "large_rate": 0.7755752212389381,
+    "cost_saving": 0.2053937980269832,
+    "answer_delta_vs_large": -0.018053097345132718,
+    "tn": 538,
+    "fp": 1306,
+    "fn": 96,
+    "tp": 885,
+    "roc_auc": 0.6911464241411106,
+    "brier": 0.20502953162798668,
+    "log_loss": 0.5958754417720336
+  },
+  "bootstrap": {
+    "answer_delta_95ci": [
+      -0.026194690265486726,
+      -0.00991150442477876
+    ],
+    "cost_saving_95ci": [
+      0.1903131080687893,
+      0.22015806536572827
+    ],
+    "repetitions": 1000
+  },
+  "test_sha256": "37775493d4e53e30b5a653fc1775433dfa5ca8fee34fdd029b899f12e01877ae",
+  "test_prediction_batch_seconds": 0.16641156399998636,
+  "batch_average_ms_per_prompt": 0.05890674831857924,
+  "passes_quality_constraint_on_test": true,
+  "test_used_for_selection": false
+}

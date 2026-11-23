@@ -1,0 +1,97 @@
+sample_id,eval_name,label,small_score,large_score,small_cost,large_cost,tree_probability,svm_probability,selected_probability,route,selected_score,selected_cost,prompt_excerpt,error_type
+abstract2title.test.142,abstract2title,0,1.0,1.0,5.28e-05,0.0001662,0.1603822314831811,0.22401131965239313,0.21764841083547193,1,1.0,0.0001662,"please write an title based on this abstract of article:
+
+The hole transport layer (HTL) free carbon based perovskite solar cells (Carbon PSC) are known for low cost, good stability and commercial manufacturing technology. Compared to the structure of traditional cells, the carrier transport performance between the absorber layer and the carbon electrode (CE) is poor. As an excellent P-type material, NiO has been doped in CE for obtaining a better performance of PSCs. However, NiO will inevitably reduce the conductivity of the CE due to the poor conductivity, thus failing to fully exploit the ",unnecessary_large
+abstract2title.test.159,abstract2title,0,1.0,1.0,6.78e-05,0.0002556,0.08893241639239205,0.2443216868158713,0.2287827597735234,1,1.0,0.0002556,"please write an title based on this abstract of article:
+
+Organo-metal halide perovskites, as emerging photovoltaic materials, have demonstrated interesting spin states due to spin-orbital coupling (SOC) effects. However, replacing the Pb with the Sn can inevitably affect the SOC and consequently changes the internal photovoltaic processes in the development of environmentally friendly perovskite devices. Here, by operating the spin states with circularly polarized photoexcitation we report that the spin-dependent photocurrent (Jsc) becomes much more prominent upon replacing Pb with Sn, increa",unnecessary_large
+abstract2title.test.186,abstract2title,0,1.0,1.0,6.82e-05,0.0002046,0.08893241639239205,0.2901949751479622,0.2700687192724052,1,1.0,0.0002046,"please write an title based on this abstract of article:
+
+Recent studies have shown that organic-inorganic hybrid perovskites (OIHPs) exhibit unprecedented optoelectronic properties for photovoltaic applications. Complete realizations of photo- and electrically induced surface polarization and recombination are critically important for extensively upgrading solar cell performance. We have explored such effects in a planar solar cell comprising ITO(glass)/PEDOT:PSS/CH3NH3PbI3-xClx/PC60BM/PEI/Ag with a maximum power conversion efficiency (PCE) of 15.4%. A remarkable frequency-dependence of surfa",unnecessary_large
+abstract2title.test.209,abstract2title,0,1.0,1.0,6.54e-05,0.000234,0.15364321626344496,0.22153519136125285,0.21474599385147206,1,1.0,0.000234,"please write an title based on this abstract of article:
+
+Owing to their excellent thermal and chemical stability properties, low cost, and easy purification processes, metal phthalocyanines have received extensive research attention. To reveal the influence of alkyl-chain length of substituents on phthalocyanines rings, we prepared three small organic molecules based on copper phthalocyanine rings substituted with end-capping ethyl, butyl, and hexyl, alkyl groups. The molecular orientation and intermolecular π-π stacking of these materials were affected by the alkyl chains, resulting in diffe",unnecessary_large
+arc-challenge.test.1,arc-challenge,0,1.0,1.0,2.12e-05,6.36e-05,0.327900176651647,0.4786383206480211,0.4635645062483837,1,1.0,6.36e-05,"A group of engineers wanted to know how different building designs would respond during an earthquake. They made several models of buildings and tested each for its ability to withstand earthquake conditions. Which will most likely result from testing different building designs?
+A) buildings will be made safer
+B) building materials will be cheaper
+C) building designs will look nicer
+D) buildings will be built faster
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",unnecessary_large
+arc-challenge.test.101,arc-challenge,0,1.0,1.0,1.26e-05,3.78e-05,0.5427247586538703,0.3814066568791191,0.39753846705659424,1,1.0,3.78e-05,"Lasers are used in surgery for
+A) making fine incisions.
+B) disinfecting instruments.
+C) illuminating operating fields.
+D) stitching wounds.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",unnecessary_large
+arc-challenge.test.1052,arc-challenge,0,1.0,1.0,1.74e-05,5.22e-05,0.40503794375502156,0.37227401947246536,0.37555041190072097,1,1.0,5.22e-05,"Approximately 71 % of the Earth's surface is covered with water. The majority of this is salt water and is found in the oceans. Where is the majority of the Earth's fresh water found?
+A) ice
+B) lakes
+C) rivers
+D) the atmosphere
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",unnecessary_large
+arc-challenge.test.1082,arc-challenge,0,1.0,1.0,1.38e-05,4.14e-05,0.5427247586538703,0.5047150610208041,0.5085160307841108,1,1.0,4.14e-05,"Which is a physical change?
+A) a sheet of paper shredding
+B) a piece of wood burning
+C) a copper roof changing color
+D) rust forming on an iron fence
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",unnecessary_large
+arc-challenge.test.1095,arc-challenge,0,0.0,0.0,1.62e-05,4.86e-05,0.40503794375502156,0.4687825229257894,0.4624080650087127,1,0.0,4.86e-05,"Which tool would be the most helpful in an investigation of the life cycle of a monarch butterfly?
+A) a sharp knife
+B) a large jar with air holes in the top
+C) a magnifying glass
+D) a long piece of string
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",unnecessary_large
+arc-challenge.test.1122,arc-challenge,0,1.0,1.0,2.1e-05,6.3e-05,0.327900176651647,0.4245343223817209,0.4148709078087135,1,1.0,6.3e-05,"A caterpillar eats an oak leaf. Which of the following best describes the energy transfer in this situation?
+A) The oak tree gains energy when the caterpillar eats the leaf.
+B) Decomposers in the leaf obtain energy from the caterpillar.
+C) Both the caterpillar and the leaf gain energy.
+D) Energy is transferred from the leaf to the caterpillar.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",unnecessary_large
+arc-challenge.test.255,arc-challenge,1,0.0,1.0,1.92e-05,5.76e-05,0.40503794375502156,0.150229973226545,0.17571077027939266,0,0.0,1.92e-05,"Balsam fir trees in Maine have similar needle length. Why do the trees have similar needle length?
+A) because of the type of insects that eat the needles
+B) because of their closeness to the ocean
+C) because of the inherited information inside the seeds
+D) because of the amount of sunlight they receive
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",missed_large_gain
+hellaswag.val.1957,hellaswag,1,0.0,1.0,4.380000000000001e-05,0.0001314,0.1603822314831811,0.13424298687587638,0.13685691133660685,0,0.0,4.380000000000001e-05,"A black screen appears and a lot of white words are displayed that include the description of the video and the website. a man and a woman
+A) are seen playing the game of rafting in the water.
+B) are banging on the fifth door of the house while looking out at their beautiful news gear, while the woman talks to him about the work he has done.
+C) are dancing then it fades to white and they're dancing front to back in rapid getridge style moves and then back to their business as they do various moves each to which the screen then fades to white words that say on the screen that if you see them la",missed_large_gain
+hellaswag.val.2212,hellaswag,1,0.0,1.0,2.46e-05,7.379999999999999e-05,0.327900176651647,0.1681974723031625,0.18416774273801098,0,0.0,2.46e-05,"There is ia group of runners starting a marathon taking their time. It was scenic and beautiful out there, flowers blossoming and everything. a few of the runners
+A) are from the hispanic maybach family.
+B) talk about their experience to reporters.
+C) go over the mountains at random as some of them feel the cold off of their trails.
+D) get just a bit nervous as they are competing for the gold but eventually they win the race.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",missed_large_gain
+hellaswag.val.2790,hellaswag,1,0.0,1.0,2.2e-05,6.6e-05,0.327900176651647,0.17092667456771712,0.18662402477611012,0,0.0,2.2e-05,"We see flashing images of motorcycle riding. We see a man talk standing high above a city. We then see motorcycle stunts. a bike
+A) goes up a tight rope in the air.
+B) jumps a group of people in a plaza.
+C) took off and the man is talking.
+D) rider slows and drops a line surrounded by cars then spins himself around on it's wheels.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",missed_large_gain
+hellaswag.val.3298,hellaswag,1,0.0,1.0,5.720000000000001e-05,0.0001716,0.1603822314831811,0.08471940870038186,0.0922856909786618,0,0.0,5.720000000000001e-05,"[header] How to care for a senegal parrot [title] Choose a large cage. [step] Senegal parrots need roomy cages. The minimum size is 20 inches (50. 8 cm) long by 20 inches (50. 8 cm) deep by 28 inches (71.12 cm) high (for one parrot), but bigger is always better.
+A) Senegal parrots are huge birds who cannot stand heights and require bigger cages. Not only are they more compact than average birds, but they also do not tolerate gravity well.
+B) What you don't have to worry about is the size of the space your bird can comfortably move around in. If you have two birds, consider making sure the spac",missed_large_gain
+hellaswag.val.3309,hellaswag,1,0.0,1.0,5.720000000000001e-05,0.0001716,0.1603822314831811,0.20172432166775472,0.19759011264929735,0,0.0,5.720000000000001e-05,"[header] How to list references in a cover letter [title] Select the people you think would make good references. [step] Generally companies will ask for two to three references, if they ask for any references at all. Just in case, make a list of four to five people you think would be good, on the off chance that one of the people you select does not want to be a reference.
+A) [substeps] You should still include the references in your cover letter. For example, if you need references from two previous people that worked in the same company, pick three people over three, and work backwards on t",missed_large_gain
+hellaswag.val.3347,hellaswag,1,0.0,1.0,5.800000000000001e-05,0.0001739999999999,0.1603822314831811,0.14008808258485436,0.14211749747468702,0,0.0,5.800000000000001e-05,"[header] How to protect an education savings account in bankruptcy [title] Identify the account beneficiary. [step] Check the beneficiary designation on your account. You can exempt your esa from your bankruptcy estate only if the beneficiary is one of the following : [substeps] Your child your stepchild your grandchild your step-grandchild [title] Check when you made deposits.
+A) [step] You must pay the account balance for the debt in which you believe you made a deposit. Fill out a blank check and then add the amount you paid in received by your beneficiary.
+B) [step] The one you must view i",missed_large_gain
+hellaswag.val.3570,hellaswag,1,0.0,1.0,5.280000000000001e-05,0.0001584,0.1603822314831811,0.11997511638713283,0.12401582789673767,0,0.0,5.280000000000001e-05,"[header] How to relax before an exciting event [title] Avoid caffeine. [step] Do not ingest any caffeine after 12:00 pm the day before your event. Caffeine increases your stress response and your perception of stress.
+A) Indulging in a non-caffeinated beverage can be particularly unpleasant and it's better to stop drinking than to develop negative reactions such as afternoon headaches. [substeps] Caffeine alone should not be a major cause of stress.
+B) Even on stressful days you can still experience certain feelings, including anxiety and depression, about 1:30 pm, but be wary of taking along ",missed_large_gain
+hellaswag.val.3579,hellaswag,1,0.0,1.0,5.1800000000000005e-05,0.0001553999999999,0.1603822314831811,0.1793870688761331,0.17748658513683788,0,0.0,5.1800000000000005e-05,"[header] How to dye your hair light brown [title] Lighten with bleach first if you have black or chemically treated hair. [step] If you fall into one of these categories, there's no getting around pre-lightening with bleach before you move forward. Purchase a vol 20 or 30 bleach kit from a beauty supply store and follow the instructions that come with it.
+A) Most dyes will contain lightening toners and peroxide, but some contain synthetic ingredients, as well. Be aware that having these ingredients added at once could alter your hair color, so be prepared.
+B) [title] Buy dye goggles that are w",missed_large_gain
+hellaswag.val.3598,hellaswag,1,0.0,1.0,5.7e-05,0.0001709999999999,0.1603822314831811,0.2016296295988392,0.19750488978727337,0,0.0,5.7e-05,"[header] How to flat iron hair [title] Use shampooing and conditioning products that are specially formulated to create straight or sleek hair. [step] You don't need to buy expensive hair products, anything you can find at your local drug store or beauty supply store will work fine. Just look for products that claim to be straightening and/or moisturizing.
+A) [substeps] When you shampoo and condition your hair the same way each time, it will help to create certain recommendations. Go back more than once and read labels, and see which ones are not damaging to your hair.
+B) [title] Pat your hair",missed_large_gain

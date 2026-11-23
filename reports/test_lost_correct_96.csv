@@ -1,0 +1,628 @@
+﻿sample_id,eval_name,prompt_text,mistral_response,mixtral_response,small_score,large_score,router_selected_model,selected_score,selected_probability
+arc-challenge.test.255,arc-challenge,"Balsam fir trees in Maine have similar needle length. Why do the trees have similar needle length?
+A) because of the type of insects that eat the needles
+B) because of their closeness to the ocean
+C) because of the inherited information inside the seeds
+D) because of the amount of sunlight they receive
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['C)'],0.0,1.0,Mistral,0.0,0.1757107702793926
+hellaswag.val.1957,hellaswag,"A black screen appears and a lot of white words are displayed that include the description of the video and the website. a man and a woman
+A) are seen playing the game of rafting in the water.
+B) are banging on the fifth door of the house while looking out at their beautiful news gear, while the woman talks to him about the work he has done.
+C) are dancing then it fades to white and they're dancing front to back in rapid getridge style moves and then back to their business as they do various moves each to which the screen then fades to white words that say on the screen that if you see them later on you won't have the time to read them.
+D) are standing in a kitchen that looks like a business kitchen and he's showing her how to sharpen knives by demonstrating and talking, and then also letting her try to sharpen the knives as well and shows her how to check for sharpness.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['D)'],0.0,1.0,Mistral,0.0,0.1368569113366068
+hellaswag.val.2212,hellaswag,"There is ia group of runners starting a marathon taking their time. It was scenic and beautiful out there, flowers blossoming and everything. a few of the runners
+A) are from the hispanic maybach family.
+B) talk about their experience to reporters.
+C) go over the mountains at random as some of them feel the cold off of their trails.
+D) get just a bit nervous as they are competing for the gold but eventually they win the race.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['B)'],0.0,1.0,Mistral,0.0,0.1841677427380109
+hellaswag.val.2790,hellaswag,"We see flashing images of motorcycle riding. We see a man talk standing high above a city. We then see motorcycle stunts. a bike
+A) goes up a tight rope in the air.
+B) jumps a group of people in a plaza.
+C) took off and the man is talking.
+D) rider slows and drops a line surrounded by cars then spins himself around on it's wheels.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['B)'],0.0,1.0,Mistral,0.0,0.1866240247761101
+hellaswag.val.3298,hellaswag,"[header] How to care for a senegal parrot [title] Choose a large cage. [step] Senegal parrots need roomy cages. The minimum size is 20 inches (50. 8 cm) long by 20 inches (50. 8 cm) deep by 28 inches (71.12 cm) high (for one parrot), but bigger is always better.
+A) Senegal parrots are huge birds who cannot stand heights and require bigger cages. Not only are they more compact than average birds, but they also do not tolerate gravity well.
+B) What you don't have to worry about is the size of the space your bird can comfortably move around in. If you have two birds, consider making sure the space is large enough for each parrot.
+C) [title] Look at your parrot's enclosure. [step] Your senegal parrot needs an enclosure that is approximately 12 feet (1.2 m) by 14 feet (30.
+D) Due to their clever dispositions, pick an escape-proof one (though some senegal parrot owners may realize "" escape-proof "" isn't necessarily true). [substeps] Bar spacing of ¾ inch (1.9 cm) is ideal.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['D)'],0.0,1.0,Mistral,0.0,0.0922856909786618
+hellaswag.val.3309,hellaswag,"[header] How to list references in a cover letter [title] Select the people you think would make good references. [step] Generally companies will ask for two to three references, if they ask for any references at all. Just in case, make a list of four to five people you think would be good, on the off chance that one of the people you select does not want to be a reference.
+A) [substeps] You should still include the references in your cover letter. For example, if you need references from two previous people that worked in the same company, pick three people over three, and work backwards on the list.
+B) [substeps] People could include former employers, supervisors, and people who worked closely with your company. Most employers and supervisors do not want references that are beginning to devalue the company, so think about who your potential references are.
+C) The more references you provide, the longer your cover letter will stay. [title] Dress professionally, don't wear shorts.
+D) You should pick people who have worked closely with you in a school or work setting. Choose former supervisors, employers, coordinators, or teachers or faculty members who can share information about the positive abilities, skills and qualifications you have to offer.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['D)'],0.0,1.0,Mistral,0.0,0.1975901126492973
+hellaswag.val.3347,hellaswag,"[header] How to protect an education savings account in bankruptcy [title] Identify the account beneficiary. [step] Check the beneficiary designation on your account. You can exempt your esa from your bankruptcy estate only if the beneficiary is one of the following : [substeps] Your child your stepchild your grandchild your step-grandchild [title] Check when you made deposits.
+A) [step] You must pay the account balance for the debt in which you believe you made a deposit. Fill out a blank check and then add the amount you paid in received by your beneficiary.
+B) [step] The one you must view is the only account you do not have. Since you must pay off regular income during the bankruptcy proceeding, your asset is not taxable until the refinance has been made.
+C) [step] If you made deposits previously, but you forget to account for them now, your accounts will be re-closed. Also, if you forget accounts, you can re-open the account as soon as you pay off the balance.
+D) [step] Some deposits into the esa will be exempt, but others won't be. The following rules apply, so check your history of deposits : [substeps] Any deposits made within 365 days of filing for bankruptcy are not protected.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['D)'],0.0,1.0,Mistral,0.0,0.142117497474687
+hellaswag.val.3570,hellaswag,"[header] How to relax before an exciting event [title] Avoid caffeine. [step] Do not ingest any caffeine after 12:00 pm the day before your event. Caffeine increases your stress response and your perception of stress.
+A) Indulging in a non-caffeinated beverage can be particularly unpleasant and it's better to stop drinking than to develop negative reactions such as afternoon headaches. [substeps] Caffeine alone should not be a major cause of stress.
+B) Even on stressful days you can still experience certain feelings, including anxiety and depression, about 1:30 pm, but be wary of taking along any caffeine. [title] Avoid smaller noisy and boisterous events.
+C) If you are already feeling stressed about your event, drinking caffeine will make your body have a stronger response to stress. You may feel more relaxed if you do not drink or eat any caffeine (e.g.
+D) This disruption could possibly prevent you from relaxing and feeling relaxed. [substeps] If you're very active, then trying to avoid caffeine might be easier, but do not do this unless you are fully engaged with your activity.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['C)'],0.0,1.0,Mistral,0.0,0.1240158278967376
+hellaswag.val.3579,hellaswag,"[header] How to dye your hair light brown [title] Lighten with bleach first if you have black or chemically treated hair. [step] If you fall into one of these categories, there's no getting around pre-lightening with bleach before you move forward. Purchase a vol 20 or 30 bleach kit from a beauty supply store and follow the instructions that come with it.
+A) Most dyes will contain lightening toners and peroxide, but some contain synthetic ingredients, as well. Be aware that having these ingredients added at once could alter your hair color, so be prepared.
+B) [title] Buy dye goggles that are waterproof and have side glasses. [step] Waterproof goggles are important for hair that ends up in an intense bleach hue.
+C) Your new hair color will not show up if you proceed without bleaching the current color out first. [substeps] If you have red, dark or medium brown hair, use vol 20 developer.
+D) Mix and pour on all the bleach you desire. Roll it into a ponytail and secure it with a hair tie before applying to your hair.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['C)'],0.0,1.0,Mistral,0.0,0.1774865851368378
+hellaswag.val.3598,hellaswag,"[header] How to flat iron hair [title] Use shampooing and conditioning products that are specially formulated to create straight or sleek hair. [step] You don't need to buy expensive hair products, anything you can find at your local drug store or beauty supply store will work fine. Just look for products that claim to be straightening and/or moisturizing.
+A) [substeps] When you shampoo and condition your hair the same way each time, it will help to create certain recommendations. Go back more than once and read labels, and see which ones are not damaging to your hair.
+B) [title] Pat your hair dry after getting out of the shower. [step] Use your towel to remove water from your hair by gently squeezing your hair in sections rather than harshly ruffling it dry.
+C) However, be aware that many hair brands have been eliminated from your list. If your hair is not saying that it's straightening or moisturizing, see a stylist instead.
+D) [substeps] For example, studies show that the american hair association recommends replacing hair wax with acrylic sulfate which has lots of anti-inflammatory properties. [title] Buy a round brush or a very fine fine-toothed comb for when it gets really greasy.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['B)'],0.0,1.0,Mistral,0.0,0.1975048897872733
+hellaswag.val.3737,hellaswag,"[header] How to get oil out of hair [title] Shampoo your hair several times. [step] Use your regular shampoo to wash your hair in the shower. Really work the shampoo into your scalp using your fingers and rinse it out thoroughly with lukewarm water.
+A) Rinse your hair as soon as possible after it is done, as prolonged washing can hurt the scalp. [title] Dry your hair as soon as possible.
+B) Repeat the process one or two more times, as needed. [substeps] After you finish shampooing, add some conditioner to your hair and let it sit for 5 minutes before rinsing out.
+C) [substeps] You can use a hairdryer, a microfiber cloth, or a shower cap to gently detangle your hair to avoid spreading the oil or holding your hair in. [title] Squeeze a dime-sized amount of shampoo from a bottle.
+D) Have a good conditioner available on hand for long-term use. [substeps] Because oil can build up if you're not getting it regular, don't rinse it out very often, as this may clog or unbalance the hair follicles.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['B)'],0.0,1.0,Mistral,0.0,0.1973567427631685
+hellaswag.val.3832,hellaswag,"[header] How to decide if you should hold your child back from kindergarten [title] Notice how they follow directions. [step] Kindergarten children need to be able to follow 2-3 directions at a time. For example, their teacher may say, "" take some buttons and glue them onto the paper.
+A) "" to assure the child, they might say, "" tape them down. "" just don't let them put down buttons on the paper.
+B) Be sure that the button works properly before you put the paper on. "" the children should be able to try to change directions at different times.
+C) "" or they may say, "" take some ribbons and glue them onto the paper. "" [substeps] If your child has practiced following directions, then they should follow instructions to ensure you're properly doing what they instruct.
+D) "" give your child some 2-step directions and see how they do. They should be able to complete the task with little or no difficulty.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['D)'],0.0,1.0,Mistral,0.0,0.1922530415325457
+hellaswag.val.4140,hellaswag,"[header] How to avoid getting sick at school [title] Wash your hands as often as possible. [step] Wash your hands thoroughly with warm water and soap before you eat, and after you use the restroom or come into contact with anything that other students have used before you. Washing your hands often may cause dry skin, so carry moisturizing lotion during winter months.
+A) [substeps] If your school allows hand washing, then take care to do so after a meal. If you make a mess in the bathroom, then you are much more likely to get sick at the end of the day.
+B) [substeps] While it's convenient for you to use the bathroom on your own, you may want to substitute soap when you're traveling. Some people use sanitary hand sanitizers for the bathroom.
+C) [substeps] Call ahead to inform teachers of your sickness by phone or text message. Otherwise, bring a copy of your school paper with you to school.
+D) [substeps] First wet your hands with warm or cool running water, and add soap. The water doesn't need to be hot to clean germs and microbes from your hands.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['D)'],0.0,1.0,Mistral,0.0,0.1813306952331699
+hellaswag.val.4150,hellaswag,"[header] How to wear cowboy boots [title] Embrace the boot. [step] If worn well, cowboy boots can be a fashion statement for both men and women. Why not embrace them? Cowboy boots have a long and storied past: think cowhands, ranchers, john wayne, and clint eastwood.
+A) Pair the boots with luau-inspired pants, and you'll jump right in there. However, cowboy boots can be something vastly different that compliments your slim body frame.
+B) Both of these boot styles have a special touch to them. Casual or outfit-fit boots will work well for some occasion.
+C) They can be manly for men, stylish for ladies, and a great addition to a wardrobe. [substeps] The height, tapered toes, and decorations make cowboy boots distinctive.
+D) Always wear cowboy boots if you want to appear bigger and broader than your intended appearance. In addition, the material should come up to your armpits.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['C)'],0.0,1.0,Mistral,0.0,0.1584664294709555
+hellaswag.val.4224,hellaswag,"[header] How to manage a google group [title] Create a google group. [step] The first thing to managing a google groups is to create one. If you don't have a google account, you must register for a.
+A) Do this by creating one of the following methods : [substeps] Create your own google group templates by clicking on the "" create "" button, then choosing the "" create agreement "" option that appears, and enter your name and password. Follow the prompts to create a sign-in page that establishes your google group and your personal google group.
+B) A google group is also created for personal use. You can choose to join a google group by clicking the "" sign up with google "" button on the website.
+C) Once you have your account, go to groups.google.com (it will automatically go to the sign in page) and sign in, unless you already have. You can take a tour, but if you choose to skip it, click on "" create a group "" which is underneath the three steps to create one.
+D) In order to create one, you have to do the following : [substeps] Open a new web browser from the start menu and go to google groups. Click the "" create new group "" button.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['C)'],0.0,1.0,Mistral,0.0,0.1360138894955582
+hellaswag.val.4377,hellaswag,"[header] How to access your computer from your iphone [title] Install teamviewer on your iphone. [step] Teamviewer is free for personal use but offers a paid version for businesses. This app is often used by tech companies for hands-on support to make changes to your computer while you watch.
+A) You don't need to disconnect your device from any of the other devices you use. At the end of each time you watch teamviewer, which may take anywhere from a few minutes to a few hours, you can restart and watch if you'd like.
+B) Teamviewer comes in a variety of niche and higher-demand platforms. [substeps] If you're still feeling stumped on what you want to watch, consider asking your friends and family to watch with you so you can learn some skills.
+C) It is compatible both on windows and mac. [substeps] Open the app store app and search for teamviewer using the search icon at the bottom of the screen.
+D) [substeps] It's easy to get locked into teamviewer while you're watching while you are plugged into your computer; it just requires a password. [title] Open teamviewer on your iphone.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['C)'],0.0,1.0,Mistral,0.0,0.1763707153001045
+hellaswag.val.4384,hellaswag,"[header] How to prevent constipation in toddlers [title] Hydrate your child. [step] Offer your child at least 32 ounces of water or diluted juice every day. Try to make 75% of that water, since juice contains sugar that can cause diarrhea.
+A) Don't add more water if you are using tea or juice that has sugar. [substeps] Make sure you avoid regularly taking juice before a meal and stay hydrated throughout the day.
+B) Boys should drink 27 ounces of water everyday, and girls should drink 7 ounces of water three times daily. [substeps] In between meals, try giving your child an apple or a lemon.
+C) If needed, take your child to the bathroom (or another bathroom office) in general. Change your water or juice out if it's right before bed at night.
+D) This extra fluid in the stool will make it softer and easier to pass. [substeps] To dilute juice, add 1 ounce of water for every ounce of juice.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['D)'],0.0,1.0,Mistral,0.0,0.1521828811023885
+hellaswag.val.4559,hellaswag,"[header] How to make your own anti aging creams with vitamin c [title] Dissolve vitamin c powder using distilled water. [step] Mix a ½ teaspoon of vitamin c powder with 1 tablespoon (14. 8 ml) of distilled water in a small container. Make sure to mix the ingredients together until the powder is completely dissolved, to avoid a grainy mixture.
+A) [substeps] The amount of use it takes depends on how flavorful your target acne acne is. It may take some experimentation on your part to find the right mix that works best for you.
+B) [substeps] If you don't mind the consistency of some of the crystals, consider omitting the red powder entirely. The color and aroma of the paste will attract more flies and sap from the skin.
+C) [substeps] Only use distilled water, not just filtered tap water or plain tap water. This is because the high oxygen levels in tap water can break down the ingredients faster.
+D) [substeps] Do not use vitamin c powder: it will not dissolve in water on its own, and can be runny. If you don't like the consistency, you can try diluting the powder in a small amount of water.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['C)'],0.0,1.0,Mistral,0.0,0.1909457183683076
+hellaswag.val.4572,hellaswag,"[header] How to dress well as an overweight man [title] Wear clothes that fit your body now. [step] You may have been lighter several months or years ago, or maybe you are about to start a new diet. However, if it doesn't fit you now, don't wear it.
+A) Put on one of the clothes that you normally wear, and grab another piece of clothing that fits well, such as a jumper and sweater. [substeps] If you have thin legs, tighten those curves.
+B) Even if it is a light colored sweater or light green pants, just go with what you feel, as this is the way to go. Here are some things you should look for in shoes that fit you at the time : [substeps] Heels: this is important, since they help you reach your target height rather than dropping you.
+C) You want to fit when you feel confident, not rushed or fiddling around. The way you look now is more important.
+D) This might mean that you have to invest in some new clothes that fit you. Too-tight clothing just draws attention to the fact that you're overweight, emphasizing curves you may not want emphasized.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['D)'],0.0,1.0,Mistral,0.0,0.1577465927132106
+hellaswag.val.4695,hellaswag,"[header] How to treat addison's disease in poodles [title] Be able to spot the initial signs of addison's disease. [step] At first the signs are vague. They include lethargy, intermittent diarrhea and vomiting, shaking, and muscular weakness, which makes it difficult to jump up on a favorite spot.
+A) After a couple of days, the symptoms can go into more severe territory. [substeps] Symptoms usually start 2 weeks after you first take a supplement and vary based on your foods and physical activity level.
+B) However, you'll have to be able to identify these signs along with knowing when the symptoms began. [substeps] Have your vet look at the blood clots and any drainage in the litter box.
+C) Then when signs persist the dog will become increasingly dehydrated and don't want to climb up. Your vet will definitely recommend that you notice this condition as soon as possible.
+D) [substeps] These symptoms often wax and wane, which can make it hard to diagnose. It most cases, the adrenal glands gradually fail, as a result of attack from the poodle's own immune system.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['D)'],0.0,1.0,Mistral,0.0,0.1579491478869853
+hellaswag.val.4708,hellaswag,"[header] How to do a carrie underwood smokey eye look [title] Put on a base. [step] For example, choose foundation, bb cream, or whatever works for you all over your face and neck. [title] Define your brows.
+A) [step] Try a round eye to make your eyes look beachy and nightlook. However, try to avoid harsh peak shapes, like dark eyes, like focus on prominent, flat shaped are.
+B) [step] Choose eyebrows that are a little long, pointy, and teased up in the middle at the widest part. [title] Use a waterproof mascara and a light-pink or nude lipstick.
+C) [step] Use square coverage to emphasize the shape. Depending on your face and character you may also want to invest in silicone brows.
+D) [step] Carrie seems to have more subtle brows, so using a small angled brush, apply light to medium brown eyeshadow on your brows for minimal definition. [title] Dust the same colour you used for your brows onto your eyelids, creating a mini wing towards your eyebrows.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['D\n'],0.0,1.0,Mistral,0.0,0.195505154984118
+hellaswag.val.4881,hellaswag,"[header] How to nudge in pro tools [title] Set a nudge value. [step] Setting up nudge values will allow you to determine the value of each nudge increment. [substeps] Open the nudge value menu.
+A) Click the "" share with default "" or "" manage default "" options, depending on what you want to share. Click the checkboxes beneath each nudge increment type, among other things.
+B) In your pro tools session, locate the nudge value menu by locating the toolbar on the right side of the main counter and below the grid value menu. Click on the downward arrow to open the nudge value menu.
+C) Select nudge values from the menu that appears. Make sure that the square icon next to each nudge value stands out.
+D) At the top of the screen, you will find various achievements that will give you nudge values. Each nudge trend will be identified by a column.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['B)'],0.0,1.0,Mistral,0.0,0.1898836572205919
+hellaswag.val.4917,hellaswag,"[header] How to cut a shirt [title] Get your shirt. [title] Cut a slit into the shirt on either side of the collar using some sharp fabric scissors. [step] Cut the slit along the collar seam to serve as a visual guide for the rest of your cutting project.
+A) [substeps] You may notice the seam change while cutting, especially the collar. It will also be darker due to the stiffer, purer cut you will make.
+B) [title] Wash and lay the shirt (s) out. [step] Lay a sheet of newspaper in front of you.
+C) However, do not cut at either the neckline or sleeve seam. [substeps] Use thin nails, making sure to cut all the way through the shirt, not just the seam.
+D) [title] Use fabric scissors to cut the collar off of the shirt. [title] Grab the fabric at the shoulder seam and pull it.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['D)'],0.0,1.0,Mistral,0.0,0.1777461635244383
+hellaswag.val.5033,hellaswag,"[header] How to calculate an amount to be financed [title] Determine the selling price. [step] For a vehicle, boat, or another type of commercial loan purchase this will be the amount you agree to pay for your new acquisition. It does not include other aspects of the deal such as the trade-in allowance, fees, taxes, and other closing costs.
+A) Keep in mind that a profit made on a one-time purchase is dependent on the value of the product. The resulting value as a co-op loan will have a decline that is more noticeable if you purchase the vehicle outright, and be sought after.
+B) [title] Determine any fees or time limits you have for supplemental financing. [step] The rules regarding the amount purchased vary from state to state, and you should determine if you wish the required amount to be included in your purchase.
+C) Any negotiation will be slightly different, so be sure to talk with your broker about what you want and how much to get. [title] Do not make any forward decisions until you have narrowed your terms.
+D) [title] Subtract any net trade-in allowance. [step] For auto or boat purchases, among others, a dealer may offer a trade-in allowance or credit for giving them your old car or boat when you buy a new one.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['D)'],0.0,1.0,Mistral,0.0,0.1894225204933574
+hellaswag.val.5218,hellaswag,"[header] How to reduce nausea during pregnancy [title] Eat foods that are known to combat nausea. [step] Some foods that provide the nutrients and calories necessary to sustain your pregnancy also soothe morning sickness. But don't be too concerned if your diet isn't as balanced as you'd like it to be during early pregnancy.
+A) Despite these modifications, some food actually treats your body differently and makes the different system difficult to interpret. [substeps] In order to get on your vitamin d diet, sit in the sun to find a warm body temperature.
+B) What you eat and how you eat it will vary greatly in length from diet to exercise. [substeps] Eating the right foods will help to increase your nausea at a point in your life that is easier for you to digest.
+C) Many women have a very short list of foods they can tolerate during the first trimester. [substeps] The starch in whole grains and legumes reduces acid in your digestive tract, making nausea less severe.
+D) These foods include : [substeps] Sugary foods such as salty, sugary, sour, and sour juices such as juice, milk, and mineral juice or water. Sugary foods such as sandwiches, crackers, cookies, and french fries.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['C)'],0.0,1.0,Mistral,0.0,0.0918058997026592
+hellaswag.val.5274,hellaswag,"[header] How to cook rice in pressure cooker [title] Measure out rice and water. [step] Pour your desired measurement of rice into your pressure cooker. Add water according to the type and quantity of rice you are using.
+A) If you know the ingredients, use that to evaluate the amount of rice that the pressure cooker will have. [substeps] To be more precise, use 1 tbsp.
+B) [substeps] For example, you should add 15¾ cups (approximately 1.5 l) of water per cup of rice for a 7-8 pound (9.4-1.44 l) pressure cooker. If using a pressure cooker alone, add a pinch of salt to the rice before cooking.
+C) [substeps] Add water according to the size of your rice (larger may mean larger grains). [title] Fill the pressure cooker with enough water to cover the rice.
+D) One cup of white rice, for instance, needs 1.5 cups of water. [substeps] Substitute all or part of the water with a liquid for flavoring if you wish, such as chicken broth, vegetable broth, or prepared bouillion.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['D)'],0.0,1.0,Mistral,0.0,0.16340168637232
+hellaswag.val.5291,hellaswag,"[header] How to reheat ribs [title] Thaw your ribs that need to be reheated if applicable. [title] Preheat your oven to 250 degrees fahrenheit (121 degrees celsius). [step] If the oven is any hotter than this, there is risk of the rib meat shrinking and getting tough.
+A) Unplug your oven and let it cool before you continue. [substeps] If the weather is warm, you might want to turn off the oven immediately to have it cool down more or eliminate all direct heat from the oven.
+B) [title] Place the ribs on a cookie sheet, and allow them to cool for 2 hours. [step] You can skip this step if you prefer low-fat or moderate-fat style rib meat.
+C) [title] Lower your oven temperature to 450 degrees fahrenheit (212 degrees celsius). [step] Your meat is now ready to cook.
+D) [title] Slather barbecue sauce over the rib meat on all sides. [title] Wrap the ribs to be reheated in 2 layers of foil.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['D)'],0.0,1.0,Mistral,0.0,0.1738269590530845
+hellaswag.val.5678,hellaswag,"[header] How to oil your hair [title] Decide how many oils to use. [step] You can use just one oil on your hair, or two to three oils. It all depends on how much money you want to spend and how intensive you want your oil treatment to be.
+A) [substeps] Enough oil can become very stubborn, and you won't be able to keep it out much longer. Acne is highly likely to result in extensive hair damage and hairline acne.
+B) Therefore, you'll need to choose one oil for every 20 pounds you have to add. [substeps] Massage oil is great for coconut and olive hair.
+C) The amount of oil you use can vary depending on the type of dyed hair you have. [substeps] Some products require 100 to 140 oil.
+D) [substeps] The two basic types of oils are carrier oils and essential oils. Carrier oils are used as a base into which the more concentrated essential oils are mixed.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['D)'],0.0,1.0,Mistral,0.0,0.1430236688175453
+hellaswag.val.5751,hellaswag,"[header] How to cope with guilt over your child being an only child [title] Set up playdates with children from school. [step] One way you can cope with guilt you may feel over having an only child is to set up playdates for your child. Talk to the other parents at your child's school and arrange playdates with your kids after school or on a weekend.
+A) Your child may be excused from playdates to be away from home or with family members from the daycare. [substeps] You may set up a playdate outside of the daycare at the designated time on a tuesday or at lunch.
+B) Be social with other parents and children at your child's school so you can all support each other and spend time together. [substeps] You may arrange for weekly playdates with children that your child seems to like and get along with.
+C) [substeps] One option for you can consider is to invite other parents over for a playdate after school. This will give you time to do activity together and you may be able to catch up with your child more easily.
+D) Many children enjoy regular playdates, and they will likely respond to these with positive reinforcement. [substeps] If your child still has feelings of guilt over being a single parent, try to set up playdates with your child about 10-15 times a week.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['B)'],0.0,1.0,Mistral,0.0,0.1111032334812599
+hellaswag.val.6059,hellaswag,"[header] How to bs your way through a college paper [title] Read the assignment requirements closely. [step] Consult the syllabus or your online course page for information on the assignment. See if it asks you to answer a specific question or explain research you've completed.
+A) If there isn't any help available, you'll have a hard time. [substeps] Contact your program's e-book or online course's assistance officer to find resources.
+B) You'll also review the worksheets needed to complete the assignment. [substeps] For example, if the assignment specifically asks you to write an answer to the question "" what happens when you write an answer...? "", think about taking a test that focuses on incorrect interpretations in a given course.
+C) [substeps] You may also want to think about if the course description clearly describes your work. If you didn't complete a course, then ask the instructor what the assignment description specifies.
+D) Understanding what your professor requires can keep you on topic and maximize the time you have to write your essay. [substeps] Avoid sending the professor last minute questions about the assignment; it's a dead giveaway you did not do much work.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['D)'],0.0,1.0,Mistral,0.0,0.1122173119838338
+hellaswag.val.6198,hellaswag,"[header] How to find bulova model number [title] Look for a date code stamped on the back of the case. [step] Take your watch off and flip it over to look at the smooth metal back of the case. You may see several different markings engraved there, all of which have different meanings.
+A) [substeps] Maryland law prohibits pretax collectors from stealing bulova models from factories. Misspellings made in the material of a case can result in serious fines, financial consequences, and even the death penalty or even imprisonment.
+B) Look for one that says "" day "" or "" year. "" [substeps] A watch typically has special year codes written on the bottom or in the center, which determines the number of years the watch has been used for.
+C) A date code will be either a symbol (like a triangle, and eight-pointed star, or a half-moon, for example), a two-digit number, or one letter and one number. [substeps] You may need to use a magnifying glass to help you read the codes, as they are very small.
+D) The case is likely to have numbers printed on the front. [substeps] If you do not know the year the case was issued, use the day written on the back to find out its year.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['C)'],0.0,1.0,Mistral,0.0,0.1594669335771184
+hellaswag.val.6251,hellaswag,"[header] How to call guatemala [title] Dial your country's exit code. [step] Every country has what is called an exit code. It's the number you dial in order to direct a call outside the country.
+A) Its final digit (- 123) is 4 digits long, and indicates that you will dial certain numbers outside the country. [substeps] If you're calling the u.s.
+B) In the united states and canada, the exit code is "" 011. "" if calling from the us or canada, dial these numbers first.
+C) To make sure the country you're calling isn't the same as guatemala : [substeps] Replace the 9-digit exit code with a 4-digit area code. ( unless you've previously dialed "" 800 "").
+D) You may have to dial this number several times to reach guatemala. You can also use different numbers in different countries to reach guatemala.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['B)'],0.0,1.0,Mistral,0.0,0.1412991951214927
+hellaswag.val.6308,hellaswag,"[header] How to choose makeup for your skin tone [title] Look at your skin in natural lighting to determine your overtone. [step] The overtone of your skin refers to the initial color you see and how dark or light that color is. Go somewhere with natural lighting and then look closely at your skin to determine your overtone accurately.
+A) This will reveal small pores, few wrinkles and a fine line. [substeps] Give yourself a few days to check your skin for overtones before selecting makeup.
+B) Your ideal skin tone should not affect the quality of your makeup. [substeps] If you have long, curly hair and pale complexion, your ideal skin tone will stand out.
+C) Your tone might be lower in the morning and lower in the evening if you exercise in the afternoon or late evening. [substeps] If you experience intense undertones during the day, such as reddish skin from a cold or dark skin from an illness, see a doctor immediately.
+D) [substeps] If your skin is an ivory or cream color, it's likely considered light. You probably have medium skin if your overtone is closer to a caramel or tan color.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['D)'],0.0,1.0,Mistral,0.0,0.175041062429844
+hellaswag.val.6322,hellaswag,"[header] How to create digital photo albums with powerpoint 2007 [title] Open powerpoint, on the insert tab, click the photo album button, in the drop-down list, there is the new photo album option [title] Insert pictures : [step] Click file/disc button. Choose pictures you want to include in the album from folders on your hard disc. ( tip: you can import several pictures to the album at a time).
+A) Insert models: click model, and when you put a model in the album, drag and drop the model on the photo album with the cursor. [title] Edit items : [substeps] Click fashion magazines.
+B) [title] Build it : [step] Click the arrow next to the picture box or icon that says "" build "". Hold your mouse so that the picture box opens up.
+C) In the photo album dialogue box, you will see the selected pictures in the picture in album list. You can view each picture by clicking it.
+D) Click my images tab, in the format menu and select add picture (15 options). Click image _ upv file using the drop-down menu then choose insert images for the existing photo album.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['\nA'],['C)'],0.0,1.0,Mistral,0.0,0.2077424066989759
+hellaswag.val.6324,hellaswag,"[header] How to do nude nails [title] Opt for a creme polish. [step] While you can find nude nail polishes in a variety of finishes, including shimmer, matte, and metallic, the manicure looks most flattering if you opt for a creme shade. That's because the polish's shine will compliment your skin tone while still looking natural.
+A) [substeps] If you want to control how bright your nail polish is, try polish that has spf or above in it. [title] Know why you want to use nude polish.
+B) [substeps] Lipliner, bangle on the lips, and thick flat polishes in bold shades work best. Be careful not to be tempted to get prints, stripes, or pattern through the nude polish.
+C) [substeps] Deep reds are the most popular color for cocktail dresses, so purchase these without inhibitions. If your nails are much more colorful than you would like, you could add sparkling glitter, as well.
+D) [substeps] You can opt for a sheer or opaque nude shade depending on your preference. However, sheer polishes tend to work best because they allow some of your natural nail to show through.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['D)'],0.0,1.0,Mistral,0.0,0.1200693630804592
+hellaswag.val.6334,hellaswag,"[header] How to take care of black girls' hair [title] Wash your hair once every 1 to 2 weeks. [step] The more often you wash your hair, the more you strip it of its moisture. This results in dry, brittle hair.
+A) Shampoo your hair only once every 2-3 days, and use a rinsing power for the shortest-lasting results. [title] Rinse out your hair with cool water, then towel it dry.
+B) [substeps] Get a conditioner applied after every one to two washes. Use an spritz of hair spray.
+C) You should wash your hair every 7 to 10 days, but you can get away with washing it once every 14 days. This will help prevent dryness and product buildup.
+D) [substeps] If you have moderately-oily hair, you may need to shampoo more often in the time after you wash it. As a general rule, you should shampoo at least once every 2 weeks (if not more).
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['C)'],0.0,1.0,Mistral,0.0,0.1802075595508621
+hellaswag.val.6518,hellaswag,"[header] How to avoid hurting your gums [title] Have a professional bleach your teeth. [step] Bleaching your teeth can help whiten your teeth, removing stains from food and drinks. You may have noticed bleaching kits at the drug store.
+A) [substeps] If you have any exfoliants or cleansers on hand, make sure you have them before you start bleaching your teeth. [title] Use products that contain fluoride.
+B) These are labeled as dental whitening strips. They may also be used to put on your shoes, and may leave you with urine-like stains that are not obvious on your shoes.
+C) However, it's a better idea to have your dentist bleach your teeth. For one, it's usually more effective.
+D) Or, simply see your dentist if you are not sure if this is the best way to whiten your teeth. You should never go down to the doctor's office and have them do a bleaching of your teeth.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['C)'],0.0,1.0,Mistral,0.0,0.1885773030875868
+hellaswag.val.6621,hellaswag,"[header] How to use an infant nebulizer [title] Put the nebulizer on the baby. [step] An infant will inhale the medication in a mist provided by the mask. Read and follow the manufacturer's instructions and any additional advice provided by your child's doctor.
+A) [title] Hold the device on your baby, then follow these instructions : [step] Place a clean dish towel over the device. Insert a small amount of tsp into the nebulizer and over your baby's head.
+B) [substeps] Some babies need only 1 dose every 3-4 hours. [title] Watch for trouble breathing and a ringing sound in their ears.
+C) [substeps] The child should breathe normally while the mask is on. Only four hours have passed since the child first began using the nebulizer, so if someone else has opened it, then your child will usually breathe through the mask.
+D) Study pictures or watch a training video to learn how best to use the nebulizer. Most nebulizers are easy to set up.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['D)'],0.0,1.0,Mistral,0.0,0.1364751324291941
+hellaswag.val.6645,hellaswag,"[header] How to get a good spray tan [title] Exfoliate before your appointment. [step] It is best practice to exfoliate your skin and shave/wax the day before your appointment to ensure an even tan. You can use a water based exfoliant, a coarse salt or sugar based scrub, loofah, or washcloth to accomplish this.
+A) If you scrub too hard, you could damage your nail while exfoliating. [title] Avoid using any soaps or other products that might cause irritation and rash.
+B) [substeps] You should never use an oil-based scrub because it will prevent the spray tan solution from evenly applying to your skin. Make sure to shave or wax at least 24-48 hours before your scheduled appointment in order to allow the pores to close.
+C) You can also get your face cleaned with sea salt, or you can bring a food exfoliant to the appointment with you, if you are planning to do so. [substeps] If you do this, be sure to do it a day before the appointment.
+D) You may also use a body protector and find a heat safe, powder based spray not intended for use on your skin. Showering will also leave your skin feeling and smelling fresh! [title] Moisturize the day before your appointment.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['B)'],0.0,1.0,Mistral,0.0,0.1406227445995877
+hellaswag.val.6799,hellaswag,"[header] How to wear denim to work [title] Go for darker shades of denim. [step] In general, the darker the better for work appropriate denim. Go for darker shades, like blacks or dark blues, over light blue shades of denim.
+A) The contrast makes it easier to use denim to go to work and also result in a slimmer job. [substeps] If you can see dark blue denim in a room filled with other shades of grey, you will look dressier.
+B) Darker colors can often pass for work pants or suits, keeping your look comfortable but professional. [title] Choose denim outfits that are otherwise work appropriate.
+C) However, be extra sure that there aren't any special colors or patterns in your darker jeans when you wear them to work. Wearing black denim shades can be alluring to work colleagues and clients.
+D) [substeps] Your work clothing palette will be packed with colors that will work well together. It can be helpful to buy denim that has metallic undertones.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['B)'],0.0,1.0,Mistral,0.0,0.1814247357032715
+hellaswag.val.6826,hellaswag,"[header] How to make a dollar bill bow tie [title] Fold the bill in half. [step] To begin making this classic, somewhat chunky dollar bill bow tie, place an unfolded dollar bill on a flat surface. Then fold the bill in half lengthwise so that the two shortest sides meet up together.
+A) Holding one strip of scotch tape roughly 1/8th of the length of the bill, fold both ends in half so that they meet up with the rest of the bill. [title] Cut the ribbon about ¼ "" away from the crease.
+B) This will draw attention away from the bill and upward toward your eyes. Do this entire article in less than three minutes, and you should get three distinct ways to make the bow : [substeps] Fold the bill in half diagonally.
+C) This opens up the bottom of the bill. [substeps] Make sure that you use sewing pins and clips to securely secure the folds, otherwise you will end up with an uneven bow.
+D) [title] Fold the dollar bill in half widthwise. [step] After the first fold, make another fold, this time folding widthwise or "" hot dog style, "" so that the longest sides of the dollar bill meet up together.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['D)'],0.0,1.0,Mistral,0.0,0.1900788559124927
+hellaswag.val.6853,hellaswag,"[header] How to get a child to go to sleep [title] Recognize how much sleep your child needs. [step] Depending on how old your child is, she needs a different amount of sleep for her well-being. Make sure that her overall sleep time includes naps if she is 5 or under.
+A) The same goes for your child if she is over 12 months old. Teens generally need about seven to eight hours of sleep each night.
+B) The recommended time to sleep in hours by age is : [substeps] Infants 0-2 months require 10.5-18 hours daily. Babies 2-12 months need 14-15 hours daily.
+C) [substeps] More sleep is okay for older children as well, but as the baby ages, their needs become more specific. If your child is younger, you should only feed her if she requires it and eat food when she is tired.
+D) Younger children usually need 1 or 2 hours of sleep, depending on the age of the child. [substeps] Avoid reducing your child's sleep time to 1 hour each night if she is 10 to 12 years old.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['B)'],0.0,1.0,Mistral,0.0,0.1495740296339627
+hellaswag.val.6944,hellaswag,"[header] How to live in a haunted house [title] Take a well-built guard dog like german shepherd with you into the house. [step] The reason? Dogs easily detect the presence of the spirits. It will be daring to you also with the dog.
+A) Be aware that they are most likely to see ghosts through small dogs, but the sight of a dog walking around is also frightening. If you don't want to expose yourself to ghosts, just go with either a dog.
+B) Make sure the dog is not doing something dangerous, like scared to enter a haunted home, before undertaking more difficult things. [substeps] When other muggers remove a pet from the house, they will be difficult to kill.
+C) Be careful with this dog's stubbornness, of course. If the dog already has a grudge against a member of your family, it will quickly realize this is a dangerous situation.
+D) [title] Remind yourself that before you move anything into the house, walk through the entire place. [step] Doing this will give the ghost (s) a chance to scope you out, and accept your presence in' their' home.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['D)'],0.0,1.0,Mistral,0.0,0.1695848285098478
+hellaswag.val.7013,hellaswag,"[header] How to get a girl who is in a relationship to like you [title] Learn about her. [step] If you don't already know very much about the girl, ask some of her friends to tell you what she likes. This may be pretty easy to find out if you share mutual friends.
+A) Chances are, you are already really good at this, but here are some tips to make sure that you understand the girl and what type of relationship she is in. [substeps] If you don't know much, just get to know her best friends to learn more about the girl.
+B) Be open to asking more than one girl and see if she likes you back. [substeps] Maybe she likes to cook dinner sometimes or watch a funny movie or book that you both love but she can't wait to watch.
+C) In this way, you'll be sure that she's not looking for a long term partner. [title] Meet her friends and make a good impression.
+D) Finding out what she likes can focus on what you have in common. [substeps] For example, you may find that she loves the same types of movies that you're passionate about.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['D)'],0.0,1.0,Mistral,0.0,0.1266062872646708
+hellaswag.val.7071,hellaswag,"[header] How to dress for an autumn wedding for women [title] Decide on the color scheme that you're looking for. [step] Often, the dress will coordinate or match the predetermined colors of the wedding. If you're still searching for a color scheme, some typical fall colors are burgundy, scarlet, gold, orange, and yellow.
+A) If you're on the darker side, some popular shades of golds and greens are orange, rose, lemon, and berry. [substeps] Summer weddings generally have a more subtle look than formal weddings.
+B) [substeps] Traditional' all black' dresses include white, scarlet, blue, and black, while some today coordinate with tropical colors, such as lime green, oceana green, and turquoise. [title] Always wear men's button-up shirts at all times.
+C) For example, if you're going for a bittersweet theme, or if you plan on throwing a winter wedding over the holidays, can spare the mild substitution of a red or purple wedding dress. Wear a mix of shades to start with.
+D) [title] Figure out which kind of dress you want. [step] If your wedding is a more traditional one, you may want to go with an a-line or ball gown style dress.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['[D'],0.0,1.0,Mistral,0.0,0.1201702864295086
+hellaswag.val.7232,hellaswag,"[header] How to grow yams [title] Start growing the sprouts. [step] Yams aren't grown from seeds like most other vegetables-they grow from slips, which are derived from the sprouts of adult yams. To grow sprouts, cut a yam in half and submerge one portion in a glass of cool water.
+A) Right before the plants start sprouting, dig out a piece of the stem and then tuck that beneath the water to make it flush with the bottom of the glass. Repeat this process until you have about two inches (5 cm) of stem.
+B) Halfway through the soaking process, seal the other half in a commercial water bucket. [substeps] Think about using cans, tupperware buckets, and other containers that are big enough to hold several yams at once.
+C) You should see the seeds sprout. [substeps] If you can't, cut small sections back and keep the sprouts in the glass of cool water.
+D) Insert toothpicks at three points around the middle of the yam and suspend it over the container, half-submerged in the water. [substeps] Make sure the yam you choose looks healthy.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['D)'],0.0,1.0,Mistral,0.0,0.1502160501815667
+hellaswag.val.7239,hellaswag,"[header] How to write a cute note to a friend [title] Find the handwriting. [step] Find a fun type of penmanship (check out dafont.com) and use it! Practice it, writing the whole alphabet in capitals and lowercase. You can also write the sentence, "" the quick brown fox jumps over the lazy dog "", which uses every letter in the english alphabet.
+A) [title] Think of writing a complicated letter! [step] ) read characters from books in other languages. This step is useful for "" theme "".
+B) [title] Paste, scratch, nail, paint, wet, smear. [step] Add many lines so others don't get in the way.
+C) [substeps] If you want to write a sentimental or sincere note, use your normal handwriting or a more sophisticated or plain penmanship. Practice in your preferred writing utensil.
+D) [title] Describe the kitchen : [step] Make sure there is no blank space between the saucepan and stove top. Tray top is more desirable, as if you cooked in the big standing pan (the one with two glasses on top).
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['C)'],0.0,1.0,Mistral,0.0,0.1585964443036649
+hellaswag.val.7306,hellaswag,"[header] How to know if you have glaucoma [title] Schedule regular eye exams. [step] Open-angle glaucoma leads to the gradual deterioration of your vision over an extended period of time, usually years. Most people suffering from open-angle fail to notice symptoms until the glaucoma is very advanced and nerve damage has occurred.
+A) The overall diagnosis is: glaucoma can present in two patterns: primary and secondary. Secondary glaucoma reverses almost any natural condition and the simplest way to identify glaucoma is to get three to four eye exams in a normal week.
+B) [substeps] It is important to schedule eye exams every year, especially if you are over the age of 40 or have a family history or glaucoma. Open-angle is the most common type of glaucoma in the united states, affecting over 2 million people.
+C) Checking your eye closely is often the first step to identifying the signs of open-angle glaucoma. [substeps] Schedule a yearly eye exam using a variety of tools.
+D) [substeps] Glaucoma is usually attributed to a condition called retinopausal glaucoma. Doctors often refer patients with retinopausal glaucoma to psychotherapy or therapy.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['B)'],0.0,1.0,Mistral,0.0,0.2029952054626301
+hellaswag.val.7348,hellaswag,"[header] How to get in touch with your inner pisces [title] Ditch the order. [step] If you have a job or calling in life that requires a lot of order for you, it can be stifling. You need to whip up a little chaos.
+A) [substeps] Your server needs to be sufficiently chaotic for them to stand up for themselves. If they can't get it (or are being too lazy), they're easy targets.
+B) Start with a messy desk or brighter clothes. Perhaps this will surprise others but you must let the real you shine through.
+C) [substeps] Think of some way to make things easier for yourself by doing only what needs to be done. If it's your job, you can try working at it.
+D) Don't just' run' everywhere. Show up at the office and lie low, dim the lights a bit, make faces and drop the secret to the boss.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['B)'],0.0,1.0,Mistral,0.0,0.1768299215337861
+hellaswag.val.7412,hellaswag,"[header] How to make fake eyelashes look real [title] Purchase a natural-looking pair of false eyelashes. [step] They're sold at most pharmacies and beauty supply stores, and there are a ton of different brands and styles on the market. If your goal is to make them look natural, you want to avoid the dramatically long, the unnaturally spiky, and the outrageously full ones.
+A) Instead, use a fake eyelash comb or ponytail holder to make fake lashes look natural and glamorous. [substeps] Fake eyelashes are intended to look very real, and you can even find fake ones at most drugstores.
+B) If you want them to look real, bigger is not necessarily better. Choose a pair that look like your dream natural eyelashes.
+C) Find a pair that has a natural shine, and look closely at the tips. [substeps] If you have soft, naturally shiny hair, fake eyelashes aren't going to be as glamorous or realistic.
+D) Instead, find a pair of fake eyelashes that are about the same size as your natural eyebrow. If possible, purchase different colors, sizes, and styles, especially ones that coordinate slightly with the natural look.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['B)'],0.0,1.0,Mistral,0.0,0.182969347870418
+hellaswag.val.7566,hellaswag,"[header] How to expand your capacity for joy [title] Volunteer. [step] One way you can expand your capacity for joy is to volunteer your time for a cause you believe in. This could be a local cause, such as a local homeless shelter, or a national cause, such as a disaster relief organization.
+A) Starting a new volunteer program or raising money to resolve a bill you no longer feel is too small may help enhance your capacity for joy. [substeps] Make sure you mention that you would like to contribute to a new charitable cause through social media.
+B) This process will not only lengthen your capacity for joy, but it will hopefully minimize your chances of slipping back into depression. [substeps] If you are still experiencing depression, however, volunteering may be the right approach.
+C) Look for a cause that you feel passionate about and donate your time. Even volunteering a few hours a week can expand your capacity for kindness, and as a result, your capacity for joy.
+D) You may also be able to make a donation using your personal funds or from friends. [substeps] Spending time volunteering is a great way to meet new people and build your emotional support.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['C)'],0.0,1.0,Mistral,0.0,0.1542405724193088
+hellaswag.val.7591,hellaswag,"[header] How to use flipboard for windows 8 [title] Download and install flipboard from the windows app market. [step] Just select the app from the application list to begin downloading and installing it on your pc. [title] Launch flipboard.
+A) [step] Right-click on its icon on your desktop. [title] Visit the email address associated with flipboard.
+B) [step] Tap its icon from your desktop to launch the application. The first thing you'll see is the login screen.
+C) [step] Click the "" start "" button to begin an internet search and launch the app. [title] Navigate to the website that you want to install flipboard on your windows 8 device.
+D) [step] Locate the app on your desktop and tap on it. This will launch flipboard and begin installing it on your computer.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['B)'],0.0,1.0,Mistral,0.0,0.1962569685786495
+hellaswag.val.7608,hellaswag,"[header] How to become a police officer in florida [title] Meet basic qualifications to apply to a police training academy. [step] Florida law has established a set of minimum qualifications to become a police officer. If you meet those requirements, you can register for a police training academy, which is the first step you need to take to become a police officer in florida.
+A) [title] Complete a 6-page application form. [step] This will require you to provide a valid driver's license and to provide your full legal name.
+B) [substeps] You must be at least 18 years of age. When you apply for a police training academy through the private police academy district, you will need to use the "" serve area "" special training system.
+C) [substeps] During the course of the training academy, you will have an intense one on one communication and forensics training. At the end of the training academy, you will receive a certification from the department of police.
+D) [substeps] You must be at least 19 years of age and a citizen of the united states to meet the state requirements to enter an academy. Most agencies will require that you have a valid driver's license too.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['D)'],0.0,1.0,Mistral,0.0,0.2080474078943723
+hellaswag.val.7759,hellaswag,"[header] How to enjoy palm beach with the kids [title] Consider what type of accommodations would best fit your family. [substeps] Look for pet friendly hotels if you will be bringing the family pet along. There are a number of resorts and spas that allow for pets to stay with your family for a fee.
+A) You could ask a tour guide on either trip. Having a pet that is a pet, like a dog or cat, in your care will allow you to spend quality time with your pet and keep them entertained, while allowing you to have other pet enthusiasts along.
+B) Drive your rv or even rent one to make the trip to palm beach. There are award-winning rv parks within walking distance of the beach.
+C) Make sure your hotel offers a secure environment and is clean and dry so the pets feel safe. Some of the most popular places are: costco international, sanctuary city, chile & calgary, natives international, san francisco international and albania international.
+D) If your family has more than one pet you may choose to stay at different places each day. Your child's experience should help guide you towards choosing the most environmentally friendly hotel.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['B)'],0.0,1.0,Mistral,0.0,0.2043109499922288
+hellaswag.val.776,hellaswag,"Another man by the name of stran smith is now talking and clips of him riding his horse in different arenas as he wrangles a calf also plays. clips of both of men talking and clips of them riding horses and wrangling calves
+A) now playing in arenas with horse bites.
+B) in an outdoor rodeo ring.
+C) play and rotate between the two of them.
+D) in a rodeo ring.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['C)'],0.0,1.0,Mistral,0.0,0.1965946601671883
+hellaswag.val.7850,hellaswag,"[header] How to wear makeup without overdoing it [title] Apply primer, foundation, and concealer. [step] Primer creates a base for the rest of your makeup to stick to, meaning you can apply less and achieve a more optimal effect. Foundation will help even out your skin tone, and concealer will hide blemishes and discoloration.
+A) [substeps] Whichever foundation you choose, take a professional, powdery makeup primer (non-stick). Place concealer, eyeshadow, pencil or cream over your brows if you have one, then you need to erase any dark circles.
+B) When you're done applying foundation, follow up with concealer to blend any blemishes further and keep your look fresh. [substeps] Primer and concealer will help get the same effect, but stick to darker foundations on darker circles.
+C) The key is to apply each sparingly. [substeps] Put a small dollop of primer on your finger and apply a thin layer all over your face.
+D) Concealer can be primer-based or you can choose to choose your own. Once you've chosen your makeup, use the lid at the top to frame the nose, and then swipe concealer all the way up the bridge to ensure even coverage.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['C)'],0.0,1.0,Mistral,0.0,0.1587828318880086
+hellaswag.val.7930,hellaswag,"[header] How to do glitter eyebrows [title] Brush out your eyebrows to start. [step] Use an eyebrow brush here. Gently run it through your eyebrow, using light stroking motions, to brush each eyebrow smooth.
+A) [substeps] If you want to make the brush too rough, don't worry! It shouldn't be so rough that you mess up. Brush each eyebrow first, in the direction of the arch.
+B) [substeps] If you already have a thin coat of brow gel, you can simply hold the brush at the base of one eyebrow and gently run it down your eyebrow at the end, creating a circle in your brows. [title] Use temporary and permanent mascara to close your brows.
+C) You can sweep the brush across both brows, holding it there as you move and not pressing it up and down, or you can let the brush end up on the brow. Don't wipe away the brush; simply graze the bristles along the brow bone.
+D) It's important to start with a nice smooth brow before applying glitter. [title] Dab a small section of glue on the corner of each eyebrow.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['D)'],0.0,1.0,Mistral,0.0,0.1841259689209961
+hellaswag.val.7956,hellaswag,"[header] How to buy a used car off craigslist [title] Decide on a make and model. [substeps] Perform research on different car brands to determine which fits your needs. [title] Visit the "" cars & trucks "" section of craigslist.
+A) [step] While all areas have a public market with a huge number of used cars available to purchase, there may be discounts for older cars. [title] Contact different companies to request discounts or to learn what loans are available.
+B) [substeps] Select "" by owner "" within this section if you wish to omit the postings of used car dealers. [title] Browse your city's used car postings for your make and model.
+C) [title] Make sure you have opened a large enough account to make the purchase. [title] Review each information page of the site.
+D) [title] Determine what type of car you are looking for. [substeps] Is the car for sale, used, new or recently owned? [title] Feel for the driver's floor mounts to make sure you are looking for a safe, sturdy, easy to move car.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['B)'],0.0,1.0,Mistral,0.0,0.1906696237759204
+hellaswag.val.8052,hellaswag,"[header] How to stretch your biceps [title] Stand up straight with your feet positioned hip-width apart. [step] If preferred, you can stand with your back against a wall or pole to deepen the stretch. [title] Bend your knees slightly and point your toes forward.
+A) [step] You may want to vary the positioning of your feet if you're sitting so you can stretch your biceps more deeply. [title] Bring your toes in towards your buttocks.
+B) [step] If you prefer to lie down on your back, extend your elbows to about eye level. The backs of your knees should be very close to one another and the tops of your feet should be slightly inches from one another.
+C) [title] Lift both arms straight out to either side at shoulder height. [step] Your shoulders should remain even with one another.
+D) [step] Keep your toes pointed until you feel a stretch in your biceps. [substeps] Don't point your toes as you shift your weight to the balls of your feet.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['C)'],0.0,1.0,Mistral,0.0,0.1730807810558589
+hellaswag.val.8316,hellaswag,"[header] How to obtain hospitalization insurance [title] Take a look at your current health insurance. [step] Pay attention to what costs are covered if you need surgery or a lengthy hospital stay. This will prepare you for the type of hospitalization insurance you need.
+A) [title] Ask about the exact coverage you would like to have. [step] The health insurance information sheets section of your yellow pages will give you a breakdown of how much coverage you can require over a specific geographical area.
+B) [substeps] Illness, physical and emotional health is usually covered in these hospitals, but for health premiums you will need to consider additional health treatment programs. Also look at the cost statement or surcharge you receive as well as your payment history.
+C) [substeps] Generally, these are insurance costs which will be covered by your insurance plan as you recover from carpal tunnel syndrome. With carpal tunnel syndrome, benefits from hospital stay are minimal and medical care is minimal.
+D) [title] Review plans available from your own health insurer and other insurance companies. [step] You may be able to add additional hospitalization insurance to your current health plan, if you have one.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['D)'],0.0,1.0,Mistral,0.0,0.0949137671334819
+hellaswag.val.8486,hellaswag,"[header] How to design a formal garden [title] Assess the lay of the land. [step] The design you choose for your garden will be influenced by the contours of the land you are using. You should also take into account its placement relative to your house or other nearby buildings.
+A) Take into account the layout of the landscape. [substeps] For example, you might want to have an attractive and open garden with a thick, glistening lawn and a frosted porch.
+B) Consider the following factors : [substeps] Is the land your are using hilly or flat? This will affect the final look of your formal garden. Formal gardens are easier to create on flatter land, so you may want to look into leavening some of the hills on your property if possible.
+C) You do not want to have one near your home that must be square. [substeps] For example, putting up one at the top of a corner overlooking a nearby building can prevent the foliage from blowing away.
+D) [substeps] For example, if you plan on building a master garden in the upper half of your home, you may want to develop a crescent row of hills. At a long distance, this half row may be actually highly steep.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['B)'],0.0,1.0,Mistral,0.0,0.1886909701408967
+hellaswag.val.8645,hellaswag,"[header] How to tie a tae kwon do belt [title] Fold the belt exactly in half to find the center. [title] Place the center of the belt at the front just your navel. [step] The two sides should be equal.
+A) [title] Placing your right hand on the center of the belt, make some small circles to mark where the knot should be. [title] With your left hand, make small circles to mark where the two ends of the belt will be when it is tied to your waist.
+B) [title] Wrap the two ends around your waist, and back to the front. [step] Make sure that the left side (new right) is crossed over the right in the back.
+C) [title] Grab the left mid part of the belt. [step] You have now mastered a very simple frog knot! [title] Pull the top edge of the belt down into front of you.
+D) [substeps] The button is on the side closest to the center. Position the first one on right side of your navel.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['B)'],0.0,1.0,Mistral,0.0,0.2002452871649962
+hellaswag.val.8651,hellaswag,"[header] How to look after your skin [title] Wash your face in the morning and in the evening. [step] Make sure that you use the right facial cleaner for your skin type. For example, if you have oily skin or acne, get something that contains salicylic acid or benzoyl peroxide.
+A) If you do have dark skin, make sure to soak up excess moisture from the face. [substeps] If your skin is oily or acne-prone, then grab a face cleanser made specifically for oily skin.
+B) If you have dry skin, use a gentle, moisturizing, fragrance-free face wash. [title] Avoid using hot water while you bath, and limit your bathing time to 20 minutes.
+C) If you have combination skin, find one with a different additive. [substeps] If your normal acne product washes out, make sure you store it in a clean plastic bag inside of a clean container that can be used for cleaning.
+D) If you have combination acne, use a mild face cleanser. Apply a soft washcloth wet with warm water and gently scoop and massage the area of your face that has acne.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['B)'],0.0,1.0,Mistral,0.0,0.1983569348161235
+hellaswag.val.8823,hellaswag,"[header] How to make papad [title] Combine all of the ingredients except the oils. [step] Add 2 cups (230 g) of urid or black gram flour, ¼ cup (59 ml) of water, ¾ teaspoon (4 g) of salt , 1 teaspoon (2 g) of whole cumin, freshly ground black pepper to taste, and garlic powder to taste to a large bowl. Mix the ingredients until they just come together.
+A) [substeps] Php strengthens your cast iron pan easily. Any oil that leaks out during cooking will burn your pan and ruin the oiled pan.
+B) [substeps] If you don't have a rice cooker, use an electric rice cooker. Stirring the ingredients can cause them to separate or even break.
+C) [substeps] There's no use beating the mixture until it thickens a little. It will turn out thick when you scoop the mixture into a jar.
+D) [substeps] You can find urid or black gram flour at indian grocery stores. It's also available at many online retailers.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['D)'],0.0,1.0,Mistral,0.0,0.2062852316854461
+hellaswag.val.9084,hellaswag,"[header] How to achieve pastel hair [title] Choose your bleach. [step] If your hair is not platinum blonde or white, you will need to bleach your hair. The lighter your hair, the better the pastel color will take.
+A) If your hair is platinum blonde, it will not show a lot of pastel at all. If your hair is white blonde, it will show any tint of pastel color! [title] Use shampoo and body wash.
+B) Do not dye your hair blonde, however, or you may dye the strands. You will need to get your hair bleached if you want a pale look.
+C) However, light blonde hair tends to be bleached out. Look for cakeboards, which hold up better to bleached hair than wavy hair, but were dyed very differently.
+D) If this is your first time bleaching your hair, start with a bleach kit. The kit contains dye and peroxide to bleach your hair.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['D)'],0.0,1.0,Mistral,0.0,0.193294046477746
+hellaswag.val.9204,hellaswag,"[header] How to use a foot scraper [title] Select a foot scraper. [step] There are many types of foot scrapers available that you may want to check out. While the most common is made with a plastic or wood handle and features a double-sided scraper, they also come in clay, glass, metal or electric forms.
+A) Sliding the foot scraper along the top of your shoe to get a feel for how it works will save you time and sweat in the long run, but may not be as efficient. Be sure to refer to manufacturers' photos to get a good idea of the ideal scraper.
+B) Decide which type will make it easiest for you to pamper those beautiful feet. [substeps] Most foot scrapers have one side that is rougher than the other to help remove corns or thicker calluses.
+C) [substeps] Small hand scrapers are designed to work with very small areas, such as the pads or the toes. Others are made of plastic and can be mounted to your toe like a pair of scissors or a saw.
+D) [substeps] Clay foot scrapers are sometimes referred to as "" floor scrapers. "" these feet prevent the bottom layer of dirt from coming into contact with the surface of the top layer of dirt.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['B)'],0.0,1.0,Mistral,0.0,0.2096076408873557
+hellaswag.val.9222,hellaswag,"[header] How to sew cloth napkins for everyday use [title] Use 100 percent cotton. [step] If you are on a budget, you can buy cotton curtains or cotton sheets and use them. Just make sure you wash them in hot water and dry in the dryer.
+A) [title] Use 4-5½ squares of sewing tape. [step] Twice each side of fabric at about 1/2 inch intervals, fold it in half lengthwise.
+B) [title] Wash your fabrics only when made from wool. [step] Wool is a soft fabric, rather than synthetic.
+C) Very important! [title] Prewash the fabric and dry in the dryer (since you should always be drying napkins in a dryer to kill all the germs that can accumulate on them). [step] Press the fabric to remove any wrinkles.
+D) Linen curtains are made from cotton and you can steam dryer sheets later to dry them for starchy everyday use. [substeps] Cotton is one of the most expensive fabrics in your wardrobe and it needs washing more often than cotton, flannel and polyester.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['C)'],0.0,1.0,Mistral,0.0,0.1403035318357223
+hellaswag.val.9267,hellaswag,"[header] How to make up a good excuse for your homework not being finished [title] Blame technology. [step] One of the easiest and most believable excuses is simply blaming technology. You can say your computer crashed, your printer broke, your internet was down, or any number of problems.
+A) Your excuses will hardly seem believable. [substeps] This doesn't mean you are lying, just only that you don't have all the details of how your computer ran at the time of the accident.
+B) It may also be more believable if you are fully aware that you may be flying at high speed on a plane and need someone to give you traffic report. Your problem might be your laptop failing to charge after a long flight.
+C) The simplest one to have in a classroom is to blame you entire classroom, not just lab. If you can think of yourself as the victim, why not blame it on technology.
+D) Most people, your teacher included, have experienced setbacks due to technological problems. [substeps] This is a great excuse if you had a paper you needed to type and print.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['D)'],0.0,1.0,Mistral,0.0,0.1092651405814536
+hellaswag.val.9291,hellaswag,"[header] How to bathe a young child [title] Fill the tub with warm water. [step] Fill the tub about a quarter full. They don't use that much water, and unless they are soiled with dirt and grime, they really don't need that much.
+A) If you have a dishwasher, fill it to about the length and depth that they need to bathe. [title] Add a few drops of baby shampoo to the water.
+B) You don't need to just fill the tub only halfway full. Fill the other half with very warm water, if you can.
+C) Make sure the water is not too hot or cold. To match the child's preference, have the child stick his/her hand in some lukewarm water, and ask them if they want it warmer.
+D) [title] Add a little deicer water to get them used to the feeling of the water. [step] Add more or less water depending on their needs.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['C)'],0.0,1.0,Mistral,0.0,0.1760842631856221
+hellaswag.val.9320,hellaswag,"[header] How to make a vegan pizza [title] In a bowl combine 1/2 c flour with the yeast, sugar and salt. [step] Warm the water and oil and add it to the dry mixture. Do not add the water when it is too hot! Warm to the touch is perfect.
+A) [title] In a separate bowl combine four parts canola oil (a 2 cup dish usually works great), powdered sugar, and kosher salt. [step] There is no need to boil; there is the possibility that the kosher salt will upset the rice, or mold the rice too thickly and break it into big pieces.
+B) [title] If you want your pizza to have a sour or slightly chewy crust, you can use whole wheat bread instead of just bread, but butter isn't as effective. [step] A small amount of butter is fine.
+C) [title] Sauté the yeast and water for about five minutes. [step] Once the yeast has cooked up, add in the salt and ground pepper.
+D) [title] The dough should be about the consistency of pancake batter. [step] Stir in the last 1/2 c flour.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['D)'],0.0,1.0,Mistral,0.0,0.1600114100583515
+hellaswag.val.9381,hellaswag,"[header] How to make a banana and honey facial mask [title] Create the mask mixture. [step] Break a ripe banana up into small pieces, and mash it in a bowl with a spoon or fork until all the lumps are smoothed out. Mix in 1 teaspoon of honey, and 1 teaspoon of lemon juice.
+A) [substeps] If the mask has a lemon peel, use this instead. [title] Rinse the banana and mash it in a blender.
+B) Stir all of the ingredients until the are combined completely. [substeps] The banana provides nutrients for the skin, the honey provides moisture, and the lemon juice acts as a natural astringent and exfoliate.
+C) Put the banana chunks into a spray bottle, and spray it on your face. Let your face soak in the mixture for 20 minutes to achieve the health benefits of this mask.
+D) Your mask should feel like mashed fruit. [substeps] Honey is rich in suet and has antibacterial properties.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['B)'],0.0,1.0,Mistral,0.0,0.1918028933160868
+hellaswag.val.9394,hellaswag,"[header] How to apply matte makeup [title] Wash and moisturize your face. [step] Before you start applying your makeup, make sure that your face is clean and well-moisturized. Moisturizing your face well will help to ensure that your makeup looks even and does not flake off.
+A) Pat your face dry with a towel, and then exfoliate your face with a facial brush. Wash and moisturize your face twice a day and at night, until your skin is clean and fresh.
+B) Your face should also be well-moisturized before you start applying your makeup, in order to avoid cracking and/or breaking your skin. [substeps] Consider applying a primer to your face to even out your skin tone.
+C) [substeps] Wash your face using a gentle cleanser and some lukewarm water. Do not scrub or exfoliate your skin.
+D) [substeps] Use a gentle cleanser as opposed to cleansing your face. A gentle cleanser will help flush out your bacteria.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['C)'],0.0,1.0,Mistral,0.0,0.1762190977040867
+hellaswag.val.9442,hellaswag,"[header] How to keep a friend [title] Loosen up. [step] Don't hold on to grudges and give your friends the benefit of the doubt. Don't assume that your friend is trying to spite you or doesn't care about your relationship.
+A) The key to successfully maintaining a friendship is accepting that each person has flaws. [substeps] Remember that some friends have their strengths, but other people have weaknesses too.
+B) The first step towards managing your relationship is relaxed. [substeps] Breathing deeply and slowly works as well, but in doing so is not as simple as regulating your breathing.
+C) When they do something wrong, give them a hard time. Though you may not know why they did it, you will be able to find patterns.
+D) Consider that your friends have their own lives and that their schedules may change on the spur of the moment. [substeps] Give your friend time to explain herself or let her know directly how you're feeling.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['D)'],0.0,1.0,Mistral,0.0,0.1157145197829525
+hellaswag.val.9490,hellaswag,"[header] How to afford daycare [title] Start looking for child care options early. [step] If you're looking for fall daycare options, start looking in the summer before spots fill up at more affordable care centers. If you have just learned that you're expecting, begin budgeting, educating yourself about personal finances, and reducing your other household expenses immediately.
+A) [substeps] If you're not yet ready to pick up your kids, consider hiring a worker at your local nursing home to work on getting them to preschool. [title] Work out your schedules to meet your needs and make sure that you're getting enough sleep.
+B) [substeps] It's a good idea to start working on child care within the first year of the baby's arrival in your household. If possible, work closely with your partner to get the child's finances in order.
+C) You'll find that the more time you give yourself to plan and save, more affordable care options will be available. [substeps] Look online for nearby daycare centers.
+D) [substeps] A high-quality pediatric daycare program will work best with low-income children. If you live nearby, look for a private daycare that has facilities designed for families with more than one child.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['C)'],0.0,1.0,Mistral,0.0,0.1334578710659315
+hellaswag.val.9496,hellaswag,"[header] How to grow a beard [title] Shave regularly until your facial hair comes in evenly. [step] The worst way to grow a beard is to just stop shaving, or to never start. This results in patchy, uneven, and thin beards that just flat-out won't look good on your face.
+A) If you're a guy who likes to get his beard trimmed every other day, shaving every morning after a shower won't be enough time. [substeps] By shaving every day, your beard will be longer and the thickness will decrease.
+B) So trim your hair about every 5 to 6 months. [substeps] If you always start shaving after meals or when you bathe, in the shower, or just before bed, it will slow down your growth as you age.
+C) If you do get what you're looking for when you shave off-skin, that's okay: you can restart shaving as you go. [substeps] For some men, beard trims are more problematic, and can clash easily with either bald or trimmed beards.
+D) If your facial hair isn't growing in evenly all around your face, keep shaving regularly, and be patient until it does. [substeps] If you're not sure how evenly your facial hair is growing in, shave your entire face and look for stubble.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['D)'],0.0,1.0,Mistral,0.0,0.1499833156694347
+hellaswag.val.9653,hellaswag,"[header] How to react when your child ignores you [title] Take some deep breaths. [step] When your child ignores you, you might feel intensely annoyed, angry and/or stressed. If you feel this way, take some deep breaths in through the nose and exhale slowly through your mouth until you feel calm again and ready to address the situation.
+A) This feeling of anger and pent up physical tension can be extremely hurtful and can be very harmful. Stop yourself or the child and count to ten to calm yourself and ease your anxieties.
+B) [substeps] If you feel anxious, take a few deep breaths and count to five. If your child acts impatient and uncommunicative, take some deep breaths through your nose and exhale slowly through your mouth.
+C) [substeps] If you are having trouble breathing while your child yells at you or insults you or is barely able to understand your words, take some deep breaths and ask your child for help. [title] Address your concerns by talking to your child.
+D) [title] Walk away if you need a timeout. [step] Sometimes, deep breaths may not be enough.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['D)'],0.0,1.0,Mistral,0.0,0.1646772606785314
+hellaswag.val.9763,hellaswag,"[header] How to conduct a memorial service [title] Get help planning the memorial service. [step] The death of a loved one is a difficult time and planning a memorial service can be a daunting task. You don't have to go it alone! Enlist the help of friends and loved ones with the planning and preparations right from the beginning, and consider hiring outside help if needed.
+A) Just because an elderly person has died doesn't mean they'll be forgotten. They will still be remembered no matter what you do when the time comes.
+B) [substeps] Most houses of worship have people on staff who can give guidance in this process. Funeral directors will also help, but will charge for their services.
+C) [substeps] In any event, make sure that you contact your local memorial service center early so that the time frame is set. This may seem like too much time, but asking about a final date and time space beforehand can eliminate waiting time.
+D) [substeps] Make sure you have trusted the permission of your friends and family for the memorial service to be appropriate. Talk to any doctors, nurses, and aides who will be attending the memorial service.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['B)'],0.0,1.0,Mistral,0.0,0.1538123821584502
+hellaswag.val.9814,hellaswag,"[header] How to apply matte liquid lipstick [title] Exfoliate your lips. [step] It's essential to start with smooth lips when you plan to wear a matte lipstick. You can buy a lip scrub, make your own, or simply use a washcloth or toothbrush to slough off dry or dead skin.
+A) [substeps] The softer you are with your lips, the lipstick will last longer, and the longer it will last, the stronger your lipstick will be. If you haven't exfoliated your lips before, there's not much use in trying.
+B) Apply the balm after a few minutes. The lip scrub will help remove dead skin cells from your lips if you have any on.
+C) Consider having to exfoliate before you apply matte color! [substeps] Lip scrubs can be purchased at most drugstores or beauty-supply stores. Do not exfoliate too much or apply more than 115-120 milligrams per day! [title] Avoid moisturizing.
+D) Pat your lips dry with a towel when you're done. [substeps] For a homemade lip scrub, mix together 1 tablespoon (15 ml) of honey and 1 tablespoon (12.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['\nA'],['D)'],0.0,1.0,Mistral,0.0,0.1483532223537985
+hellaswag.val.9819,hellaswag,"[header] How to fix a marriage [title] Write down how you feel. [step] While you might want to dive into the issues and what is wrong in your marriage, you won't really be able to know this until you speak with your partner. You should first identify how you feel and then why you feel that way.
+A) Tell your partner the reasons you feel that you can talk them over. [substeps] For example, you might say something like, "" i feel..."" it will likely be the last thing your partner hears and would be painful for them, if it didn't happen at some point.
+B) Common ways of thinking are : [substeps] "" i love you and i'm concerned that this relationship isn't working out. "" "" i'm worried we're not doing anything right.
+C) [substeps] Hopefully, your loved one knows your own reasons for feeling off. That may make it easier to spot errors and come to an agreement on a solution.
+D) Write down the feeling (angry, distant, hurt, etc. ) and then attribute the feeling to a pattern of interacting (you don't talk with your spouse about work anymore, you stopped date night, etc.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['D)'],0.0,1.0,Mistral,0.0,0.1285611305337642
+hellaswag.val.9889,hellaswag,"[header] How to detangle hair without pain [title] Check for dryness. [step] Before you attempt to take out any tangles, make sure your hair is not severely dry. This will make it less painful when you are actually taking the knots out.
+A) Wet hair tends to dry very quickly and can cause less hair damage. [substeps] If the oil in your hair helps to detangle it while you're detangling it, hold it over a sink or tub and then gently pull the roots and tips of your hair downward to remove as much oil as possible.
+B) Run your fingers through your hair to ensure that it is not too damp and that it is looking sleek. [substeps] Normal hair can feel rough or lifeless if it is over-dry.
+C) [title] Separate the hair completely if you have it tied up and leave it free. [step] Attempt to free any loose hairs from a tangled clump.
+D) Run your fingers through your hair to see if it's slightly sticky to the touch. If it is, try rubbing some old hair conditioner into it.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['C)'],0.0,1.0,Mistral,0.0,0.1944863767660137
+mbpp.dev.210,mbpp,Write a function to concatenate each element of tuple by the delimiter.,"['Here is a function that concatenates each element of a tuple by a delimiter:\n\n```python\ndef concat_tuple_by_delimiter(tuple_data, delimiter):\n    """"""\n    This function concatenates each element of a tuple by a delimiter.\n    :param tuple_data: tuple data to concatenate\n    :param delimiter: delimiter to use between elements\n    :return: concatenated string\n    """"""\n    # Use the join method to concatenate each element of the tuple\n    # by the delimiter\n    return tuple(str(elem) + delimiter for elem in tuple_data)\n```\n\nHere is an example of how you can use this function:\n\n```python\n# Define a tuple with some data\nmy_tuple = (""apple"", ""banana"", ""cherry"")\n\n# Define the delimiter to use between elements\ndelimiter = "", ""\n\n# Call the function to concatenate the elements of the tuple\nresult = concat_tuple_by_delimiter(my_tuple, delimiter)\n\n# Print the result\nprint(result)\n```\n\nThis will output the following string:\n\n```\napple, banana, cherry\n```']","['Sure, here is a Python function that concatenates each element of a tuple of strings by a specified delimiter:\n\n```python\ndef concatenate_tuple(tup, delimiter):\n    """"""\n    Concatenates each element of a tuple of strings by a specified delimiter.\n\n    Parameters:\n    tup (tuple): A tuple of strings.\n    delimiter (str): The delimiter to use for concatenation.\n\n    Returns:\n    str: The concatenated string.\n    """"""\n    return delimiter.join(tup)\n```\n\nHere\'s an example of how to use this function:\n\n```python\n>>> tuple_of_strings = (""hello"", ""world"", ""from"", ""Python"")\n>>> delimiter = "" ""\n>>> concatenated_string = concatenate_tuple(tuple_of_strings, delimiter)\n>>> print(concatenated_string)\nhello world from Python\n```\n\nIn this example, the `tuple_of_strings` variable is a tuple containing four strings. The `delimiter` variable is a string containing a single space character. The `concatenate_tuple` function takes these two arguments and returns a concatenated string, which is then printed to the console.']",0.0,1.0,Mistral,0.0,0.18901396222382
+mbpp.dev.294,mbpp,Write a python function to find the difference between largest and smallest value in a given list.,"['Here is a Python function that finds the difference between the largest and smallest value in a given list:\n\n```python\ndef find_difference(lst):\n    if not lst:\n        return None\n    else:\n        max_val = max(lst)\n        min_val = min(lst)\n        return max_val - min_val\n```\n\nThis function takes a list as an input and returns the difference between the maximum and minimum values in the list. If the list is empty, the function returns `None`.\n\nHere\'s an example of how you can use this function:\n\n```python\nnumbers = [5, 12, 16, 10, 22, 8]\n\ndifference = find_difference(numbers)\n\nprint(f""The difference between the largest and smallest value in the list is: {difference}"")\n```\n\nThis will output:\n\n```\nThe difference between the largest and smallest value in the list is: 12\n```']","['Here is a simple Python function that takes a list of numbers as input and returns the difference between the largest and smallest values in the list:\n\n```python\ndef find_difference(numbers):\n    return max(numbers) - min(numbers)\n```\n\nYou can use this function like so:\n\n```python\nnumbers = [5, 10, 15, 20, 25]\nprint(find_difference(numbers))  # Output: 20\n```\n\nThis function first finds the maximum and minimum values in the list using the built-in `max()` and `min()` functions, respectively. It then returns the result of subtracting the minimum from the maximum.']",0.0,1.0,Mistral,0.0,0.2041902827180202
+mbpp.dev.77,mbpp,Write a function to calculate whether the matrix is a magic square.,"['A magic square is a square matrix where each row, column, and diagonal contains all the unique numbers from 1 to n^2, where n is the size of the square. Here is a function that checks whether a given matrix is a magic square:\n\n```python\ndef is_magic_square(matrix):\n    n = len(matrix)\n    # Check if the matrix is a square\n    if len(matrix[0]) != n or len(matrix) != n:\n        return False\n    # Create a set to store the numbers in the matrix\n    num_set = set()\n    # Check each element in the matrix\n    for row in matrix:\n        for elem in row:\n            # Check if the element is an integer and in the range 1 to n^2\n            if not isinstance(elem, int) or elem < 1 or elem > n**2:\n                return False\n            # Add the element to the set\n            num_set.add(elem)\n    # Check if the set contains all the integers from 1 to n^2\n    if len(num_set) != (n**2 + 1):\n        return False\n    # Check the rows, columns, and diagonals\n    for i in range(n):\n        row_set = set(matrix[i])\n        col_set = set(matrix[j][i] for j in range(n))\n        diag1_set = set(matrix[i][i] for i in range(n))\n        diag2_set = set(matrix[i][n-i-1] for i in range(n))\n        if row_set != num_set or col_set != num_set or diag1_set != num_set or diag2_set != num_set:\n            return False\n    return True\n```\n\nThis function takes a matrix as input and returns `True` if the matrix is a magic square and `False` otherwise. The function first checks if the matrix is a square, then checks if each element in the matrix is an integer in the range 1 to n^2. It then checks if the set of all the elements in the matrix contains all the integers from 1 to n^2. Finally, it checks the rows, columns, and diagonals of the matrix to see if they contain all the unique numbers from 1 to n^2.']","[""A magic square is a square grid filled with distinct numbers in such a way that the sum of the numbers in each row, column, and diagonal is the same. In order to check if a given matrix is a magic square, we need to calculate the sum of the elements in the first row, and then check if the sums of the elements in all other rows, columns, and diagonals are equal to this sum. Here's a function that does this in Python:\n```\ndef is_magic_square(matrix):\n    # Calculate the sum of the elements in the first row\n    sum_row = sum(matrix[0])\n\n    # Check if the sums of the elements in all other rows, columns, and diagonals are equal to this sum\n    for row in matrix:\n        if sum(row) != sum_row:\n            return False\n\n    for col in zip(*matrix):\n        if sum(col) != sum_row:\n            return False\n\n    if sum([matrix[i][i] for i in range(len(matrix))]) != sum_row or sum([matrix[i][len(matrix) - 1 - i] for i in range(len(matrix))]) != sum_row:\n        return False\n\n    return True\n```\nThis function takes as input a 2D list `matrix` representing the square grid of numbers, and returns `True` if the matrix is a magic square, and `False` otherwise.\n\nIt first calculates the sum of the elements in the first row using the `sum` function. Then, it checks if the sums of the elements in all other rows, columns, and diagonals are equal to this sum. It does this by iterating over the rows and columns of the matrix, and using list comprehension to calculate the sums of the elements in the two diagonals. If any of these sums are not equal to the sum of the elements in the first row, the function immediately returns `False`. If all the sums are equal, the function returns `True`.\n\nHere's an example of how you can use this function:\n```\nmatrix = [[4, 9, 2], [3, 5, 7], [8, 1, 6]]\nprint(is_magic_square(matrix))  # Output: True\n```\nThis will print `True`, indicating that the matrix is a magic square.\n\nNote that this function assumes that the input matrix is a square grid (i.e., has the same number of rows and columns), and that it contains only distinct numbers. If the input matrix does not meet these requirements, the function may not work correctly.""]",0.0,1.0,Mistral,0.0,0.1693396056297241
+mmlu-high-school-chemistry.val.62,mmlu-high-school-chemistry,"Please answer with the letter of the correct answer.
+
+What is the ionization constant, Ka, for a weak monoprotic acid if a 0.060 molar solution has a pH of 2.0?
+A) 2.0 × 10^-1
+B) 1.7 × 10^-1
+C) 2.0 × 10^-3
+D) 5.0 × 10^-3
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation. Answer:",['\nA'],['\nC'],0.0,1.0,Mistral,0.0,0.1978432271274341
+mmlu-professional-law.val.1201,mmlu-professional-law,"Please answer with the letter of the correct answer.
+
+A store published the following advertisement in a local newspaper on Monday, March 12:""8 Brand New COWBOY HATS Beaver Felt,selling for $72. 50 . . . out they go . . . Sat. March 17,Each. . . $5. 1 Navajo Turquoise Necklace . . . worth $125, now selling for $40. ""FIRST COME, FIRST SERVED""On the following Saturday, a man was the first person to arrive at Store and demanded the necklace. The store clerk refused to sell it to him, because it was a ""house rule"" that the necklace was intended for women only. If the man brings suit against the store for its refusal to sell him the necklace, the man will
+A) win, because it is immaterial whether the man was the first customer to appear at the store to purchase the necklace.
+B) lose, because the man did not notii' the store in writing that he intended to accept the offer.
+C) win, because the advertisement should be construed as a binding offer.
+D) lose, because the advertisement was intended only as an invitation to make an offer.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation. Answer:",['\nA'],['\nC'],0.0,1.0,Mistral,0.0,0.1994584654307492
+mmlu-professional-law.val.269,mmlu-professional-law,"Please answer with the letter of the correct answer.
+
+A landlord leased a commercial building to a tenant for five years. Rent was payable on the first day of each month, and the landlord retained the right to terminate the lease if the tenant defaulted. The lease term ended 18 months ago. However, the tenant has stayed in possession of the building and has continued to pay the rent on time. The landlord has continued to accept the rent. The fair rental value of the building is now substantially more than what the tenant has been paying, and the landlord recently found a third party who will pay the higher rent. When the tenant paid the rent six weeks ago, the landlord accepted paid the rent six weeks ago, the landlord accepted the rent but told the tenant in writing that she had to vacate at the end of the month. The tenant, who is still in possession of the building, has informed the landlord that she does not want to move and is willing to pay the current fair rental value. The landlord has asked his lawyer for advice regarding the right to possession. Who should the lawyer say is entitled to possession?
+A) The tenant, because she has stated that she is willing to pay the current fair rental value.
+B) The landlord, because he gave proper notice to terminate the tenancy.
+C) The landlord, because he retained the right to reenter.
+D) The tenant, because the landlord has not shown good cause to terminate the tenancy.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation. Answer:",['\nA'],['B)'],0.0,1.0,Mistral,0.0,0.2016261251503852
+winogrande.dev.1143,winogrande,"My teeth hurt more after eating the cake than the pie because the _ was sweeter tasting.
+A) pie
+B) cake
+Print only a single choice  from ""A"" or ""B"" without explanation. Answer:",['A)'],['B)'],0.0,1.0,Mistral,0.0,0.1813039044412597
+winogrande.dev.1199,winogrande,"Laura never feared anything like Erin because _ had a very strong and very powerful mind.
+A) Erin
+B) Laura
+Print only a single choice  from ""A"" or ""B"" without explanation. Answer:",['A)'],['B)'],0.0,1.0,Mistral,0.0,0.2000491223783269
+winogrande.dev.193,winogrande,"The maid took away a cozy blanket from Lawrence but not Nick because _ was very cold.
+A) Lawrence
+B) Nick
+Print only a single choice  from ""A"" or ""B"" without explanation. Answer:",['A)'],['B)'],0.0,1.0,Mistral,0.0,0.1376022711055165
+winogrande.dev.303,winogrande,"The hotline was staffed by Christine when Tanya called in because _ was a volunteer.
+A) Tanya
+B) Christine
+Print only a single choice  from ""A"" or ""B"" without explanation. Answer:",['A)'],['B)'],0.0,1.0,Mistral,0.0,0.1857740594709514
+winogrande.dev.624,winogrande,"My mom didn't fit the shape into the painting, because the _ was too awkward.
+A) painting
+B) shape
+Print only a single choice  from ""A"" or ""B"" without explanation. Answer:",['A)'],['B)'],0.0,1.0,Mistral,0.0,0.2080149206901307
+winogrande.dev.660,winogrande,"I was wearing wool socks when I went to try on my new boots but I couldn't get them on because the _ were too small.
+A) socks
+B) boots
+Print only a single choice  from ""A"" or ""B"" without explanation. Answer:",['A)'],['B)'],0.0,1.0,Mistral,0.0,0.1432523370057491
+winogrande.dev.806,winogrande,"We set up the treasure hunt, but the treasure chest was found easily on the path because the _ was short.
+A) chest
+B) path
+Print only a single choice  from ""A"" or ""B"" without explanation. Answer:",['A)'],['B)'],0.0,1.0,Mistral,0.0,0.1798065340006319
+winogrande.dev.83,winogrande,"The filter in the living room needed to be changed more often than the one in the bedroom because the _ was dirtier.
+A) bedroom
+B) living room
+Print only a single choice  from ""A"" or ""B"" without explanation. Answer:",['A)'],['B)'],0.0,1.0,Mistral,0.0,0.2057025049934132
+winogrande.dev.843,winogrande,"The teacher asked for the homework. Elena played games the night before and Tanya did not, so _ got an F.
+A) Tanya
+B) Elena
+Print only a single choice  from ""A"" or ""B"" without explanation. Answer:",['\nA'],['B)'],0.0,1.0,Mistral,0.0,0.1344664953150318
+winogrande.dev.991,winogrande,"The assertive commander told the privates to change their boots but not their shirts because the _ were disgusting.
+A) shirts
+B) boots
+Print only a single choice  from ""A"" or ""B"" without explanation. Answer:",['A)'],['B)'],0.0,1.0,Mistral,0.0,0.1847750315395236

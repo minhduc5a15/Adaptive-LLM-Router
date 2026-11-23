@@ -1,0 +1,313 @@
+﻿sample_id,eval_name,prompt_text,mistral_response,mixtral_response,small_score,large_score,router_selected_model,selected_score,selected_probability
+hellaswag.val.3272,hellaswag,"[header] How to apply false eyelashes [title] Size the lashes. [step] Before gluing the lashes on, you will need to make sure they are not too wide for your eye. Hold the lash strips up against your eyelid, and trim them down on the sides if necessary.
+A) [substeps] If the lashes are too long for your personal taste, consider trimming the individual lashes down to achieve a more natural look. Lashes should be longer toward the outer corner of the eye.
+B) Also, double check that the end of the lash strips do not touch your eyelid line. If they do, then they may give you mistaken lashes.
+C) [substeps] If you do not like the length of your lashes, opt for a couple of inches for the most dramatic look. You can use thick lashes that you already have.
+D) Tape the fake lashes to the front of your eye using eyelash glue. Move your lashes down along your eyelid to even them out.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['D)'],1.0,0.0,Mistral,1.0,0.1548183978588534
+hellaswag.val.3912,hellaswag,"[header] How to set up a wedding escort card table [title] Choose decorations that complement your wedding style. [step] Include different items on the escort card table that reflect your theme, like pots of flowers, glitter on the tablecloth, or ornate picture frames. Create different layers on the table and cluster your cards and items together for an interesting display.
+A) Use candles or other lighting to brighten up your table. [substeps] Fill in open spots on the table with flowers, ivy, or other botanicals.
+B) [title] Purchase a larger, fancier table. [step] Include a ton of trimmings on the table to make it more interesting for guests to see the fancier items.
+C) [substeps] This project also works well with formal wedding outfits. Add plastic floor lamps or built in lanterns for additional color.
+D) [substeps] Find a custom tablecloth that you can easily cut using scissors. Many people like to use ordinary table cloths but if you'd rather make your own, use latex papier mache for an easy-to-use option.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['Print only'],1.0,0.0,Mistral,1.0,0.1406711554884832
+hellaswag.val.3922,hellaswag,"[header] How to make an oreo strawberry pie [title] Gather your ingredients. [title] Wash and cut strawberries into slices. [step] It does not matter how big or small the strawberries are they will all fit on the pie perfectly.
+A) [title] Second, place enough strawberries to evenly cover the whole pie crust. [step] You shouldn't be able to see any of the pie crust but if you do it's not the end of the world.
+B) [title] Squeeze gummy worm seeds onto red paste for the filling filling once the beetles are out. [title] Take the frozen strawberries back and pop them in a large garbage bag.
+C) [title] Heat milk or margarine until it boils. [title] Mix heavy cream, egg, cherry extract and butter.
+D) [title] Chop the strawberries into small pieces. [step] Use a knife to mash the strawberries together.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['D)'],1.0,0.0,Mistral,1.0,0.1901323066870845
+hellaswag.val.4130,hellaswag,"[header] How to select and buy jewish wedding rings [title] Search the internet for information about jewish wedding rings and bands. [step] Don't be afraid to take your time and decide carefully. Examine your married friends' hands when you're with them.
+A) If you start paying attention to people's jewish wedding ring designs, you will probably get a clearer idea of what you want. You might even ask them where they got their rings.
+B) You can create a custom design of images and drawings on your own. Some rings may be so tiny that you could have them printed on a sheet of paper and then hand ink them to the bride and groom if they ask you to.
+C) What's they wearing? What bands do they wear? What are their marks or patterns? [substeps] Get a good idea of what bands they like and which ones they wear. Go around the ring with a notecard or piece of tape and write your own findings.
+D) Notice how quickly their hands move without work or planning. Are your hands overly warm? Are they too cold to handle? [title] Don't spend too much time with your wedding rings.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['[header'],1.0,0.0,Mistral,1.0,0.151614227723758
+hellaswag.val.4379,hellaswag,"[header] How to keep hair from curling with humidity [title] Lock in moisture with conditioner. [step] Dry hair, especially curly hair, needs lots of moisture. This is because curly hair tends to be on the drier end of the spectrum compared to straight hair.
+A) If you have curly hair or textured hair, moisturizing is the key to preventing frizz when it's humid. [substeps] Choose a shampoo and conditioner that is made for curly hair.
+B) Set your hair loose with a spritz of water as needed. If it tends to curl less, wipe away the excess moisture with a silk scarf.
+C) Instead of styling damp hair, work in conditioner to restore moisture to your hair. [substeps] In severe weather, it's a good idea to mist your hair twice a day, once in the morning and once at night.
+D) As such, this may make your hair release moisture into the air instead of in wet curls. [substeps] Use a steam wand or mini-cooler to draw moisture from your hair, such as a hair dryer or a head dryer.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['B)'],1.0,0.0,Mistral,1.0,0.1998838185267094
+hellaswag.val.4394,hellaswag,"[header] How to make a pumpkin rainbow loom bracelet [title] Start from the very bottom of the loom. [step] Place one black band from the middle peg to the left peg going up. This will gradually turn into the part of the bracelet that holds the pumpkins together.
+A) [title] Place one black band from the middle peg to the right peg going up, overlapping the previous band. [step] This will form a "" v ""-like shape.
+B) When you reach the other end, proceed to the next peg on the other long side. [title] Trace your basic necklace shape onto the black band.
+C) [title] Cut a piece of black felt with a sharp edge. [step] The pointy end of the felt should fit over the black markings, but it doesn't hurt to choose a black color.
+D) [substeps] The canvas loom is easiest to work with. [title] Add a starting rope to the very top of the loom.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['D)'],1.0,0.0,Mistral,1.0,0.2021056844866707
+hellaswag.val.4510,hellaswag,"[header] How to make a smoky cheese ball [title] Shred the smoked cheese. [step] To begin making a classic smoky cheese ball, shred the 2 cups (473.17 ml) of smoked cheese. You can use either cheddar, swiss or gouda.
+A) Cheddar will give your cheese ball a sharper flavor, whereas swiss and gouda will make the cheese ball slightly milder. [title] Combine the cheeses and butter or margarine.
+B) You can also use rye, shredded fresh or cooked rye. [substeps] You can use any cheese you like as long as it has basic ingredients and looks delicious.
+C) For a more authentic taste, use 2 cups (473.17 ml) of cheese. [title] Use parmesan cheese in place of the smoked cheese.
+D) Throw your butcher's box away when you're done and set your work aside. [substeps] You'll need a chopping board and fork.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['Shred'],1.0,0.0,Mistral,1.0,0.1659430007670676
+hellaswag.val.4528,hellaswag,"[header] How to help a grieving spouse [title] Listen to your spouse. [step] Part of the grieving process is being able to talk about the deceased person and work through memories and feelings about that person. Be there for your spouse by listening to him or her talk about the deceased person.
+A) Don't discourage your spouse not to talk about the person. Your spouse should focus on the good memories and the things he or she loved about the person.
+B) Asking questions prompts you to clarify what was said, rather than arguing back. [substeps] Nod and make eye contact as your spouse hears you talk.
+C) You may hear a story, a memory, a thought, or both. Listening to the person may also help to help cheer him up.
+D) Answer as openly and honestly as you can. [substeps] You don't have to take on all of the talking and listening if you don't want to.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['Listen to'],1.0,0.0,Mistral,1.0,0.1821837034518854
+hellaswag.val.4964,hellaswag,"[header] How to gel your hair [title] Choose the right gel. [step] Hair gels are usually categorized by the thickness of the compound and the power of the hold. The color and the scent of hair gels generally doesn't make any difference in terms of how they work.
+A) Most gels are applied with the fingertips, but there are a few which are spray-on. Decide which is best for your style, or try out each one and see which you prefer.
+B) The array of gel dyes and products to choose from is limitless. [substeps] If you're working to highlight your hair, you'll want to avoid more conventional products.
+C) Gels can also open up your pores and fight fungus but these processes make hair more prone to grinding and breaking. [title] Look for products that are hypoallergenic.
+D) Try to choose gel with a weaker hold-a spray or gel without added dolbok, which will add some lubrication to your hair. Gel is less opaque when it comes to dry color than shaving gel, so gel that has the same texture as shaving gel will not work.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A'],['D)'],1.0,0.0,Mistral,1.0,0.1862631200816598
+hellaswag.val.5194,hellaswag,"[header] How to breed a horse [title] Calculate the financial cost of impregnating your horse. [step] Know that there is a considerable amount of cost involved with breeding a horse. There are fees for the stallion to breed with the mare, plus insurance costs to protect you should the mare kick out and damage the stallion, plus transport costs to get the mare to the stallion and back.
+A) Bear in mind that she may not become pregnant on the first attempt and so this may need to be repeated. [substeps] Instead of using a stallion, you can also opt for artificial insemination.
+B) Lamb run is a surprisingly affordable distance for large companies (generally horses looking for higher prices). Breeding a mare in western europe can cost anywhere from at least $2 , 000 and $20 , 000.
+C) In taking all this into account, in comparing horse breeding costs, it is wise to calculate any additional costs that you may incur with a mare. [substeps] To bring costs up, you can divide this amount by the estimated cost of breeding.
+D) Make sure you factor in full costs of labor in your calculations. You might also want to consider how much the mare may pay during labor and if you will need to provide insurance to ensure that labor is plentiful.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['B)'],1.0,0.0,Mistral,1.0,0.121392187628621
+hellaswag.val.5242,hellaswag,"[header] How to wrap a turban [title] Select your material. [step] It should be about 1.5 m by 0.75 m. A large, lightweight scarf works best.
+A) The bigger the material you use, the larger the turban will be, so choose accordingly. Also, thinner materials will be easier to handle.
+B) This is especially important for formal occasions when the dampness or moisture inside your turban will stop them from being able to work fully well. Whatever material the scarf is made of, it will need to be strong enough to prevent it from splitting or shrinking if not wrapped.
+C) You can wrap a scarf around a bottle cap or a wine bottle. Lightweight materials can be found at many craft stores as well as online.
+D) [title] Determine whether you want to wrap more tightly or loosely. [step] Wrap a turban around itself several times.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['\n['],1.0,0.0,Mistral,1.0,0.1927005910094326
+hellaswag.val.5410,hellaswag,"[header] How to use a bubble bar [title] Plan ahead. [step] Make sure you have enough time for a nice, long, relaxing bath. About twenty minutes should do.
+A) Bubble bars are luxurious, and not worth a quick, five minute bath. Save them for when you have time to take a longer bath and relax.
+B) [title] Buy five to seven-ounce packs of bubble bars. [step] If you buy these packs take some time to set a budget, at least one-and be aware of what you are going to charge because even a mid priced bubble bar costs around £ 2x.
+C) [title] Shower and change into your house clothes. [step] You might not plan to do this when it's evening, however.
+D) [title] Have to buy some bathmats. [step] Close the door and sit there for a while, then take off the mats.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['Print only'],1.0,0.0,Mistral,1.0,0.1968188246099757
+hellaswag.val.5569,hellaswag,"[header] How to shrink clothes [title] Read the labels on the garment. [step] Different fibers, like wool and cotton, have different ways of shrinking, so you will want to determine what the garment is made of before washing it. Wool, for example, is a delicate material and is very susceptible to shrinking in the dryer.
+A) Cotton, on the other hand, is tougher, and will need to be in the dryer at a higher setting. Silk will generally shrink about 8-10% in the wash.
+B) Cotton is more delicate and items made from cotton often require cleaning regularly. [title] Measure the length and width of your garment.
+C) Cotton and polyester are known fabrics that have different properties. [substeps] Select a fabric that you know will not shrink, as flat fabrics will shrink much faster.
+D) Cotton and other delicate fabrics may not shrink well in the dryer or wash the item too thoroughly. Check the label labels for the fabric you want to shrink.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['\n['],1.0,0.0,Mistral,1.0,0.1404318087312724
+hellaswag.val.5578,hellaswag,"[header] How to apply ice to relieve back pain [title] Prepare an ice pack. [step] If you are experiencing back pain and want to use an ice pack to relieve it, you can either make an ice pack or purchase one. From commercial packs to bags of frozen vegetables, any choice you make can help you alleviate discomfort and reduce inflammation.
+A) [substeps] You can purchase commercial ice packs specifically designed for the back at many pharmacies and medical supply stores. Make a slushy ice pack by pouring three cups (710 ml) of water and one cup (237 ml) of denatured alcohol in a large freezer bag.
+B) [substeps] Place a damp cloth between your non-injured shoulder. Place a band-aid over the affected area.
+C) Some good options include : [substeps] Ice pack designed for children or teenagers bags of frozen vegetables packages of frozen snacks or dairy commercial pack-specifically designed for children are available at most pharmacies, ice shops, and concession stands. [title] Place a bag of frozen vegetables in the ice pack.
+D) [substeps] If you'll be using an ice pack for pleasure, ask if it has a strap, be sure to buy one. Any strap will provide you with a good alternative to a towel and sock.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['Place a'],1.0,0.0,Mistral,1.0,0.1935080347282043
+hellaswag.val.5724,hellaswag,"[header] How to create an autumn inspired eye makeup look [title] Put eye primer around your entire eye lid. [title] Apply a copper color eye shadow on your upper as well as lower lash line. [title] Take a neutral brown shade and apply it along the lower lash line and up to your crease.
+A) [step] Blend the neutral shade on your crease with a blending brush. Using a fluffy brush soften everything out.
+B) [title] With a brush, smudge your eyelashes under slightly to create the illusion of thicker lashes. [title] Apply foundation and concealer over your waterline.
+C) [title] Apply a darker brown color within the eye shadow but add lines as you see fit. [title] Put on some black eyeliner on your upper lid.
+D) [title] Apply a burgundy eyeliner around your entire eyelid. [title] Apply a beige eye shadow across your lower lash line.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['B)'],1.0,0.0,Mistral,1.0,0.1136532570563901
+hellaswag.val.6172,hellaswag,"[header] How to blanch carrots [title] Wash the carrots. [step] Rinse them thoroughly under running water to remove dirt and other debris. [title] Peel the carrots.
+A) [step] Use a vegetable peeler to peel the outer skin. This will improve the taste and texture of the blanched carrots, and make them look more appealing.
+B) [step] Use either a wire paring knife or a sharp vegetable peeler. Use your fingers to carefully peel the carrots, being careful not to cut your fingers.
+C) [step] Use a vegetable peeler to remove the tender skin from the carrots. [title] Place the carrots in a bowl.
+D) [step] Use a vegetable peeler to remove any tough spots on the carrots, including the skin. [substeps] If you don't have a peeler, you can use a sharp knife or a paring knife.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['Use a'],1.0,0.0,Mistral,1.0,0.1859913118392341
+hellaswag.val.6739,hellaswag,"[header] How to make brown sauce [title] Cook the onion and carrot. [step] In a medium, heavy-bottomed saucepan, melt the butter over medium heat. Add the onion and carrot and cook for about eight minutes, stirring regularly, until the vegetables turn golden brown.
+A) [substeps] Espagnole sauce is a french mother sauce, meaning it can be used as a base to make a wide variety of other sauces. This particular base sauce is made with broth, roux, and other vegetables and spices for flavor.
+B) [title] Add the garlic, onion, thyme, and chili powder to the saucepan. [step] Bring the heat up to medium-high and cook for thirty seconds, or until slightly brown.
+C) Add the bell pepper and cook for a more complex sauce. [title] Mix in the tomatoes, tomatoes, chopped onion, and garlic.
+D) Stir in the garlic and cut into small pieces. Cook for five minutes, then turn the heat down to medium-low and cook for another eight minutes.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['C)'],1.0,0.0,Mistral,1.0,0.1840520526201831
+hellaswag.val.6768,hellaswag,"[header] How to make a ballet bun [title] Brush your hair free of tangles. [step] Get your hair straight and even, brushing it straight back as if you were putting it into a ponytail. A little water can help smooth things out and make your hair more manageable, if need be.
+A) [title] Pull your hair back into a ponytail, using a comb or brush to remove the bumps. [step] If necessary, spray the hair with a quick-drying hairspray.
+B) [title] If you have hair that's tangled or pulling down, tie it back in a high ponytail. [step] Be careful though-you can still keep pins out, since your hair will know what to look for.
+C) If you need to take your hair out of the bun, do so with a brush or comb. Then follow with a shower or shampoo to get rid of any knots.
+D) [title] Gather all of your hair into a low ponytail. [step] This will be the base of your bun.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['D)'],1.0,0.0,Mistral,1.0,0.1530300536580567
+hellaswag.val.6801,hellaswag,"[header] How to buy kitchen accessories [title] Know the model number of your appliance. [step] This can help you find the specific part (s) you need for your kitchen appliance (s). [substeps] Try looking inside a door of a major appliance or on the bottom of a counter-top appliance to find its model number.
+A) The number may be printed on an adhesive label. [title] Visit the manufacturer's website for your appliance.
+B) For example, if you install a sink, see if its model number is written below the handle that opens and closes. You may be able to find the model number under the bottom side of the appliance (above the armpit).
+C) You can also find information at www.iconic-technology hyperlink plus at the top-right of any door to find a model number. Enlarge your search criteria as necessary.
+D) That is generally 1-8888. [title] Narrow down your own search to possibly some smaller appliance size.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['\n['],1.0,0.0,Mistral,1.0,0.145230183546156
+hellaswag.val.6997,hellaswag,"[header] How to tie a never take it off bracelet [title] Gather your materials. [step] Before you begin wrapping your ntio bracelet, make sure that you have everything that you will need. Some items are optional.
+A) You will need : [substeps] Bracelet scissors clear nail polish (optional, for making the knot more permanent) separator rings (optional, for separating multiple ntio bracelets ) [title] Ask a friend to help you. [step] Tying on an ntio bracelet is not something you can easily do on your own.
+B) Here's what you'll need : [substeps] Special thread (for knot knots) from a traditional knot knot at the top of your ntio bracelet. With scissors or a small knife you can snip off a long strand at the tail end of the knot at the bottom of the knot to give your knot a more realistic appearance.
+C) If you already have your bind-cords, you will need to set up a magnetic working area to keep everything from falling off. You will need : [substeps] A spool of 2-ply cotton fishing line or thin nylon fishing line a foot pin [title] Cut your three concentric circles.
+D) [substeps] A long piece of colored ribbon 2-5 strips of heavy plastic wrap different sized cut outs scissors (optional) a knotted square of dark plastic. For ends you will need: a bobbin tie, which you can find at most craft stores or online.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['\nA'],['D)'],1.0,0.0,Mistral,1.0,0.1496495386781832
+hellaswag.val.7343,hellaswag,"[header] How to grow valerian [title] Purchase valerian seedlings or starts from a garden shop. [step] They will usually be in the herb section of the store. Valerian seeds can be finicky, so this is the best way to ensure you will have young plants for your garden.
+A) [title] Consider harvesting "" daughter "" or volunteer sections of the root system from older plants. [step] If valerian grows naturally in your area, you can usually find a number of young plants sprouting in the spring.
+B) [title] Cut between 20 and 30 inches (60 and 59 cm) of valerian root. [step] Do not cut larger ones than four or five feet long.
+C) You can obtain valerian seeds online or sell them for a price somewhere between $20 and $40. [title] Prepare two large pots with a wire lid.
+D) [substeps] Try looking for seeds that are difficult to care for in the herb section of the store. Some seeds may be tightly-packed, so check the soil to find a few.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['Prepare'],1.0,0.0,Mistral,1.0,0.1460419177008289
+hellaswag.val.7413,hellaswag,"[header] How to hire a house cleaning service [title] Decide what you want cleaned. [step] You may only choose to have the service tackle particularly tough spots in your home, such as the kitchen and main bathroom. Some families will want the house cleaned from top to bottom.
+A) You'll also need to decide whether you expect services that may go beyond standard cleanings, such as wiping down the baseboards or washing the windows. [substeps] Many services will not clean windows, as they don't want to create streaks or damage.
+B) [title] Ask friends, family, and colleagues about the pros and cons of hiring an in-home cleaner. [step] It is important that the process is covered by the laws set out in your state.
+C) Your home may require the service to redo, from fixing the floors to cleaning the living room and kitchen. [title] Decide how big or small you want the house to be.
+D) However, some families may charge between $50 and $200 each time they hire the service. [substeps] Explore your budget and check the interest rates for your services to get a good estimate of the work required.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['Decide'],1.0,0.0,Mistral,1.0,0.1582566535477255
+hellaswag.val.7497,hellaswag,"[header] How to wear a skinny scarf [title] Sling the scarf around your shoulder for a casual look. [step] If you want something more casual, wrap a skinny scarf once around your neck and then toss one end over your shoulder. Leave the other end hanging down the front.
+A) This makes for a cute style that can be worn for a casual get-together with friends. [title] Tie the scarf like a choker.
+B) Pull it forward to make sure it isn't dangling down too far. [substeps] If you are making a scarf for a date, go for a patterned, can-do, or button-up scarf, regardless of the color scheme.
+C) Then, drape the other end of the scarf around your neck so that it leaves a tail left hanging on either side of your body. Bring one end of the scarf over the top of your head and then loop the other end through an eye-hook loop or tightening nipple knot to draw the ends together.
+D) The scarf should also tuck back at the crown of your head. [substeps] Alternatively, keep the scarf loosely draped around your neck for a relaxed feel.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['[header'],1.0,0.0,Mistral,1.0,0.166775601080017
+hellaswag.val.7772,hellaswag,"[header] How to fight off a dog [title] Stay on your feet and shout for help. [step] If you let the dog jump on you or bring you to the ground, you'll be in a much weaker position and more likely to be seriously hurt. If you're in a city or residential neighborhood, call out for the dog's owner.
+A) If you're in the woods or a rural environment, you'll need to call out for any help you can get. [title] Place an object between yourself and the attacking dog.
+B) [title] Call out for help if a dog nips at your wrist. [step] If you have the option of fighting your dog, acting calmly and without aggression will help.
+C) If you are near a phone or an emergency room, call for help from the police. [title] Pull as far away from the dog as possible.
+D) This way, the attacker might not be able to strike the dog if it is hurt, and the dog will be off your back. [substeps] If possible, run behind a building to minimize the possibility of injury.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['D)'],1.0,0.0,Mistral,1.0,0.1452776134894358
+hellaswag.val.7857,hellaswag,"[header] How to give a foot massage [title] Rub the top of the foot with your thumbs. [step] Start at the tip of the toe and move slowly up to their ankle. Move back down their foot, starting from their ankle.
+A) Apply firm pressure with your thumbs, cupping their foot in your hands. [substeps] Move up and down their foot two to three times.
+B) Once you reach their toes, move back down to their ankle. [substeps] Spreading out their toes may make the massage a bit harder if your hands are on their skin.
+C) Once you reach the ankle, you can move your thumbs in a circular motion from the top of the foot up past their wrist. [substeps] You may also apply pressure with your thumb and take a gentle tug.
+D) [title] Move up their leg, placing your fingers on their calf, at the ankle. [step] Wait a bit or for a minute before moving up their foot, to allow them some wiggle room.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['D)'],1.0,0.0,Mistral,1.0,0.112457170174177
+hellaswag.val.8379,hellaswag,"[header] How to remove a bandage from a baby [title] Choose a substance to assist in removal. [step] There are many different substances you can use to make an adhesive bandage come off more easily. These substances lubricate the bandage and/or dissolve the adhesive.
+A) Choose one you have around the house, or purchase one. The following have been found to be effective : [substeps] Vaseline baby oil vegetable oil salt water [title] Hold the baby so the bandaged area is stationary and accessible.
+B) Rub some adhesive into the bandage before taking it off. [substeps] There are over-the-counter solutions that you can use to be less crowded.
+C) You can buy adhesive bandages online or through your local pharmacy. [title] Place an adhesive bandage over the wound.
+D) Stick a spoon in the area where the adhesive has come into contact with the bandage. Alternatively, use a cotton ball or a cotton swab to cover the area with the adhesive.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['B)'],1.0,0.0,Mistral,1.0,0.1538784118138274
+hellaswag.val.8543,hellaswag,"[header] How to deal with cockatiel night frights [title] Wait until your bird is calm to handle it. [step] After a night fright, your cockatiel might be curled up in a corner of their cage with its crest standing directly up. It might also hiss loudly or shake its head around in repetitive motions.
+A) These are signs that your bird is very scared and that you'll need to wait before handling it. [substeps] If you reach in to grab your bird before it's fully calm, you risk scaring it even more or causing additional injuries.
+B) It might also start perched on a wall behind your cockatiel's cage. [title] Consider other options for handling your cockatiel after it night fright.
+C) These feelings are normal and natural for your cockatiel. You may want to visit your local pet store and buy dark curtains/blinds for your bird before exploring.
+D) Before you scoop your bird in a nesting box and tuck it in, wait until the following morning to approach the fearful bird. [substeps] This approach is best for cockatiels with a bad, or broken, beak, or unsightly beak.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['D)'],1.0,0.0,Mistral,1.0,0.1773360919105163
+hellaswag.val.8639,hellaswag,"[header] How to tie a hair bow [title] Choose your ribbon. [step] You may want to look for a ribbon that matches your outfit or has an interesting texture like velvet or a raised pattern. [title] Cut the ribbon.
+A) [step] To make a standard size bow, use about 12 inches of ribbon. If you'd like to make a smaller or larger bow, use less than 12 inches or a bit more than 12 inches of ribbon.
+B) [step] Cut it all the way around the bow. Be sure that the end lengths you cut vary the width of your tie holder.
+C) [step] Start at one end and cut all the way around to create a knot. This will keep both your hair and your bow in place as you tie the knot.
+D) [step] Take a sharp scissors and snip some of the ribbon. Make sure that the scissors are sharp and steady, and only cut the ribbon so that it is thick enough.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['\n['],1.0,0.0,Mistral,1.0,0.199973700805455
+hellaswag.val.8791,hellaswag,"[header] How to make a gin martini [title] Gather your tools and ingredients. [step] To mix this drink you will need a chilled cocktail shaker, a chilled cocktail glass, a cocktail spoon, a cocktail strainer, a jigger, chilled gin, chilled vermouth, plenty of ice, and an olive. [substeps] Measure out 4 small jiggers of gin.
+A) Measure out 1 small jigger of vermouth. [title] Place your ingredients in the shaker.
+B) You should use one shaker for you gin, and one for your olive. Pour in all the ingredients and stir everything together well with a cocktail spoon.
+C) They should be about the same size as straws, plus an extra extra if needed. Optionally add 1 teaspoon of salt in.
+D) Place the jiggers into a cocktail shaker and screw the lid on. [title] Measure and pour 2 ounces (120 ml) of gin in the shaker.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['D\n'],1.0,0.0,Mistral,1.0,0.1984977857407906
+hellaswag.val.8834,hellaswag,"[header] How to plan your own funeral [title] Make a list of your likes and dislikes. [step] Take out a pen and some paper and begin brainstorming ideas regarding your funeral. Write down whatever comes to mind, at least at first.
+A) You might include things that you've seen done at other funerals that you though worked well. [substeps] As you are sketching out ideas, pay attention to the intangibles as well.
+B) [title] Prepare for your funeral by creating a family obituary. [step] By visiting your funeral home to have them draw up a letter informing you what they wish to say, they can write the letter at bedtime.
+C) It might be something simple like the experience of sitting on the floor in front of a wall clock or getting the whole room to flood with the sound of ocean waves...whatever you think of. [title] Begin planning your funeral as soon as you are aware of it happening.
+D) Then, come up with ideas for different funeral traditions (including : [substeps] People from different backgrounds a place to put the ashes for the deceased. Did she like listening to her favorite music or watching a movie? People from different religions maybe.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['[header'],1.0,0.0,Mistral,1.0,0.1523451368133966
+hellaswag.val.8860,hellaswag,"[header] How to pan fry salmon [title] Heat your pan. [step] Place a 10 to 12-inch saute pan or skillet over medium heat. Drizzle a teaspoon of olive oil in the pan.
+A) The oil can keep the salmon from sticking. Heat your pan till you feel warmth coming off of the pan when you hold your hand about 4 inches above it.
+B) Place two panko breadcrumbs inside the pan for seasoning. Press the panko breadcrumbs into the pan using a spatula.
+C) Add your salmon and cook it over the heat until its hard. [substeps] Watch it closely as it cooks and check it occasionally.
+D) Place the salmon into the pan and fry them for 3-4 minutes. [substeps] Mushrooms brown well when cooked, giving the fish a juicy juicy skin.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['D)'],1.0,0.0,Mistral,1.0,0.2095473701975249
+hellaswag.val.8959,hellaswag,"[header] How to roll fondant [title] Work on a clean, flat surface. [step] In many cases this will be your counter top. A marble or wooden chopping board works well if your counter is irregular in shape or has trenches in it from grouting.
+A) Irregularities in your counter can make your fondant irregular when rolling. [substeps] Depending on the amount of fondant you're working with, you might only need a small area to work in.
+B) An alternative is a writing utensil such as a spatula to work with; this will give you a broad, flat surface to work on and also provides you a moist surface to work on. [title] Choose a cutting board for your fondant.
+C) The roughness of the stone can make the method easier. [title] Chop your fondant dough into fits about an inch smaller than your pie filling.
+D) [substeps] Use a 220 grit pitcotta grinder for a smooth bottom. Add buttercream or sealant to the bottom and in the corners to give your workbench a nicer, finishing finish.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['B)'],1.0,0.0,Mistral,1.0,0.155718846038305
+hellaswag.val.9134,hellaswag,"[header] How to create a facebook icon using photoshop [title] Open a new document. [step] You can choose any settings as preferred. Press ok when everything is set.
+A) Set the document to the following values : [substeps] Size : 500 x 500 resolution : 72 pixels/inch color mode: rgb color at 8 bit background contents: transparent [title] On tool options, select rounded rectangle tool. [title] Drag mouse on the editor pad to create a rounded rectangle image.
+B) Be sure to set the color that matches your image : [substeps] Cool-keep the background brown and take a dark cover. Cool on the background, and the background transparency will shine through; you can probably do this in the editing tutorial pane.
+C) [title] Click on messages in the pop-up window. [step] You'll be presented with a list of available accounts.
+D) [title] Open the' social' tab on the google photos window. [step] You'll find this panel on the bottom; click it to open a new account.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['B)'],1.0,0.0,Mistral,1.0,0.094954095487639
+hellaswag.val.9296,hellaswag,"[header] How to make a caesar drink [title] Select a glass. [step] Use a large glass, such as a goblet, highball, or pint glass. Basically, the glass should be able to easily hold 10 oz of liquid, or slightly more.
+A) [substeps] If you are planning on adding a lot of garnishes, you should account for that as well when you choose your glass. You may need a large glass with a heavy bottom just for stability if you want to add a ton of garnishes to the top of your drink.
+B) A decanter with a funnel under the underside would work just fine for a caesar. A glass with a squeeze spout will also work, but only with the stem facing the bottle.
+C) [substeps] You can get different kinds of drinks and styles. Evaluate the following tips for your caesar drink: try sashimi mushroom sauce, kombucha rosano, mojito, ripeno, etc.
+D) If you're serving a large group, you may be able to find a different serving size. [substeps] If you're serving a regular amount of people, have at least two smaller (maybe larger) glasses ready.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['Select a'],1.0,0.0,Mistral,1.0,0.1455017054296384
+hellaswag.val.9494,hellaswag,"[header] How to apply eyeshadow that lasts [title] Wash your face. [step] Starting with a clean and fresh face will make your makeup stand out more, help it last longer, and help prevent your makeup from clumping and flaking. Use your favorite gel or cream facial cleanser and lukewarm water.
+A) [substeps] Wet your face and pour some cleanser into your hands. Work the cleanser into a lather, and then gently massage it into your face for about 30 seconds using circular motions.
+B) Rub the cleanser in circular motions for 20 minutes before rinsing with warm water. [title] Apply your eyeliner to the crease of your eye.
+C) Tap your face with your fingers to get the excess off, then pat your face dry with a clean towel. [substeps] Do not splash water onto your face.
+D) Pat your face dry with a clean towel. [substeps] An eyeshadow primer also works just as well.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['B)'],1.0,0.0,Mistral,1.0,0.200198425295594
+hellaswag.val.9982,hellaswag,"[header] How to reset your fitbit [title] Plug your charging cable into your computer. [step] Use the usb ports on your computer to plug your fitbit charging cable into your computer. [title] Plug your fitbit tracker into the charging cable.
+A) [step] The charging cable is specifically designed to connect to your fitbit tracker. [title] Press and hold the button for 12 seconds.
+B) [step] The fitbit won't work for battery unless you have one, as it cannot charge the device, not including also your phone. [title] Power on your fitbit charger and turn on your device.
+C) [step] The fitbit tracker is a circular, gray thread on the top-right corner of your tracker. [title] Press and hold the "" f8 "" button.
+D) [step] The charging cable is portable and can be plugged into a computer by attaching an adapter to the charging cable. [substeps] Connect your fitbit charger to your computer using its charging cable.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",['A)'],['Connect your'],1.0,0.0,Mistral,1.0,0.2027299272541854
+mmlu-clinical-knowledge.val.202,mmlu-clinical-knowledge,"Please answer with the letter of the correct answer.
+
+The energy released from the breakdown of the high-energy phosphates, ATP and phosphocreatine, can sustain maximal exertion exercise for about:
+A) 5-10 seconds.
+B) 1-2 seconds.
+C) 30-40 seconds.
+D) 50-60 seconds.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation. Answer:",['\nA'],['\nC'],1.0,0.0,Mistral,1.0,0.2032982001780665
+mmlu-elementary-mathematics.val.130,mmlu-elementary-mathematics,"Please answer with the letter of the correct answer.
+
+The distance between Miriam’s house and Debbie’s house is 444.44 meters. Which statement about the values of the digits in the distance, in meters, between their houses is true?
+A) The value of the 4 in the tenths place is 10 times greater than the value of the 4 in the hundredths place.
+B) The value of the 4 in the tenths place is 1/10 the value of the 4 in the tens place.
+C) The value of the 4 in the hundredths place is 1/10 the value of the 4 in the ones place.
+D) The value of the 4 in the hundreds place is 10 times greater than the value of the 4 in the ones place.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation. Answer:",['\nA'],['\n('],1.0,0.0,Mistral,1.0,0.1429716688749021
+mmlu-elementary-mathematics.val.168,mmlu-elementary-mathematics,"Please answer with the letter of the correct answer.
+
+Erin made 12 pints of juice. She drinks 3 cups of juice each day. How many days will Erin take to drink all of the juice she made?
+A) 8 days
+B) 9 days
+C) 4 days
+D) 2 days
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation. Answer:",['\nA'],['\nB'],1.0,0.0,Mistral,1.0,0.1962949013941424
+mmlu-elementary-mathematics.val.52,mmlu-elementary-mathematics,"Please answer with the letter of the correct answer.
+
+Which situation can be represented by the fraction 20/8?
+A) Mr. Kramer’s 8 grandchildren shared 20 crackers equally. How many crackers did each grandchild get?
+B) Stamps are sold in booklets of 20 stamps. Donna used 8 stamps to send invitations for a party. How many booklets of stamps did Donna use to send her invitations?
+C) Mitch bought 20 containers of flowers at a plant store. Each container had 8 flowers in it. How many flowers did Mitch buy?
+D) Leslie spent 20 dollars and 8 cents at a store. How is the amount of money Leslie spent written as a fraction?
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation. Answer:",['\nA'],['\n('],1.0,0.0,Mistral,1.0,0.2074760715159403
+mmlu-miscellaneous.val.692,mmlu-miscellaneous,"Please answer with the letter of the correct answer.
+
+How much more electrical energy will the United States need to generate if everyone drives electric cars?
+A) 2*10^19 J
+B) 2*10^23 J
+C) 2*10^21 J
+D) 2*10^25 J
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation. Answer:",['\nA'],['\nC'],1.0,0.0,Mistral,1.0,0.1880423400170353
+mmlu-professional-law.val.418,mmlu-professional-law,"Please answer with the letter of the correct answer.
+
+A collector owned a rare 16th-century tapestry. The collector contracted in writing to sell the tapestry to a tapestry dealer for $100,000. The contract stipulated that delivery would be ""F. O. B. at the dealer's shop,"" with payment to be made one week after tender. When the dealer received the tapestry, he noticed that it had been damaged in transit. The dealer immediately contacted the collector and notified him that he was rejecting the tapestry because it had ripped apart and was becoming unwoven. The collector told the dealer that he would get back to him with re-shipping instructions. The collector did not make any further contact with the dealer. After four weeks, the dealer then sold the tapestry to a buyer for $120,000. If the collector sues the dealer for damages, the collector should recover
+A) $108,000, because the dealer is entitled to a reasonable sum not exceeding 10% on the resale.
+B) $120,000, for conversion.
+C) $20,000, which covers the difference between the contract price and the sale price.
+D) $100,000, which is the contract price.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation. Answer:",['\nA'],['C)'],1.0,0.0,Mistral,1.0,0.1954845862168484
+winogrande.dev.1117,winogrande,"Patricia was on a diet and did not eat the cookies Rebecca baked for her. _ was jealous.
+A) Patricia
+B) Rebecca
+Print only a single choice  from ""A"" or ""B"" without explanation. Answer:",['A)'],['B)'],1.0,0.0,Mistral,1.0,0.1157590875509542
+winogrande.dev.22,winogrande,"Cynthia violated the rights of Amy, because _ had too much passivity with other people.
+A) Amy
+B) Cynthia
+Print only a single choice  from ""A"" or ""B"" without explanation. Answer:",['A)'],['B)'],1.0,0.0,Mistral,1.0,0.1550744192757966
+winogrande.dev.540,winogrande,"The bagel shop was closer to Michael than Joel because _ lived in a different area of town.
+A) Joel
+B) Michael
+Print only a single choice  from ""A"" or ""B"" without explanation. Answer:",['A)'],['B)'],1.0,0.0,Mistral,1.0,0.1658195971598277
