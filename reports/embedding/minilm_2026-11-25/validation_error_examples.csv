@@ -1,0 +1,212 @@
+variant,mode,change,sample_id,eval_name,prompt_text,small_score,large_score
+embedding,fixed_ensemble,gained_correct,mmlu-electrical-engineering.val.35,mmlu-electrical-engineering,"Please answer with the letter of the correct answer.
+
+In a lap winding dc machine number of conductors are 100 and number of parallel paths are 10. Find the average pitch
+A) 10
+B) 100
+C) 1
+D) 50
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation. Answer:",1.0,0.0
+embedding,fixed_ensemble,gained_correct,mmlu-elementary-mathematics.val.92,mmlu-elementary-mathematics,"Please answer with the letter of the correct answer.
+
+What is the greatest common factor of 36 and 90?
+A) 18
+B) 36
+C) 6
+D) 180
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation. Answer:",1.0,0.0
+embedding,fixed_ensemble,gained_correct,winogrande.dev.361,winogrande,"Ben had to drain both water and oil down the sink, but the _ was too viscous.
+A) water
+B) oil
+Print only a single choice  from ""A"" or ""B"" without explanation. Answer:",0.0,1.0
+embedding,fixed_ensemble,gained_correct,winogrande.dev.933,winogrande,"The chopstick were better to eat the noodles with than the fork as the _ was repaired.
+A) fork
+B) chopstick
+Print only a single choice  from ""A"" or ""B"" without explanation. Answer:",0.0,1.0
+embedding,fixed_ensemble,lost_correct,hellaswag.val.1059,hellaswag,"A man is holding a camera filming him go up the stairs. He stands on a diving board and jumps into the pool below him. he
+A) holds a leaf blower as he swims.
+B) gets out of the water and walks to give hugs to people.
+C) rises up high over the pool, knocking a holder over as he jumps off.
+D) is laughing as he watches himself dive into the pool.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",0.0,1.0
+embedding,fixed_ensemble,lost_correct,hellaswag.val.2904,hellaswag,"A man attempts to lift a barbell. he
+A) eventually lifts it up, doing several gymnastic tricks.
+B) leaps away when a punch is thrown.
+C) bends at the knees, lifting it to his chest.
+D) trips multiple times while lifting the barbell in the air and off the ground several times.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",0.0,1.0
+embedding,fixed_ensemble,lost_correct,mmlu-high-school-macroeconomics.val.301,mmlu-high-school-macroeconomics,"Please answer with the letter of the correct answer.
+
+The velocity of money
+A) is required to calculate the money multiplier.
+B) is the number of times a typical dollar is used to make a purchase in a year.
+C) is how fast money can be transferred.
+D) cannot be calculated for an actual economy.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation. Answer:",0.0,1.0
+embedding,fixed_ensemble,lost_correct,mmlu-professional-law.val.267,mmlu-professional-law,"Please answer with the letter of the correct answer.
+
+A landlord orally leased a commercial building to a tenant for a 10-year term, which ended one year ago. At the beginning of the lease term, the tenant installed numerous appliances in the building as well as a large air-conditioning system. The tenant alone paid for these items; they were installed with the landlord's permission and were used for the tenant's commercial enterprise. At the end of the lease term, the tenant failed to vacate the premises in a timely manner and continued to pay rent while remaining in possession for another four months. Before vacating the building at the end of the fourth month, the tenant removed the appliances and the air-conditioning system that he had installed, causing no damage to the building. Was the removal by the tenant proper?
+A) No, because he was a holdover tenant.
+B) No, because the lease was oral.
+C) Yes, because they were trade fixtures.
+D) Yes, because they were accessions.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation. Answer:",0.0,1.0
+embedding,tuned_router,gained_correct,mmlu-electrical-engineering.val.35,mmlu-electrical-engineering,"Please answer with the letter of the correct answer.
+
+In a lap winding dc machine number of conductors are 100 and number of parallel paths are 10. Find the average pitch
+A) 10
+B) 100
+C) 1
+D) 50
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation. Answer:",1.0,0.0
+embedding,tuned_router,gained_correct,mmlu-elementary-mathematics.val.92,mmlu-elementary-mathematics,"Please answer with the letter of the correct answer.
+
+What is the greatest common factor of 36 and 90?
+A) 18
+B) 36
+C) 6
+D) 180
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation. Answer:",1.0,0.0
+embedding,tuned_router,gained_correct,winogrande.dev.361,winogrande,"Ben had to drain both water and oil down the sink, but the _ was too viscous.
+A) water
+B) oil
+Print only a single choice  from ""A"" or ""B"" without explanation. Answer:",0.0,1.0
+embedding,tuned_router,gained_correct,winogrande.dev.933,winogrande,"The chopstick were better to eat the noodles with than the fork as the _ was repaired.
+A) fork
+B) chopstick
+Print only a single choice  from ""A"" or ""B"" without explanation. Answer:",0.0,1.0
+embedding,tuned_router,lost_correct,hellaswag.val.1059,hellaswag,"A man is holding a camera filming him go up the stairs. He stands on a diving board and jumps into the pool below him. he
+A) holds a leaf blower as he swims.
+B) gets out of the water and walks to give hugs to people.
+C) rises up high over the pool, knocking a holder over as he jumps off.
+D) is laughing as he watches himself dive into the pool.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",0.0,1.0
+embedding,tuned_router,lost_correct,hellaswag.val.2904,hellaswag,"A man attempts to lift a barbell. he
+A) eventually lifts it up, doing several gymnastic tricks.
+B) leaps away when a punch is thrown.
+C) bends at the knees, lifting it to his chest.
+D) trips multiple times while lifting the barbell in the air and off the ground several times.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",0.0,1.0
+embedding,tuned_router,lost_correct,mmlu-high-school-macroeconomics.val.301,mmlu-high-school-macroeconomics,"Please answer with the letter of the correct answer.
+
+The velocity of money
+A) is required to calculate the money multiplier.
+B) is the number of times a typical dollar is used to make a purchase in a year.
+C) is how fast money can be transferred.
+D) cannot be calculated for an actual economy.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation. Answer:",0.0,1.0
+embedding,tuned_router,lost_correct,mmlu-professional-law.val.267,mmlu-professional-law,"Please answer with the letter of the correct answer.
+
+A landlord orally leased a commercial building to a tenant for a 10-year term, which ended one year ago. At the beginning of the lease term, the tenant installed numerous appliances in the building as well as a large air-conditioning system. The tenant alone paid for these items; they were installed with the landlord's permission and were used for the tenant's commercial enterprise. At the end of the lease term, the tenant failed to vacate the premises in a timely manner and continued to pay rent while remaining in possession for another four months. Before vacating the building at the end of the fourth month, the tenant removed the appliances and the air-conditioning system that he had installed, causing no damage to the building. Was the removal by the tenant proper?
+A) No, because he was a holdover tenant.
+B) No, because the lease was oral.
+C) Yes, because they were trade fixtures.
+D) Yes, because they were accessions.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation. Answer:",0.0,1.0
+combined,fixed_ensemble,gained_correct,hellaswag.val.8229,hellaswag,"[header] How to get jheri curls [title] Buy jheri curl supplies. [step] You can find kits in most drugstores or beauty stores. Your kit should contain a softener to loosen your hair, a solution to set the curls, and perm rods (which may be sold separately).
+A) [substeps] If you need to style your braids with permanent fusible curls, try using with curls so you can style your braids more naturally. You can also secure your hair with some spritz of mayonnaise so you don't get like-minded hair.
+B) In addition to these materials, you'll need activator (aka jheri juice, which keeps the curls looking moist and tight) and a shower cap. [substeps] Making jheri curls the classic way requires using chemicals that can cause permanent damage to your hair.
+C) [substeps] Some drugstores sell plastic rods-they are designed to provide styling equipment to make straight hair look limp and flat. They are perfect for curly hair and/or kinky hair, as they don't require special tools.
+D) While some clarifying ingredients in your kit may help your hair, other resources are forbidden. [substeps] Heat will become more dangerous, since people with lsts may inadvertently blow dry the hair to get rid of the extra moisture.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",0.0,1.0
+combined,fixed_ensemble,lost_correct,hellaswag.val.2904,hellaswag,"A man attempts to lift a barbell. he
+A) eventually lifts it up, doing several gymnastic tricks.
+B) leaps away when a punch is thrown.
+C) bends at the knees, lifting it to his chest.
+D) trips multiple times while lifting the barbell in the air and off the ground several times.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",0.0,1.0
+combined,fixed_ensemble,lost_correct,hellaswag.val.9631,hellaswag,"[header] How to make clove cigarettes or kretek [title] Gather your looseleaf tobacco and whole cloves. [step] Depending on how much clove you like, you can do a clove: tobacco ratio of anywhere from 1:3 to 2:3. Any more than that and it will not burn properly.
+A) [title] Start to prepare the cloves for inclusion. [step] A clove is actually a dried flower.
+B) [title] Cut your cloves at the stem. [step] The main difference between old split and new clip cloves is that they are of the same type.
+C) [title] Buy one clove of whole cloves. [step] Grosgrain is the best one to start with, since the garlic potassium contains magnesium, so if you only use one pod, you will not produce any flavor! [title] Get everyone together in an underground cellar or room.
+D) [title] Peel the skin off the cloves. [step] The peel is best done in a pan so that you can heat it up more evenly.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",1.0,0.0
+combined,fixed_ensemble,lost_correct,mmlu-professional-law.val.36,mmlu-professional-law,"Please answer with the letter of the correct answer.
+
+A baseball fan purchased two tickets for a World Series baseball game. The fan contacted his best friend and invited him to go to the game. The friend, who was a fanatic baseball fan, eagerly agreed. The fan told the friend that the game started at 7:00 p. m. and that he would pick him up at about 5:00 p. m. so they could get there early to watch batting practice. They were driving to the game together when the fan sped up to cross an intersection while the traffic signal was changing from amber to red. As he reached the intersection, the fan was traveling at 50 m. p. h. although the posted speed limit was 25 m. p. h. Simultaneously, a car entered the intersection on red and collided with the fan's vehicle. The friend suffered a broken pelvis in the collision. This jurisdiction has adopted the following ""modified"" comparative negligence statute:""A negligent plaintiff is entitled to obtain a recovery provided plaintiff's negligence is not equal to or greater than that of the defendant's; otherwise no recovery is permitted. ""Suppose the friend brings suit against the driver of the car that entered the intersection on the red light to recover damages for his injury. Ajury returned a special verdict with the following findings: (1) The fan was 55 percent negligent in speeding; (2) The driver was 45 percent negligent in driving through the red light; and (3) The friend suffered $100,000 in damages. As a result, the court should enter a judgment for the friend in the amount of
+A) $100,000. 00
+B) $45,000. 00
+C) $55,000. 00
+D) nothing, because the fan was more negligentthan the driver.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation. Answer:",1.0,0.0
+combined,tuned_router,gained_correct,hellaswag.val.3566,hellaswag,"[header] How to use urban decay naked palette [title] Wash your face and apply a serum. [step] Wash your face with lukewarm water and a hydrating cream cleanser before you start applying makeup. After you're done washing, gently pat your face dry with a clean cloth.
+A) Then, take the rest of your clothes from your closet or ask if you can borrow from a friend. [title] Purchase some blocks of wood for your palette.
+B) Then, sweep over your face with a soft, lint-free washcloth until all the makeup is off. [title] Blend in gentle exfoliant treatments.
+C) Then, squirt 1-2 pumps of serum, or another type of moisturizer, into your palm and rub it onto your skin. [substeps] Pick a cleanser and a serum that are specifically beneficial for your particular skin type.
+D) [substeps] Look for a serum that says "" fragrance testing "" or "" emulsifier "" on the back. It's best to use cleansers that are fragrance-free; too many fragrances can cause flakiness or blackheads if you don't choose a serum.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",0.0,1.0
+combined,tuned_router,gained_correct,hellaswag.val.4236,hellaswag,"[header] How to style short hair (men ) [title] Apply putty to damp hair. [step] Place a small amount of styling putty in the palm of your hand, then rub your hands together to distribute it. Evenly work the product into your hair from end to root.
+A) Leave the putty on your hair for 1 to 1 1/2 hours, or until hair is coated all over with product. Be sure to rinse thoroughly, as nuffing here will not leave your hair as neat as it was.
+B) [substeps] Do not use the putty for dandruff. Dandruff will only make problems worse.
+C) [substeps] Choose a matte putty instead of a glossy one. If your hair is notably fine, the putty may weigh it down too much.
+D) Wait for the putty to sink into your hair. [substeps] It can take anywhere from two to three minutes for it to penetrate your hair.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",0.0,1.0
+combined,tuned_router,gained_correct,hellaswag.val.8229,hellaswag,"[header] How to get jheri curls [title] Buy jheri curl supplies. [step] You can find kits in most drugstores or beauty stores. Your kit should contain a softener to loosen your hair, a solution to set the curls, and perm rods (which may be sold separately).
+A) [substeps] If you need to style your braids with permanent fusible curls, try using with curls so you can style your braids more naturally. You can also secure your hair with some spritz of mayonnaise so you don't get like-minded hair.
+B) In addition to these materials, you'll need activator (aka jheri juice, which keeps the curls looking moist and tight) and a shower cap. [substeps] Making jheri curls the classic way requires using chemicals that can cause permanent damage to your hair.
+C) [substeps] Some drugstores sell plastic rods-they are designed to provide styling equipment to make straight hair look limp and flat. They are perfect for curly hair and/or kinky hair, as they don't require special tools.
+D) While some clarifying ingredients in your kit may help your hair, other resources are forbidden. [substeps] Heat will become more dangerous, since people with lsts may inadvertently blow dry the hair to get rid of the extra moisture.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",0.0,1.0
+combined,tuned_router,gained_correct,mmlu-electrical-engineering.val.35,mmlu-electrical-engineering,"Please answer with the letter of the correct answer.
+
+In a lap winding dc machine number of conductors are 100 and number of parallel paths are 10. Find the average pitch
+A) 10
+B) 100
+C) 1
+D) 50
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation. Answer:",1.0,0.0
+combined,tuned_router,gained_correct,mmlu-elementary-mathematics.val.92,mmlu-elementary-mathematics,"Please answer with the letter of the correct answer.
+
+What is the greatest common factor of 36 and 90?
+A) 18
+B) 36
+C) 6
+D) 180
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation. Answer:",1.0,0.0
+combined,tuned_router,lost_correct,hellaswag.val.1059,hellaswag,"A man is holding a camera filming him go up the stairs. He stands on a diving board and jumps into the pool below him. he
+A) holds a leaf blower as he swims.
+B) gets out of the water and walks to give hugs to people.
+C) rises up high over the pool, knocking a holder over as he jumps off.
+D) is laughing as he watches himself dive into the pool.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",0.0,1.0
+combined,tuned_router,lost_correct,hellaswag.val.2904,hellaswag,"A man attempts to lift a barbell. he
+A) eventually lifts it up, doing several gymnastic tricks.
+B) leaps away when a punch is thrown.
+C) bends at the knees, lifting it to his chest.
+D) trips multiple times while lifting the barbell in the air and off the ground several times.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",0.0,1.0
+combined,tuned_router,lost_correct,hellaswag.val.9631,hellaswag,"[header] How to make clove cigarettes or kretek [title] Gather your looseleaf tobacco and whole cloves. [step] Depending on how much clove you like, you can do a clove: tobacco ratio of anywhere from 1:3 to 2:3. Any more than that and it will not burn properly.
+A) [title] Start to prepare the cloves for inclusion. [step] A clove is actually a dried flower.
+B) [title] Cut your cloves at the stem. [step] The main difference between old split and new clip cloves is that they are of the same type.
+C) [title] Buy one clove of whole cloves. [step] Grosgrain is the best one to start with, since the garlic potassium contains magnesium, so if you only use one pod, you will not produce any flavor! [title] Get everyone together in an underground cellar or room.
+D) [title] Peel the skin off the cloves. [step] The peel is best done in a pan so that you can heat it up more evenly.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation.
+Answer:",1.0,0.0
+combined,tuned_router,lost_correct,mmlu-college-medicine.val.43,mmlu-college-medicine,"Please answer with the letter of the correct answer.
+
+The son of a bricklayer goes to college and i) becomes a teacher at a medical school, ii) gets promoted to tenured professor, and iii) moves across the country for a new tenured professor position at a different school. Sequentially, this man has experienced:
+A) intergenerational mobility with respect to the father, upward mobility, horizontal mobility
+B) intergenerational mobility with respect to the father, horizontal mobility, horizontal mobility
+C) intragenerational mobility with respect to the son, upward mobility, upward mobility
+D) intragenerational mobility with respect to the son, horizontal mobility, upward mobility
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation. Answer:",0.0,1.0
+combined,tuned_router,lost_correct,mmlu-high-school-macroeconomics.val.301,mmlu-high-school-macroeconomics,"Please answer with the letter of the correct answer.
+
+The velocity of money
+A) is required to calculate the money multiplier.
+B) is the number of times a typical dollar is used to make a purchase in a year.
+C) is how fast money can be transferred.
+D) cannot be calculated for an actual economy.
+Print only a single choice  from ""A"" or ""B"" or ""C"" or ""D"" without explanation. Answer:",0.0,1.0

@@ -1,0 +1,110 @@
+{
+  "protocol_sha256": "dd3a4a09be17c5fcddceab97d56a014aecd8a645fa892456dea1419368351ad6",
+  "selected_variant": "embedding",
+  "best_configs": {
+    "structure": {
+      "max_depth": 5,
+      "min_samples_leaf": 20
+    },
+    "embedding": {
+      "max_depth": 5,
+      "min_samples_leaf": 20
+    },
+    "combined": {
+      "max_depth": 5,
+      "min_samples_leaf": 50
+    }
+  },
+  "policies": {
+    "structure": {
+      "tree_only": {
+        "name": "tree_only",
+        "tree_weight": 1.0,
+        "threshold": 0.16,
+        "answer_score": 0.5608634111818825,
+        "mean_cost": 9.785626326963033e-05,
+        "large_rate": 0.9440905874026894,
+        "cost_saving": 0.023624365804831293
+      },
+      "fixed_ensemble": {
+        "name": "fixed_ensemble",
+        "tree_weight": 0.1,
+        "threshold": 0.21,
+        "answer_score": 0.5449398443029017,
+        "mean_cost": 7.835194621372485e-05,
+        "large_rate": 0.7653927813163482,
+        "cost_saving": 0.21823163261340883
+      },
+      "tuned_router": {
+        "name": "tuned_router",
+        "tree_weight": 0.1,
+        "threshold": 0.21,
+        "answer_score": 0.5449398443029017,
+        "mean_cost": 7.835194621372485e-05,
+        "large_rate": 0.7653927813163482,
+        "cost_saving": 0.21823163261340883
+      }
+    },
+    "embedding": {
+      "tree_only": {
+        "name": "tree_only",
+        "tree_weight": 1.0,
+        "threshold": 0.0,
+        "answer_score": 0.5633404104741684,
+        "mean_cost": 0.00010022399150742196,
+        "large_rate": 1.0,
+        "cost_saving": 0.0
+      },
+      "fixed_ensemble": {
+        "name": "fixed_ensemble",
+        "tree_weight": 0.1,
+        "threshold": 0.22,
+        "answer_score": 0.5449398443029017,
+        "mean_cost": 7.79980184005614e-05,
+        "large_rate": 0.7618542108987969,
+        "cost_saving": 0.2217630007802538
+      },
+      "tuned_router": {
+        "name": "tuned_router",
+        "tree_weight": 0.1,
+        "threshold": 0.22,
+        "answer_score": 0.5449398443029017,
+        "mean_cost": 7.79980184005614e-05,
+        "large_rate": 0.7618542108987969,
+        "cost_saving": 0.2217630007802538
+      }
+    },
+    "combined": {
+      "tree_only": {
+        "name": "tree_only",
+        "tree_weight": 1.0,
+        "threshold": 0.19,
+        "answer_score": 0.5442321302193913,
+        "mean_cost": 8.255003538569886e-05,
+        "large_rate": 0.8004246284501062,
+        "cost_saving": 0.17634456436924362
+      },
+      "fixed_ensemble": {
+        "name": "fixed_ensemble",
+        "tree_weight": 0.1,
+        "threshold": 0.21,
+        "answer_score": 0.5442321302193913,
+        "mean_cost": 7.878464260438291e-05,
+        "large_rate": 0.7699929228591649,
+        "cost_saving": 0.21391433907769863
+      },
+      "tuned_router": {
+        "name": "tuned_router",
+        "tree_weight": 0.0,
+        "threshold": 0.21,
+        "answer_score": 0.5442321302193913,
+        "mean_cost": 7.867664543523921e-05,
+        "large_rate": 0.7668082094833687,
+        "cost_saving": 0.21499189713060962
+      }
+    }
+  },
+  "artifact": "models/embedding/minilm_2026-11-25/router.joblib",
+  "artifact_sha256": "66beb8ae228d6d057738f72e2b41786f64292d21125e0583ed42968d570837e3",
+  "training_and_encoding_seconds": 738.2812101089994
+}

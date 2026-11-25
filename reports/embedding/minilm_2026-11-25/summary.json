@@ -1,0 +1,124 @@
+{
+  "selected_variant": "embedding",
+  "test_status": "Previously inspected test. Follow-up analysis, not a new independent holdout.",
+  "test_sha256": "37775493d4e53e30b5a653fc1775433dfa5ca8fee34fdd029b899f12e01877ae",
+  "selection_sha256": "ff32037629636b42fe1b16ee779e3662003297ff91d8864dfacd8c275ebca561",
+  "exploratory_paired_comparisons": {
+    "embedding": {
+      "tree_only": {
+        "answer_delta": 0.0038938053097345134,
+        "answer_delta_95ci": [
+          0.0,
+          0.008141592920353982
+        ],
+        "saving_delta": -0.023412937041837684,
+        "saving_delta_95ci": [
+          -0.029259721347897408,
+          -0.01773995374177478
+        ],
+        "gained_correct": 21,
+        "lost_correct": 10,
+        "repetitions": 1000
+      },
+      "fixed_ensemble": {
+        "answer_delta": -0.001415929203539823,
+        "answer_delta_95ci": [
+          -0.004247787610619469,
+          0.001415929203539823
+        ],
+        "saving_delta": 0.0024587884172687655,
+        "saving_delta_95ci": [
+          -0.001766745208565275,
+          0.007023285160340534
+        ],
+        "gained_correct": 6,
+        "lost_correct": 10,
+        "repetitions": 1000
+      },
+      "tuned_router": {
+        "answer_delta": -0.001415929203539823,
+        "answer_delta_95ci": [
+          -0.004247787610619469,
+          0.001415929203539823
+        ],
+        "saving_delta": 0.0024587884172687655,
+        "saving_delta_95ci": [
+          -0.001766745208565275,
+          0.007023285160340534
+        ],
+        "gained_correct": 6,
+        "lost_correct": 10,
+        "repetitions": 1000
+      }
+    },
+    "combined": {
+      "tree_only": {
+        "answer_delta": -0.01415929203539823,
+        "answer_delta_95ci": [
+          -0.020530973451327435,
+          -0.007433628318584071
+        ],
+        "saving_delta": 0.14298149423587306,
+        "saving_delta_95ci": [
+          0.13069606784257778,
+          0.15740662670077224
+        ],
+        "gained_correct": 23,
+        "lost_correct": 63,
+        "repetitions": 1000
+      },
+      "fixed_ensemble": {
+        "answer_delta": 0.0,
+        "answer_delta_95ci": [
+          -0.00247787610619469,
+          0.00247787610619469
+        ],
+        "saving_delta": -0.0077252427056501176,
+        "saving_delta_95ci": [
+          -0.011928771088982847,
+          -0.003631752260147653
+        ],
+        "gained_correct": 6,
+        "lost_correct": 6,
+        "repetitions": 1000
+      },
+      "tuned_router": {
+        "answer_delta": 0.00035398230088495576,
+        "answer_delta_95ci": [
+          -0.00247787610619469,
+          0.003185840707964602
+        ],
+        "saving_delta": -0.004778858165012206,
+        "saving_delta_95ci": [
+          -0.00896038549236496,
+          -0.0005841193993055383
+        ],
+        "gained_correct": 8,
+        "lost_correct": 7,
+        "repetitions": 1000
+      }
+    }
+  },
+  "evaluation_source_sha256": {
+    "src/__init__.py": "3a082027e07f5d33fe50be2bc6977fa2bc0b9fd265726ec72c02909cd075eb00",
+    "src/embedding_experiment/__init__.py": "75f8ed79c3f743e931ae5b151595926fd13658f97fc0507fc1b997419c9bca10",
+    "src/embedding_experiment/common.py": "7f7fac28d74b38688ede949e8f0b38ae859dd5df48d56f0105ae8266599f1abb",
+    "src/embedding_experiment/encoder.py": "b58fa138ab594f17257bb521269a6f5bbd19c8c10cf41588285d73deb2a41330",
+    "src/embedding_experiment/evaluate.py": "6e0f769b9c5f00baa466ecfa42c2e84c85e7ddb5c6b06cd21fea1ea29efccac9",
+    "src/embedding_experiment/inference.py": "dee40f5f436e2bb88e114b7519a6f6c5ea6be09c53b0ca84935b19752fc6070a",
+    "src/embedding_experiment/predict.py": "7a201182d2ab7cac933475c92ab0d407e35e62aab103937f863f0df47fe02cfb",
+    "src/embedding_experiment/prepare.py": "2ca6d5507d5c22cd44783c4006a1ef2f419a04e99dbe74f4d4e020b42739d7b4",
+    "src/embedding_experiment/reporting.py": "bec526b31ca9eb4a1304ca83fb9ec8b96c532089ddf7db10f984c44d56eb442e",
+    "src/embedding_experiment/train.py": "e514c7f43767b400ac663e6d79a5f7eca240414f0475f7154f61b6375f0ac70e",
+    "src/evaluate_baselines.py": "e63e01e5223a0cc768d0837362b5b8fdda868b8f1543e2fd5476ab93407b364b",
+    "src/evaluate_models.py": "3291bd2c8fa0546c5f1f781bd2183b4e537f7b026d17c162cd15f900fba402e7",
+    "src/evaluation.py": "e72b547fbe08fb747b24c3de7ed3d4ed34485d1b23a03899eb9b106e7c21cd41",
+    "src/features.py": "36d5ada27af98bb6840576b614ec3f954b033afc765372e68211651d11291841",
+    "src/inspect_data.py": "a51fa9920afe7f7f5ab7bdcdb6fdf8566c5ce42d555464464e8f4cb07b1d013b",
+    "src/predict.py": "4ecf74d9ea03de4e0986867acd09f357d69ce240706bdbe84ae3538b57568169",
+    "src/preprocess_data.py": "cbdb88f5869fdde94625221ce4f460a9718934bb06a49d282defefe7a7fdff33",
+    "src/reporting.py": "82f267985d16f6e5f7e3a9dfdb4844bc483d8cf5259bb3ac5b1caeb0153cff78",
+    "src/router.py": "e01c82fcd36afbfbdcab37f73ee2f77ade906ae5ba1d5b07c6a341b7b615c2c9",
+    "src/train_models.py": "8c0764e71aadab9e4a905e7c6434d24605b77f3812a12202a34f3c09a2bac489"
+  }
+}

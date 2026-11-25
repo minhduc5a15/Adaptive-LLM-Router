@@ -1,0 +1,68 @@
+{
+  "validation": {
+    "signature": {
+      "rows_sha256": "91ebec01a46cf181e429a58a27424533b26749913409538eb94c285625682dc6",
+      "encoder": {
+        "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+        "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+        "files": {
+          "onnx/model.onnx": "6fd5d72fe4589f189f8ebc006442dbb529bb7ce38f8082112682524616046452",
+          "tokenizer.json": "be50c3628f2bf5bb5e3a7f17b1f74611b2561a3a27eeab05e5aa30f411572037",
+          "tokenizer_config.json": "acb92769e8195aabd29b7b2137a9e6d6e25c476a4f15aa4355c233426c61576b",
+          "config.json": "953f9c0d463486b10a6871cc2fd59f223b2c70184f49815e7efbcab5d8908b41",
+          "sentence_bert_config.json": "fc1993fde0a95c24ec6c022539d41cf6e2f7c9721e5415d6fb6897472a9cd4b7",
+          "1_Pooling/config.json": "4be450dde3b0273bb9787637cfbd28fe04a7ba6ab9d36ac48e92b11e350ffc23",
+          "modules.json": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf",
+          "README.md": "dcd602d2fd35c203a247304a06fec6654a12f7941b739f9221a064fe8dc3b7f0"
+        }
+      },
+      "max_tokens": 256,
+      "pooling": "masked_mean_per_chunk_content_weighted_mean_then_l2_v1",
+      "encoder_source_sha256": "b58fa138ab594f17257bb521269a6f5bbd19c8c10cf41588285d73deb2a41330"
+    },
+    "array_sha256": "d9c53077cfed1ef8938fa5b6660a40f271bc579d8d4e1328e4868743f3dc481c",
+    "stats": {
+      "prompts": 2826,
+      "chunks": 3446,
+      "multi_chunk_prompts": 614,
+      "max_content_tokens": 681,
+      "truncated_content_tokens": 0,
+      "seconds": 57.244574833000115,
+      "batch_size": 32,
+      "cpu_threads": 4
+    }
+  },
+  "test": {
+    "signature": {
+      "rows_sha256": "44578a22e1e766836fd187b4c30a1fc32e75cdc238e6e486df9b2fa235477b34",
+      "encoder": {
+        "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+        "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+        "files": {
+          "onnx/model.onnx": "6fd5d72fe4589f189f8ebc006442dbb529bb7ce38f8082112682524616046452",
+          "tokenizer.json": "be50c3628f2bf5bb5e3a7f17b1f74611b2561a3a27eeab05e5aa30f411572037",
+          "tokenizer_config.json": "acb92769e8195aabd29b7b2137a9e6d6e25c476a4f15aa4355c233426c61576b",
+          "config.json": "953f9c0d463486b10a6871cc2fd59f223b2c70184f49815e7efbcab5d8908b41",
+          "sentence_bert_config.json": "fc1993fde0a95c24ec6c022539d41cf6e2f7c9721e5415d6fb6897472a9cd4b7",
+          "1_Pooling/config.json": "4be450dde3b0273bb9787637cfbd28fe04a7ba6ab9d36ac48e92b11e350ffc23",
+          "modules.json": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf",
+          "README.md": "dcd602d2fd35c203a247304a06fec6654a12f7941b739f9221a064fe8dc3b7f0"
+        }
+      },
+      "max_tokens": 256,
+      "pooling": "masked_mean_per_chunk_content_weighted_mean_then_l2_v1",
+      "encoder_source_sha256": "b58fa138ab594f17257bb521269a6f5bbd19c8c10cf41588285d73deb2a41330"
+    },
+    "array_sha256": "b82f30bfd56a8a2ab762268f6840e144488247a19076544366dd6c6bc902b491",
+    "stats": {
+      "prompts": 2825,
+      "chunks": 3499,
+      "multi_chunk_prompts": 657,
+      "max_content_tokens": 1063,
+      "truncated_content_tokens": 0,
+      "seconds": 57.48472742800004,
+      "batch_size": 32,
+      "cpu_threads": 4
+    }
+  }
+}

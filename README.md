@@ -20,6 +20,26 @@ Ensemble dùng **10% điểm của cây + 90% điểm của SVM**, chọn Mixtra
 
 Chi phí là ước tính đã lưu trong RouterBench, không phải tiền đã trả hay giá API hiện hành. Đúng nhãn Router và đúng câu trả lời là hai chỉ số khác nhau; xem bảng đầy đủ trong báo cáo.
 
+## Thí nghiệm embedding cho Decision Tree
+
+Thí nghiệm riêng so sánh ba đầu vào của cây: **3 đặc trưng cấu trúc**,
+**384 chiều MiniLM**, và **387 chiều kết hợp**. SVM v1 được giữ nguyên;
+chọn cấu hình và chính sách bằng validation trước khi đánh giá test.
+
+[Thiết kế và hướng dẫn chạy](docs/EMBEDDING_EXPERIMENT.md) ·
+[Kết quả thí nghiệm](reports/embedding/minilm_2026-11-25/RESULTS.md)
+
+Mã nằm trong `src/embedding_experiment/`; cài thêm `requirements-embeddings.txt`.
+Encoder chạy trên CPU, không cần GPU hoặc gọi Mistral/Mixtral. Prompt dài được
+chia đoạn để giữ toàn bộ token. Kết quả và mô hình được lưu riêng với baseline.
+
+Lần chạy `minilm_2026-11-25`: validation chọn 10% cây embedding + 90% SVM,
+ngưỡng 0,22. Trên 2.825 mẫu test cũ, router đúng **1.533 câu (54,27%)**,
+tiết kiệm **20,79%** chi phí LLM; baseline đúng 1.537 câu, tiết kiệm 20,54%.
+Chưa cải thiện tỷ lệ đúng; chưa có bằng chứng đủ để thay baseline. Chi phí
+embedding chưa được cộng vào mức tiết kiệm trên. Đây là phân tích tiếp nối
+trên test đã xem, không phải kiểm chứng bằng holdout độc lập mới.
+
 ## Chạy dự án
 
 Đã kiểm tra với Python **3.12.3** và các phiên bản trong `requirements.txt`.

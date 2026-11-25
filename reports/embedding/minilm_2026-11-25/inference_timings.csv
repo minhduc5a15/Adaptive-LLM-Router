@@ -1,0 +1,9 @@
+split,component,seconds,n_samples
+validation,frozen_svm,0.25635922699984803,2826
+validation,tree_structure,0.0013680570000360603,2826
+validation,tree_embedding,0.001406260999829101,2826
+validation,tree_combined,0.0013990710003781714,2826
+test,frozen_svm,0.1724723819997962,2825
+test,tree_structure,0.0009249940003428492,2825
+test,tree_embedding,0.0013462180004353286,2825
+test,tree_combined,0.0013927699992564158,2825

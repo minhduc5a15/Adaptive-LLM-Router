@@ -1,0 +1,111 @@
+{
+  "run_name": "minilm_2026-11-25",
+  "started_at": "2026-11-25T21:24:02.382958+07:00",
+  "variants": {
+    "structure": 3,
+    "embedding": 384,
+    "combined": 387
+  },
+  "encoder": {
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "files": {
+      "onnx/model.onnx": "6fd5d72fe4589f189f8ebc006442dbb529bb7ce38f8082112682524616046452",
+      "tokenizer.json": "be50c3628f2bf5bb5e3a7f17b1f74611b2561a3a27eeab05e5aa30f411572037",
+      "tokenizer_config.json": "acb92769e8195aabd29b7b2137a9e6d6e25c476a4f15aa4355c233426c61576b",
+      "config.json": "953f9c0d463486b10a6871cc2fd59f223b2c70184f49815e7efbcab5d8908b41",
+      "sentence_bert_config.json": "fc1993fde0a95c24ec6c022539d41cf6e2f7c9721e5415d6fb6897472a9cd4b7",
+      "1_Pooling/config.json": "4be450dde3b0273bb9787637cfbd28fe04a7ba6ab9d36ac48e92b11e350ffc23",
+      "modules.json": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf",
+      "README.md": "dcd602d2fd35c203a247304a06fec6654a12f7941b739f9221a064fe8dc3b7f0"
+    }
+  },
+  "max_tokens_per_chunk": 256,
+  "chunking": "nonoverlapping 254 content tokens, add CLS/SEP, no truncation",
+  "pooling": "masked_mean_per_chunk_content_weighted_mean_then_l2_v1",
+  "onnx_precision": "float32",
+  "cpu_threads": 4,
+  "batch_size": 32,
+  "target": "original routing label: small wrong AND large correct",
+  "baseline_sha256": "c5c6c58b292e43f8be9f94a620a882e7511477a3098ee7ff27d473cbe806388b",
+  "svm": "Frozen fitted v1 TF-IDF + LinearSVC, unchanged",
+  "seed": 42,
+  "calibration": "sigmoid, 3 StratifiedGroupKFold on train, ensemble=False",
+  "tree_grid": {
+    "max_depth": [
+      3,
+      5,
+      8,
+      12
+    ],
+    "min_samples_leaf": [
+      20,
+      50
+    ]
+  },
+  "model_selection": "minimum validation log_loss for each tree representation",
+  "policy_modes": {
+    "tree_only": [
+      1.0
+    ],
+    "fixed_ensemble": [
+      0.1
+    ],
+    "tuned_router": [
+      0.0,
+      0.1,
+      0.2,
+      0.30000000000000004,
+      0.4,
+      0.5,
+      0.6000000000000001,
+      0.7000000000000001,
+      0.8,
+      0.9,
+      1.0
+    ]
+  },
+  "thresholds": "0..1 step .01, plus 1.01 always Small",
+  "primary_objective": "minimum validation cost with answer_score >= always_large - 0.02",
+  "max_quality_drop": 0.02,
+  "variant_selection": "lowest validation cost under primary constraint in tuned_router mode; ties prefer higher answer_score then declared variant order",
+  "diagnostic_groups": [
+    "hellaswag",
+    "word_count >= 200",
+    "all"
+  ],
+  "diagnostics_status": "exploratory: inspired by previously inspected test errors",
+  "test_status": "Previously inspected test. Follow-up analysis, not a new independent holdout.",
+  "uncertainty": "paired prompt-group bootstrap, fixed models/policies, 1000 repetitions, seed 42; exploratory without multiple-comparison correction",
+  "split_sha256": {
+    "train": "b8675d95af6390cf9acf62d3f909f15e113e76209461f1d8dd495b4a52ca74d3",
+    "validation": "562d2dce64e886e59874eaa3515a192bf9dd790bd22c23a02a57ef765e3d6d45"
+  },
+  "source_sha256": {
+    "src/__init__.py": "3a082027e07f5d33fe50be2bc6977fa2bc0b9fd265726ec72c02909cd075eb00",
+    "src/embedding_experiment/__init__.py": "75f8ed79c3f743e931ae5b151595926fd13658f97fc0507fc1b997419c9bca10",
+    "src/embedding_experiment/common.py": "7f7fac28d74b38688ede949e8f0b38ae859dd5df48d56f0105ae8266599f1abb",
+    "src/embedding_experiment/encoder.py": "b58fa138ab594f17257bb521269a6f5bbd19c8c10cf41588285d73deb2a41330",
+    "src/embedding_experiment/inference.py": "dee40f5f436e2bb88e114b7519a6f6c5ea6be09c53b0ca84935b19752fc6070a",
+    "src/embedding_experiment/prepare.py": "2ca6d5507d5c22cd44783c4006a1ef2f419a04e99dbe74f4d4e020b42739d7b4",
+    "src/embedding_experiment/train.py": "e514c7f43767b400ac663e6d79a5f7eca240414f0475f7154f61b6375f0ac70e",
+    "src/evaluate_baselines.py": "e63e01e5223a0cc768d0837362b5b8fdda868b8f1543e2fd5476ab93407b364b",
+    "src/evaluate_models.py": "3291bd2c8fa0546c5f1f781bd2183b4e537f7b026d17c162cd15f900fba402e7",
+    "src/evaluation.py": "e72b547fbe08fb747b24c3de7ed3d4ed34485d1b23a03899eb9b106e7c21cd41",
+    "src/features.py": "36d5ada27af98bb6840576b614ec3f954b033afc765372e68211651d11291841",
+    "src/inspect_data.py": "a51fa9920afe7f7f5ab7bdcdb6fdf8566c5ce42d555464464e8f4cb07b1d013b",
+    "src/predict.py": "4ecf74d9ea03de4e0986867acd09f357d69ce240706bdbe84ae3538b57568169",
+    "src/preprocess_data.py": "cbdb88f5869fdde94625221ce4f460a9718934bb06a49d282defefe7a7fdff33",
+    "src/reporting.py": "82f267985d16f6e5f7e3a9dfdb4844bc483d8cf5259bb3ac5b1caeb0153cff78",
+    "src/router.py": "e01c82fcd36afbfbdcab37f73ee2f77ade906ae5ba1d5b07c6a341b7b615c2c9",
+    "src/train_models.py": "8c0764e71aadab9e4a905e7c6434d24605b77f3812a12202a34f3c09a2bac489"
+  },
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.9.1",
+    "onnxruntime": "1.23.2",
+    "tokenizers": "0.22.1",
+    "huggingface-hub": "0.36.0"
+  }
+}
