@@ -1,0 +1,7 @@
+split,variant,seconds,n_samples,includes_encoding
+validation,tfidf,0.1806380950001767,2826,False
+validation,embedding,0.007158504000472021,2826,False
+validation,combined,0.21802543100056937,2826,False
+test,tfidf,0.17596184500143863,2825,False
+test,embedding,0.007812756999555859,2825,False
+test,combined,0.21754339699873526,2825,False

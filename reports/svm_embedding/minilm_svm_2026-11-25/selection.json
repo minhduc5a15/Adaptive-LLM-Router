@@ -1,0 +1,107 @@
+{
+  "selected_variant": "tfidf",
+  "policies": {
+    "tfidf": {
+      "svm_only": {
+        "name": "svm_only",
+        "tree_weight": 0.0,
+        "threshold": 0.21,
+        "answer_score": 0.5442321302193913,
+        "mean_cost": 7.867664543523921e-05,
+        "large_rate": 0.7668082094833687,
+        "cost_saving": 0.21499189713060962
+      },
+      "fixed_ensemble": {
+        "name": "fixed_ensemble",
+        "tree_weight": 0.1,
+        "threshold": 0.21,
+        "answer_score": 0.5449398443029017,
+        "mean_cost": 7.835194621372485e-05,
+        "large_rate": 0.7653927813163482,
+        "cost_saving": 0.21823163261340883
+      },
+      "tuned_router": {
+        "name": "tuned_router",
+        "tree_weight": 0.1,
+        "threshold": 0.21,
+        "answer_score": 0.5449398443029017,
+        "mean_cost": 7.835194621372485e-05,
+        "large_rate": 0.7653927813163482,
+        "cost_saving": 0.21823163261340883
+      }
+    },
+    "embedding": {
+      "svm_only": {
+        "name": "svm_only",
+        "tree_weight": 0.0,
+        "threshold": 0.19,
+        "answer_score": 0.5452937013446567,
+        "mean_cost": 8.228747346071603e-05,
+        "large_rate": 0.8145789101203114,
+        "cost_saving": 0.17896431559880221
+      },
+      "fixed_ensemble": {
+        "name": "fixed_ensemble",
+        "tree_weight": 0.1,
+        "threshold": 0.19,
+        "answer_score": 0.5452937013446567,
+        "mean_cost": 8.17190375088408e-05,
+        "large_rate": 0.810686482661005,
+        "cost_saving": 0.1846359710909219
+      },
+      "tuned_router": {
+        "name": "tuned_router",
+        "tree_weight": 0.2,
+        "threshold": 0.19,
+        "answer_score": 0.5442321302193913,
+        "mean_cost": 8.125647558385853e-05,
+        "large_rate": 0.8046709129511678,
+        "cost_saving": 0.18925125250233943
+      }
+    },
+    "combined": {
+      "svm_only": {
+        "name": "svm_only",
+        "tree_weight": 0.0,
+        "threshold": 0.19,
+        "answer_score": 0.5456475583864119,
+        "mean_cost": 8.100679405519615e-05,
+        "large_rate": 0.7908704883227177,
+        "cost_saving": 0.19174248763383872
+      },
+      "fixed_ensemble": {
+        "name": "fixed_ensemble",
+        "tree_weight": 0.1,
+        "threshold": 0.19,
+        "answer_score": 0.5449398443029017,
+        "mean_cost": 8.070806794054665e-05,
+        "large_rate": 0.7901627742392073,
+        "cost_saving": 0.1947230725233099
+      },
+      "tuned_router": {
+        "name": "tuned_router",
+        "tree_weight": 0.30000000000000004,
+        "threshold": 0.19,
+        "answer_score": 0.5445859872611465,
+        "mean_cost": 7.961776362349116e-05,
+        "large_rate": 0.7799009200283086,
+        "cost_saving": 0.20560174838381728
+      }
+    }
+  },
+  "best_configs": {
+    "tfidf": {
+      "C": 0.1
+    },
+    "embedding": {
+      "C": 0.1
+    },
+    "combined": {
+      "C": 0.1
+    }
+  },
+  "protocol_sha256": "b2d49ca042e6f42287e323a653b6381fd361a7604838c8eeb1ad47830d2c00b1",
+  "artifact": "models/svm_embedding/minilm_svm_2026-11-25/router.joblib",
+  "artifact_sha256": "87f6ed1e2b9f1c6f7a6ccdbc444ae7ec2596b07b800f34cc70916d4d2cd29205",
+  "training_seconds": 113.65833230700082
+}

@@ -40,6 +40,23 @@ Chưa cải thiện tỷ lệ đúng; chưa có bằng chứng đủ để thay 
 embedding chưa được cộng vào mức tiết kiệm trên. Đây là phân tích tiếp nối
 trên test đã xem, không phải kiểm chứng bằng holdout độc lập mới.
 
+## Thí nghiệm embedding cho SVM
+
+Giữ cây v1 nguyên trạng và so sánh SVM dùng **TF-IDF**, **MiniLM**, hoặc
+**TF-IDF + MiniLM**. Mã nằm trong `src/svm_embedding_experiment/`, dùng lại
+encoder/cache đã có, không cần cài thêm thư viện.
+
+[Thiết kế và hướng dẫn chạy](docs/SVM_EMBEDDING_EXPERIMENT.md) ·
+[Kết quả thí nghiệm](reports/svm_embedding/minilm_svm_2026-11-25/RESULTS.md)
+
+Lần chạy `minilm_svm_2026-11-25` thử 9 cấu hình. Với 10% cây + 90% SVM,
+TF-IDF + embedding đúng **1.556/2.825 câu (55,08%)**, so với baseline
+1.537 câu (54,41%); tiết kiệm chi phí LLM giảm từ **20,54% xuống 17,38%**.
+Như vậy tăng tỷ lệ đúng đi kèm tăng chi phí. Theo tiêu chí chi phí validation
+thấp nhất với giới hạn giảm đúng 2 điểm phần trăm, **validation vẫn chọn
+baseline TF-IDF**. Không chọn lại phương án từ test đã xem; chi phí CPU
+embedding chưa được tính vào mức tiết kiệm.
+
 ## Chạy dự án
 
 Đã kiểm tra với Python **3.12.3** và các phiên bản trong `requirements.txt`.

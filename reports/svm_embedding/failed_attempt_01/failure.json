@@ -1,0 +1,7 @@
+{
+  "stage": "TF-IDF validation baseline reproduction",
+  "max_probability_difference": 3.35776006e-07,
+  "test_read": false,
+  "cause": "Custom TransformerMixin.fit_transform used fit then transform; changed CSR ordering compared to native TfidfVectorizer.fit_transform. Fixed by delegating to native fit_transform.",
+  "action": "Preserve failed attempt; rerun unchanged grid and policy after numerical compatibility fix."
+}
