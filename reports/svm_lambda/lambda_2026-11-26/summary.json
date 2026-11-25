@@ -1,0 +1,76 @@
+{
+  "selected_lambda": "lambda_2",
+  "selected_overall": "lambda_2",
+  "test_sha256": "37775493d4e53e30b5a653fc1775433dfa5ca8fee34fdd029b899f12e01877ae",
+  "selection_sha256": "17fe324599f9ff3de60bcb64896236fcfb002249c4b910c83de2e5263eb6b3d8",
+  "test_status": "Previously inspected test; exploratory follow-up, not independent holdout",
+  "paired_at_locked_20pct": {
+    "tfidf": {
+      "answer_delta": 0.002831858407079646,
+      "answer_delta_95ci": [
+        -0.002831858407079646,
+        0.008495575221238939
+      ],
+      "saving_delta": -0.0025482619591115268,
+      "saving_delta_95ci": [
+        -0.012811269043682575,
+        0.007344826242045105
+      ],
+      "gained_correct": 36,
+      "lost_correct": 28,
+      "repetitions": 1000
+    },
+    "lambda_1": {
+      "answer_delta": 0.00035398230088495576,
+      "answer_delta_95ci": [
+        -0.003185840707964602,
+        0.0038938053097345134
+      ],
+      "saving_delta": 0.0016667048142992096,
+      "saving_delta_95ci": [
+        -0.005175729708173164,
+        0.008366663130446848
+      ],
+      "gained_correct": 13,
+      "lost_correct": 12,
+      "repetitions": 1000
+    }
+  },
+  "evaluation_source_sha256": {
+    "src/__init__.py": "3a082027e07f5d33fe50be2bc6977fa2bc0b9fd265726ec72c02909cd075eb00",
+    "src/embedding_experiment/__init__.py": "75f8ed79c3f743e931ae5b151595926fd13658f97fc0507fc1b997419c9bca10",
+    "src/embedding_experiment/common.py": "7f7fac28d74b38688ede949e8f0b38ae859dd5df48d56f0105ae8266599f1abb",
+    "src/embedding_experiment/encoder.py": "b58fa138ab594f17257bb521269a6f5bbd19c8c10cf41588285d73deb2a41330",
+    "src/embedding_experiment/evaluate.py": "6e0f769b9c5f00baa466ecfa42c2e84c85e7ddb5c6b06cd21fea1ea29efccac9",
+    "src/embedding_experiment/inference.py": "dee40f5f436e2bb88e114b7519a6f6c5ea6be09c53b0ca84935b19752fc6070a",
+    "src/embedding_experiment/predict.py": "7a201182d2ab7cac933475c92ab0d407e35e62aab103937f863f0df47fe02cfb",
+    "src/embedding_experiment/prepare.py": "2ca6d5507d5c22cd44783c4006a1ef2f419a04e99dbe74f4d4e020b42739d7b4",
+    "src/embedding_experiment/reporting.py": "bec526b31ca9eb4a1304ca83fb9ec8b96c532089ddf7db10f984c44d56eb442e",
+    "src/embedding_experiment/train.py": "e514c7f43767b400ac663e6d79a5f7eca240414f0475f7154f61b6375f0ac70e",
+    "src/evaluate_baselines.py": "e63e01e5223a0cc768d0837362b5b8fdda868b8f1543e2fd5476ab93407b364b",
+    "src/evaluate_models.py": "3291bd2c8fa0546c5f1f781bd2183b4e537f7b026d17c162cd15f900fba402e7",
+    "src/evaluation.py": "e72b547fbe08fb747b24c3de7ed3d4ed34485d1b23a03899eb9b106e7c21cd41",
+    "src/features.py": "36d5ada27af98bb6840576b614ec3f954b033afc765372e68211651d11291841",
+    "src/inspect_data.py": "a51fa9920afe7f7f5ab7bdcdb6fdf8566c5ce42d555464464e8f4cb07b1d013b",
+    "src/predict.py": "4ecf74d9ea03de4e0986867acd09f357d69ce240706bdbe84ae3538b57568169",
+    "src/preprocess_data.py": "cbdb88f5869fdde94625221ce4f460a9718934bb06a49d282defefe7a7fdff33",
+    "src/reporting.py": "82f267985d16f6e5f7e3a9dfdb4844bc483d8cf5259bb3ac5b1caeb0153cff78",
+    "src/router.py": "e01c82fcd36afbfbdcab37f73ee2f77ade906ae5ba1d5b07c6a341b7b615c2c9",
+    "src/svm_embedding_experiment/__init__.py": "87da324179c95e0f95409068f8205839c54ecf0911d30600bb282c0018ac6fbb",
+    "src/svm_embedding_experiment/common.py": "9e3323e485c27726c67d323e8a774fadfe6ed53ad3fcdce9da887fdd9d65e957",
+    "src/svm_embedding_experiment/evaluate.py": "a22f127b9ae272ddb632392b5bcc20953bdcf49ce1562668152d0727aec0e5d0",
+    "src/svm_embedding_experiment/features.py": "ea87d4b0761d7ff2151ad2cbdf278b2c2e8007e1beb3e4d1dddb4c5a0c9e3a2f",
+    "src/svm_embedding_experiment/predict.py": "a1ecb333b2dcf89d11bee0013693f8a6aea4d429efda7c5fd9d5f85b0a98e40b",
+    "src/svm_embedding_experiment/reporting.py": "bc1d0fd65e876630502c0f2049d2df3d2e5ada959bf163afeec3ae83e411c60d",
+    "src/svm_embedding_experiment/train.py": "9fd959082e19ea28f9f68368ec0ab86b51ff8526f0c9a2998711fc53bf7db2e0",
+    "src/svm_lambda_experiment/__init__.py": "0091b0ffc012c5a60c19d14227ef0ed2b4ddde7af012978a490b5823408406f9",
+    "src/svm_lambda_experiment/common.py": "53fea952e071e1e5a1d6c0e2d0848164d12e94ae0f36b120ebdbc75c762d2895",
+    "src/svm_lambda_experiment/curves.py": "4da62e519f74a37bc06fcdf725d0a3b0a9d501c600e493047317dbbd762e0afe",
+    "src/svm_lambda_experiment/evaluate.py": "828cecfbedbd137db14ba7e2dd3a14971e8ee42ac64ba5e4db196bedce539509",
+    "src/svm_lambda_experiment/features.py": "3369b6999eab3583f6dc689c03de7e46d32a2c3aec4df6c5799c1b991299b491",
+    "src/svm_lambda_experiment/predict.py": "cbf27697c6053a3a03060c6136a3bdb794d67e44ef22449e4fce368f77cc7a6d",
+    "src/svm_lambda_experiment/reporting.py": "fb9eec43a59c307463cf58efbc92157d417483fa8679cbc76e24939a2e24de0c",
+    "src/svm_lambda_experiment/train.py": "89da239291081c5e3dc949ad4a6a3dd620e24f76117b47806a7d42e7b0a57217",
+    "src/train_models.py": "8c0764e71aadab9e4a905e7c6434d24605b77f3812a12202a34f3c09a2bac489"
+  }
+}

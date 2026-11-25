@@ -1,0 +1,41 @@
+{
+  "configs": {
+    "tfidf": {
+      "C": 0.1,
+      "area": 0.48286800255447,
+      "log_loss": 0.5895100852023532
+    },
+    "embedding": {
+      "C": 0.1,
+      "area": 0.4843077571068488,
+      "log_loss": 0.5880325984758568
+    },
+    "lambda_0.25": {
+      "C": 0.1,
+      "area": 0.4840675340514329,
+      "log_loss": 0.5868738130757427
+    },
+    "lambda_0.5": {
+      "C": 0.1,
+      "area": 0.4847770936414341,
+      "log_loss": 0.5849892020400219
+    },
+    "lambda_1": {
+      "C": 0.1,
+      "area": 0.48570694071562276,
+      "log_loss": 0.5828989723716802
+    },
+    "lambda_2": {
+      "C": 0.1,
+      "area": 0.4862060536585739,
+      "log_loss": 0.5823388187425632
+    }
+  },
+  "selected_lambda": "lambda_2",
+  "selected_overall": "lambda_2",
+  "protocol_sha256": "0d945929145bc95bbbe6140e776cf16dd251434a949701c3b64af82bc25630a9",
+  "artifact": "models/svm_lambda/lambda_2026-11-26/router.joblib",
+  "artifact_sha256": "5b1cfc72ccabd0da7949d44430b7b645dd30e0a466fe507f3b8ccc2fa95f683f",
+  "budget_policies_sha256": "13430aa446bebf223682988e429c3df19075732f3b999b1c49ba81e8d6c53880",
+  "training_seconds": 269.9853482920007
+}

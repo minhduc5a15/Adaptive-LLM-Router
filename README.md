@@ -57,6 +57,24 @@ thấp nhất với giới hạn giảm đúng 2 điểm phần trăm, **validat
 baseline TF-IDF**. Không chọn lại phương án từ test đã xem; chi phí CPU
 embedding chưa được tính vào mức tiết kiệm.
 
+## Thí nghiệm trọng số MiniLM λ
+
+Thử `normalize([TF-IDF, λ × MiniLM])` với λ = 0.25 / 0.5 / 1 / 2,
+chọn λ và C bằng diện tích đường Answer Quality–Cost Saving trên validation.
+Giữ 10% cây + 90% SVM; hai mốc TF-IDF/MiniLM riêng được tuning cùng lưới C.
+Đánh giá mọi ngưỡng đã khóa từ validation và nhiều chính sách budget trên test.
+
+[Thiết kế và lệnh chạy](docs/SVM_LAMBDA_EXPERIMENT.md) ·
+[Báo cáo và biểu đồ](reports/svm_lambda/lambda_2026-11-26/RESULTS.md)
+
+Lần chạy `lambda_2026-11-26`: validation chọn **λ=2, C=0.1**. Diện tích
+chuẩn hóa đường test đạt **48,775%**, so với **48,269%** của TF-IDF và
+**48,679%** của λ=1. Đây là chất lượng trung bình trên các yêu cầu tiết kiệm,
+không phải chất lượng tại một ngưỡng cụ thể. Với ngưỡng chọn cho budget
+validation 20%, λ=2 đạt **54,87% đúng**, tiết kiệm thực tế **18,61%** trên test.
+Mức tăng còn nhỏ, các đường có giao nhau; test đã xem và chi phí CPU embedding
+chưa được tính. Không chọn lại λ hoặc ngưỡng từ đường biên test.
+
 ## Chạy dự án
 
 Đã kiểm tra với Python **3.12.3** và các phiên bản trong `requirements.txt`.
