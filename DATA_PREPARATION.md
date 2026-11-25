@@ -1,5 +1,7 @@
 # Ghi chú chuẩn bị dữ liệu RouterBench
 
+**Cập nhật v2 (25/11/2026):** thí nghiệm mới dùng lại đúng các CSV và nhóm prompt hiện tại. `small_score` và `large_score` là hai mục tiêu học cho các bản C/D, không đưa vào đặc trưng. Không cần tạo lại split; xem [thiết kế v2](docs/EXPERIMENTS_V2.md).
+
 Khảo sát dữ liệu ghi nhận ngày 15/11/2026; tiền xử lý cập nhật ngày 21/11/2026. Đã hoàn thành huấn luyện Decision Tree, SVM, kết hợp và đánh giá test ngày 23/11/2026. Phần dưới ghi dữ liệu và các mốc validation; kết quả cuối nằm trong [reports/RESULTS.md](reports/RESULTS.md).
 
 ## Nguồn và tính toàn vẹn

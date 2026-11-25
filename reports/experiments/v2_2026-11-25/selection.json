@@ -1,0 +1,305 @@
+{
+  "protocol_sha256": "df88dab0f8e92084d26a83630c667b9a6f1de9cddf42615560bf1a6a3e1c5bd7",
+  "experiments": {
+    "A": {
+      "experiment": {
+        "name": "A",
+        "tree_features": "basic",
+        "text_features": "basic",
+        "target": "routing",
+        "description": "Mốc v1: ba đặc trưng cây, TF-IDF 5000 từ"
+      },
+      "best_configs": {
+        "tree_label": {
+          "max_depth": 5,
+          "min_samples_leaf": 20
+        },
+        "svm_label": {
+          "C": 0.1
+        }
+      },
+      "policies": {
+        "fixed_budget": {
+          "name": "Ensemble",
+          "tree_weight": 0.2,
+          "threshold": 0.2,
+          "n_samples": 2826,
+          "correct_count": 1545,
+          "answer_score": 0.5467091295116773,
+          "mean_cost": 7.993354564755322e-05,
+          "total_cost": 0.2258921999999854,
+          "cost_saving": 0.20245098558428665,
+          "large_rate": 0.7866242038216561
+        },
+        "quality_constraint": {
+          "name": "Ensemble",
+          "tree_weight": 0.1,
+          "threshold": 0.21,
+          "n_samples": 2826,
+          "correct_count": 1540,
+          "answer_score": 0.5449398443029017,
+          "mean_cost": 7.835194621372485e-05,
+          "total_cost": 0.22142259999998642,
+          "cost_saving": 0.21823163261340883,
+          "large_rate": 0.7653927813163482
+        }
+      },
+      "artifact": "models/experiments/v2_2026-11-25/A.joblib",
+      "artifact_sha256": "719ffa4e1c0aa7e9da917eaffaae1e8019a93a30cabfb8c580ebfc584e666327"
+    },
+    "B_word": {
+      "experiment": {
+        "name": "B_word",
+        "tree_features": "rich",
+        "text_features": "word",
+        "target": "routing",
+        "description": "Thêm đặc trưng cây và word n-gram"
+      },
+      "best_configs": {
+        "tree_label": {
+          "max_depth": 5,
+          "min_samples_leaf": 20
+        },
+        "svm_label": {
+          "C": 0.1
+        }
+      },
+      "policies": {
+        "fixed_budget": {
+          "name": "Ensemble",
+          "tree_weight": 0.2,
+          "threshold": 0.19,
+          "n_samples": 2826,
+          "correct_count": 1540,
+          "answer_score": 0.5449398443029017,
+          "mean_cost": 7.98820240622736e-05,
+          "total_cost": 0.2257465999999852,
+          "cost_saving": 0.20296504997650155,
+          "large_rate": 0.7806086341118188
+        },
+        "quality_constraint": {
+          "name": "Ensemble",
+          "tree_weight": 0.4,
+          "threshold": 0.19,
+          "n_samples": 2826,
+          "correct_count": 1537,
+          "answer_score": 0.5438782731776363,
+          "mean_cost": 7.907119603679597e-05,
+          "total_cost": 0.22345519999998542,
+          "cost_saving": 0.21105520896221286,
+          "large_rate": 0.7714083510261854
+        }
+      },
+      "artifact": "models/experiments/v2_2026-11-25/B_word.joblib",
+      "artifact_sha256": "eb1f22ed2bab9322bce35e81277cb060656769a64a1435415db49ca1532dbdb2"
+    },
+    "B": {
+      "experiment": {
+        "name": "B",
+        "tree_features": "rich",
+        "text_features": "word_char",
+        "target": "routing",
+        "description": "Thêm cả character n-gram"
+      },
+      "best_configs": {
+        "tree_label": {
+          "max_depth": 5,
+          "min_samples_leaf": 20
+        },
+        "svm_label": {
+          "C": 0.1
+        }
+      },
+      "policies": {
+        "fixed_budget": {
+          "name": "Ensemble",
+          "tree_weight": 0.4,
+          "threshold": 0.2,
+          "n_samples": 2826,
+          "correct_count": 1536,
+          "answer_score": 0.5435244161358811,
+          "mean_cost": 7.993503184712873e-05,
+          "total_cost": 0.2258963999999858,
+          "cost_saving": 0.2024361568037406,
+          "large_rate": 0.7777777777777778
+        },
+        "quality_constraint": {
+          "name": "Ensemble",
+          "tree_weight": 0.4,
+          "threshold": 0.2,
+          "n_samples": 2826,
+          "correct_count": 1536,
+          "answer_score": 0.5435244161358811,
+          "mean_cost": 7.993503184712873e-05,
+          "total_cost": 0.2258963999999858,
+          "cost_saving": 0.2024361568037406,
+          "large_rate": 0.7777777777777778
+        }
+      },
+      "artifact": "models/experiments/v2_2026-11-25/B.joblib",
+      "artifact_sha256": "335536038988d1f17adc60ad4f135708a2d888db98f2c3b5cd6874cd26920191"
+    },
+    "C": {
+      "experiment": {
+        "name": "C",
+        "tree_features": "basic",
+        "text_features": "basic",
+        "target": "quality",
+        "description": "Chỉ đổi sang dự đoán độ đúng từng LLM"
+      },
+      "best_configs": {
+        "tree_small_score": {
+          "max_depth": 5,
+          "min_samples_leaf": 20
+        },
+        "tree_large_score": {
+          "max_depth": 8,
+          "min_samples_leaf": 50
+        },
+        "svm_small_score": {
+          "C": 0.1
+        },
+        "svm_large_score": {
+          "C": 0.1
+        }
+      },
+      "policies": {
+        "fixed_budget": {
+          "name": "Ensemble",
+          "tree_weight": 0.2,
+          "threshold": 0.14000000000000012,
+          "n_samples": 2826,
+          "correct_count": 1534,
+          "answer_score": 0.5428167020523709,
+          "mean_cost": 7.934317055908963e-05,
+          "total_cost": 0.2242237999999873,
+          "cost_saving": 0.20834154212253697,
+          "large_rate": 0.7770700636942676
+        },
+        "quality_constraint": {
+          "name": "Ensemble",
+          "tree_weight": 0.1,
+          "threshold": 0.13000000000000012,
+          "n_samples": 2826,
+          "correct_count": 1542,
+          "answer_score": 0.5456475583864119,
+          "mean_cost": 8.069108280254275e-05,
+          "total_cost": 0.2280329999999858,
+          "cost_saving": 0.19489254430095948,
+          "large_rate": 0.7919320594479831
+        }
+      },
+      "artifact": "models/experiments/v2_2026-11-25/C.joblib",
+      "artifact_sha256": "da8c5645704b1216d50455716db4f61477bced5c89dffd92b7d6cd949cb9b85d"
+    },
+    "D_word": {
+      "experiment": {
+        "name": "D_word",
+        "tree_features": "rich",
+        "text_features": "word",
+        "target": "quality",
+        "description": "Mục tiêu mới + đặc trưng, chưa thêm char"
+      },
+      "best_configs": {
+        "tree_small_score": {
+          "max_depth": 5,
+          "min_samples_leaf": 20
+        },
+        "tree_large_score": {
+          "max_depth": 8,
+          "min_samples_leaf": 20
+        },
+        "svm_small_score": {
+          "C": 0.1
+        },
+        "svm_large_score": {
+          "C": 0.1
+        }
+      },
+      "policies": {
+        "fixed_budget": {
+          "name": "Ensemble",
+          "tree_weight": 0.6000000000000001,
+          "threshold": 0.1200000000000001,
+          "n_samples": 2826,
+          "correct_count": 1538,
+          "answer_score": 0.5442321302193913,
+          "mean_cost": 7.969745222929445e-05,
+          "total_cost": 0.2252249999999861,
+          "cost_saving": 0.20480664329366138,
+          "large_rate": 0.7678697806086341
+        },
+        "quality_constraint": {
+          "name": "Ensemble",
+          "tree_weight": 0.1,
+          "threshold": 0.13000000000000012,
+          "n_samples": 2826,
+          "correct_count": 1536,
+          "answer_score": 0.5435244161358811,
+          "mean_cost": 7.833170559093656e-05,
+          "total_cost": 0.22136539999998672,
+          "cost_saving": 0.2184335864817777,
+          "large_rate": 0.7607926397735315
+        }
+      },
+      "artifact": "models/experiments/v2_2026-11-25/D_word.joblib",
+      "artifact_sha256": "afc48f75db1bf6516be8d49f70c32859ec67eee0e9a80d08da421a9b7718fec4"
+    },
+    "D": {
+      "experiment": {
+        "name": "D",
+        "tree_features": "rich",
+        "text_features": "word_char",
+        "target": "quality",
+        "description": "Kết hợp cả hai cải tiến"
+      },
+      "best_configs": {
+        "tree_small_score": {
+          "max_depth": 5,
+          "min_samples_leaf": 20
+        },
+        "tree_large_score": {
+          "max_depth": 8,
+          "min_samples_leaf": 20
+        },
+        "svm_small_score": {
+          "C": 0.1
+        },
+        "svm_large_score": {
+          "C": 0.1
+        }
+      },
+      "policies": {
+        "fixed_budget": {
+          "name": "Ensemble",
+          "tree_weight": 0.8,
+          "threshold": 0.1200000000000001,
+          "n_samples": 2826,
+          "correct_count": 1538,
+          "answer_score": 0.5442321302193913,
+          "mean_cost": 7.915548478414232e-05,
+          "total_cost": 0.22369339999998622,
+          "cost_saving": 0.21021420526560686,
+          "large_rate": 0.7561924982307148
+        },
+        "quality_constraint": {
+          "name": "Ensemble",
+          "tree_weight": 0.8,
+          "threshold": 0.1200000000000001,
+          "n_samples": 2826,
+          "correct_count": 1538,
+          "answer_score": 0.5442321302193913,
+          "mean_cost": 7.915548478414232e-05,
+          "total_cost": 0.22369339999998622,
+          "cost_saving": 0.21021420526560686,
+          "large_rate": 0.7561924982307148
+        }
+      },
+      "artifact": "models/experiments/v2_2026-11-25/D.joblib",
+      "artifact_sha256": "214965bcb1cb034e6581a772a83d2b8afc0fa22784e716abb9d29bec4ca6d555"
+    }
+  },
+  "selected_experiment": "A",
+  "selection_split": "validation",
+  "training_seconds": 1273.0881123909999
+}

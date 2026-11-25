@@ -4,6 +4,21 @@
 
 [Báo cáo kết quả](reports/RESULTS.md) · [Chuẩn bị dữ liệu](DATA_PREPARATION.md) · [Đề cương](notes/Adaptive_LLM_Router.md)
 
+## Thí nghiệm nâng cấp v2
+
+[Hướng dẫn và thiết kế A/B/C/D](docs/EXPERIMENTS_V2.md) mô tả các thí nghiệm bổ sung đặc trưng và dự đoán xác suất đúng của từng LLM. Mã nằm riêng trong `src/experiments/`; dữ liệu, mô hình và demo v1 giữ nguyên.
+
+```bash
+# Dùng tên run mới nếu thư mục này đã tồn tại.
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 .venv/bin/python -m src.experiments.run --run-name v2_2026-11-25
+.venv/bin/python -m src.experiments.evaluate --run-name v2_2026-11-25
+.venv/bin/python -m src.experiments.predict --run-name v2_2026-11-25 --prompt "Explain binary search."
+```
+
+Tiêu chí chính: tỷ lệ đúng validation cao nhất với tiết kiệm ít nhất 20%. Script train chỉ đọc train/validation và khóa lựa chọn trước khi lệnh evaluate đọc test. Test cũ đã được xem; kết quả v2 là phân tích tiếp theo, không phải đánh giá trên holdout độc lập mới.
+
+**Kết quả ngày 25/11/2026:** đã chạy 75 cấu hình cho 6 bản trong khoảng 21 phút. Validation chọn giữ **A**, chưa có bằng chứng rõ để thay bằng bản nâng cấp. A theo chính sách mới đạt 54,65% đúng / 18,70% tiết kiệm trên test; D đạt 54,23% / 19,45%. Ràng buộc tiết kiệm 20% trên validation không được bảo đảm trên test. Xem [báo cáo v2 đầy đủ](reports/experiments/v2_2026-11-25/RESULTS.md). Theo tiêu chí phụ cũ, A tái tạo đúng kết quả v1: 54,41% / 20,54%.
+
 ## Kết quả lần chạy 23/11/2026
 
 Đánh giá trên **2.825 prompt test**; cấu hình và ngưỡng được chọn trước trên validation.
